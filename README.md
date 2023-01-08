@@ -1,2 +1,2 @@
 # Magical-Girl-Species
-This is the mod for Stellaris.
+This is a mod for Stellaris.
