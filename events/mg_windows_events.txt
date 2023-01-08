@@ -1,0 +1,196 @@
+namespace = mgwindows
+#飞升
+#银河偶像
+country_event = {
+	id = mgwindows.1
+	title = "mgwindows.1.name"
+	desc = "mgwindows.1.desc"
+	picture = GFX_event_ap_magic_galactic_idol
+	show_sound = event_the_great_awakening
+	
+	is_triggered_only = yes
+	trigger = {
+		has_country_flag = is_mg_human_player
+	}
+	option = {
+		name = "mgwindows.1.a"
+		custom_tooltip = mgwindows.1.a.tooltip
+		#hidden_effect = { 
+		#	country_event = { id = wsg.999 }
+		#	country_event = { id = wsg.1001 }
+		#}
+	}
+}
+
+#魔法改革
+country_event = {
+	id = mgwindows.2
+	title = "mgwindows.2.name"
+	desc = "mgwindows.2.desc"
+	picture = GFX_event_ap_magic_reform
+	show_sound = event_the_great_awakening
+	
+	is_triggered_only = yes
+	trigger = {
+		has_country_flag = is_mg_human_player
+	}
+	option = {
+		name = "mgwindows.2.a"
+		custom_tooltip = mgwindows.2.a.tooltip
+	}
+}
+
+#创世真言
+country_event = {
+	id = mgwindows.3
+	title = "mgwindows.3.name"
+	desc = "mgwindows.3.desc"
+	picture = GFX_event_ap_magic_world
+	show_sound = event_the_great_awakening
+	
+	is_triggered_only = yes
+	trigger = {
+		has_country_flag = is_mg_human_player
+	}
+	option = {
+		name = "mgwindows.3.a"
+		custom_tooltip = mgwindows.3.a.tooltip
+	}
+}
+
+#魔法觉醒
+country_event = {
+	id = mgwindows.4
+	title = "mgwindows.4.name"
+	desc = "mgwindows.4.desc"
+	picture = GFX_event_ap_magic_arousal
+	show_sound = event_the_great_awakening
+	
+	is_triggered_only = yes
+	trigger = {
+		has_country_flag = is_mg_human_player
+	}
+	option = {
+		name = "mgwindows.4.a"
+		custom_tooltip = mgwindows.4.a.tooltip
+	}
+}
+
+#星河舰队
+country_event = {
+	id = mgwindows.5
+	title = "mgwindows.5.name"
+	desc = "mgwindows.5.desc"
+	picture = GFX_event_ap_magic_galactic_fleet
+	show_sound = event_the_great_awakening
+	
+	is_triggered_only = yes
+	trigger = {
+		has_country_flag = is_mg_human_player
+	}
+	option = {
+		name = "mgwindows.5.a"
+		custom_tooltip = mgwindows.5.a.tooltip
+		hidden_effect = {
+			add_modifier = {
+				modifier = mg_ap_fleet_1_modifier
+			}
+		}
+	}
+	option = {
+		name = "mgwindows.5.b"
+		custom_tooltip = mgwindows.5.a.tooltip
+		hidden_effect = {
+			add_modifier = {
+				modifier = mg_ap_fleet_2_modifier
+			}
+		}
+	}
+}
+
+#魔法奇迹工程
+country_event = {
+	id = mgwindows.6
+	title = "mgwindows.6.name"
+	desc = "mgwindows.6.desc"
+	picture = GFX_event_ap_magic_miracle_engineering
+	show_sound = event_the_great_awakening
+	
+	is_triggered_only = yes
+	trigger = {
+		has_country_flag = is_mg_human_player
+	}
+	option = {
+		name = "mgwindows.6.a"
+		custom_tooltip = mgwindows.6.a.tooltip
+		hidden_effect = {
+			add_modifier = {
+				modifier = mg_ap_miracle_engineering_modifier
+			}
+		}
+	}
+}
+
+#魔法少女政治改革
+country_event = {
+	id = mgwindows.7
+	title = "mgwindows.7.name"
+	desc = "mgwindows.7.desc"
+	picture = GFX_event_ap_magic_political_reform
+	show_sound = event_the_great_awakening
+	
+	is_triggered_only = yes
+	trigger = {
+		has_country_flag = is_mg_human_player
+	}
+	option = {
+		name = "mgwindows.7.a"
+		custom_tooltip = mgwindows.7.a.tooltip
+		hidden_effect = {
+			set_country_flag = mg_in_civil_war
+		}
+	}
+	option = {
+		name = "mgwindows.7.b"
+		custom_tooltip = mgwindows.7.a.tooltip
+		hidden_effect = {
+			set_country_flag = mg_no_civil_war
+		}
+	}
+}
+
+#魔法少女联合帝国
+country_event = {
+	id = mgwindows.8
+	title = "mgwindows.8.name"
+	desc = "mgwindows.8.desc"
+	picture = GFX_event_ap_magic_empire
+	show_sound = event_the_great_awakening
+	
+	is_triggered_only = yes
+	trigger = {
+		has_country_flag = is_mg_human_player
+	}
+	option = {
+		name = "mgwindows.8.a"
+		custom_tooltip = mgwindows.8.a.tooltip
+	}
+}
+
+#帝国威慑主义
+country_event = {
+	id = mgwindows.9
+	title = "mgwindows.9.name"
+	desc = "mgwindows.9.desc"
+	picture = GFX_event_ap_magic_empire_deterrence
+	show_sound = event_the_great_awakening
+	
+	is_triggered_only = yes
+	trigger = {
+		has_country_flag = is_mg_human_player
+	}
+	option = {
+		name = "mgwindows.9.a"
+		custom_tooltip = mgwindows.9.a.tooltip
+	}
+}

@@ -1,0 +1,443 @@
+holding_mg_tax_bureau = {#国税局
+	base_buildtime = 720
+	owner_type = subject_holding
+	icon = holding_mg_tax_bureau
+	can_be_disabled = no
+	empire_limit = 1
+	
+	potential = {
+		owner.overlord = {
+			has_authority = auth_magical_girl
+		}
+	}
+	
+	resources = {
+		category = planet_holdings
+		cost = {
+			minerals = 800
+		}
+		produces = {
+			physics_research = 50
+			society_research = 50        #建筑维护费 魔法石-2 附属岗位资源产出+5%(已改写为星球修正）
+		    engineering_research = 50
+		}
+		upkeep = {
+			energy = 5
+		}
+	}
+	planet_modifier = {
+		job_overlord_mg_tax_collector_add = 1
+		monthly_loyalty = -2
+		planet_jobs_produces_mult = 0.05
+	}
+	country_modifier = {
+		planet_jobs_produces_mult = 0.05
+	}
+}
+holding_military_camp = { #军事营地
+	base_buildtime = 720
+	owner_type = subject_holding
+	icon = holding_military_camp
+	base_cap_amount = 1
+
+	potential = {
+		has_overlord_dlc = yes
+		owner.overlord = {
+				has_authority = auth_magical_girl
+			}
+		}
+
+	resources = {
+		category = planet_holdings
+		cost = {
+			minerals = 1000
+		}
+		upkeep = {
+			energy = 10
+		}
+	}
+
+	planet_modifier = {
+		planet_crime_add = -25    #  能量币-2%（改为星球修正) 宗主： 能量币+2%（军费）
+		monthly_loyalty = 2
+		planet_stability_add = 5
+		job_overlord_mg_garrison_add = 2 #宗主驻军岗位未写
+		
+	}
+	country_modifier = {
+		planet_energy_produce_mult = 0.02
+	}
+}
+
+holding_magic_academy = { #魔法学院
+	base_buildtime = 720
+	owner_type = subject_holding
+	icon = holding_emporium
+	base_cap_amount = 1
+
+	planet_modifier = {
+		job_overlord_mg_professor_add = 2  #教授岗位
+		planet_researchers_produces_mult = 0.1
+	}
+
+	potential = {
+		owner.overlord = {
+			is_machine_empire = no
+			is_hive_empire = no
+			has_authority = auth_magical_girl
+		}
+	}
+
+	resources = {
+		category = planet_holdings
+		cost = {
+			minerals = 720
+		}
+		upkeep = {
+			energy = 2
+			consumer_goods = 2
+		}
+	}
+	
+	country_modifier = {
+	    planet_researchers_produces_mult = 0.05
+	}
+
+	triggered_desc = {
+		text = job_overlord_magic_academic_effect_desc
+	}
+}
+
+holding_magic_resources_management = { #附属资源统合署
+	base_buildtime = 720
+	owner_type = subject_holding
+	icon = holding_emporium
+	base_cap_amount = 1
+
+	planet_modifier = {
+		planet_max_districts_add = 8
+		district_generator_max = 2
+		district_mining_max = 2
+		district_farming_max =2
+		planet_jobs_minerals_produces_mult = -0.05
+		planet_jobs_energy_produces_mult = -0.05
+		planet_jobs_food_produces_mult = -0.05
+	}
+
+	potential = {
+		owner.overlord = {
+			is_machine_empire = no
+			is_hive_empire = no
+			has_authority = auth_magical_girl
+		}
+	}
+
+	resources = {
+		category = planet_holdings
+		cost = {
+			minerals = 720
+		}
+		upkeep = {
+			energy = 2
+			consumer_goods = 2
+		}
+	}
+	
+	country_modifier = {
+	    planet_jobs_minerals_produces_mult = 0.05
+		planet_jobs_energy_produces_mult = 0.05
+		planet_jobs_food_produces_mult = 0.05
+	}
+
+}
+
+
+
+holding_magic_wizard_monument = { #魔法少女大魔法师纪念碑
+	base_buildtime = 720
+	owner_type = subject_holding
+	icon = holding_emporium
+	base_cap_amount = 1
+
+	planet_modifier = {
+		planet_jobs_produces_mult = 0.05
+		job_overlord_mg_culture_worker_add = 2 #宗主纪念碑工作者
+	}
+
+	potential = {
+		owner.overlord = {
+			is_machine_empire = no
+			is_hive_empire = no
+			has_authority = auth_magical_girl
+		}
+	}
+
+	resources = {
+		category = planet_holdings
+		cost = {
+			minerals = 720
+		}
+		upkeep = {
+			energy = 2
+			consumer_goods = 2
+		}
+	}
+	
+	country_modifier = {
+	    country_unity_produces_mult = 0.05
+	}
+
+	triggered_desc = {
+		text = job_overlord_mg_culture_worker_effect_desc
+	}
+}
+
+holding_magic_migration_office = { #移民办事处
+	base_buildtime = 720
+	owner_type = subject_holding
+	icon = holding_emporium
+	empire_limit = 1
+
+	planet_modifier = {
+		pop_happiness = 20
+		planet_stability_add = 5  #懒得写宗主办事处工作人员岗位，反正好像也没产出
+		monthly_loyalty = 2
+	}
+
+	potential = {
+		owner.overlord = {
+			is_machine_empire = no
+			is_hive_empire = no
+			has_authority = auth_magical_girl
+		}
+	}
+
+	resources = {
+		category = planet_holdings
+		cost = {
+			minerals = 720
+		}
+		upkeep = {
+			energy = 2
+			consumer_goods = 2
+		}
+	}
+	
+	triggered_country_modifier = {
+		pop_growth_speed = -0.3
+	}
+	
+	
+	
+	country_modifier = {
+	    country_energy_produces_mult = 0.01 
+		pop_growth_speed = 0.3
+	}
+
+}
+
+   #卫星国特殊建筑
+holding_magic_government_office = { #行政办事处
+	base_buildtime = 720
+	owner_type = subject_holding
+	icon = holding_emporium
+	empire_limit = 1
+
+	planet_modifier = {
+		monthly_loyalty = 2
+		job_overlord_magic_military_add = 2  #宗主驻军岗位好像也没产出
+	}
+
+	potential = {
+		owner.overlord = {
+			is_machine_empire = no
+			is_hive_empire = no
+			has_authority = auth_magical_girl
+		}
+	}
+
+	resources = {
+		category = planet_holdings
+		cost = {
+			minerals = 720
+		}
+		upkeep = {
+			energy = 2
+			consumer_goods = 2
+		}
+	}
+	
+	country_modifier = {
+	    country_energy_produces_mult = 0.02 
+		country_alloys_produces_mult = 0.05
+		country_consumer_goods_produces_mult = 0.05
+		pop_growth_speed = 0.3
+	}
+	triggered_country_modifier = {
+		country_energy_produces_mult = -0.02
+		country_alloys_produces_mult = 0.1
+		country_consumer_goods_produces_mult = 0.1
+	}
+
+}
+
+holding_magic_rest_house = { #招待所
+	base_buildtime = 720
+	owner_type = subject_holding
+	icon = holding_emporium
+	empire_limit = 1
+
+	planet_modifier = {
+		monthly_loyalty = 5
+		job_overlord_magic_toys_add = 2      #玩具岗位好像也没产出
+		pop_happiness = 0.1
+	}
+
+	potential = {
+		owner.overlord = {
+			is_machine_empire = no
+			is_hive_empire = no
+			has_authority = auth_magical_girl
+		}
+	}
+
+	resources = {
+		category = planet_holdings
+		cost = {
+			minerals = 720
+		}
+		upkeep = {
+			energy = 2
+			consumer_goods = 2
+		}
+	}
+	
+	country_modifier = {
+	    country_unity_produces_mult = 0.05 
+		planet_crime_add = 10   #魔法少女种族幸福度不会写
+		planet_pop_assembly_add = 2
+	}
+	triggered_country_modifier = {
+		country_energy_produces_mult = 0.05 
+		pop_growth_speed = -0.05
+	}
+
+}
+
+holding_magic_dangerous_industry = { #危险工业区  可能发生爆炸等事件未写
+	base_buildtime = 720
+	owner_type = subject_holding
+	icon = holding_emporium
+	base_cap_amount = 1
+
+	planet_modifier = {
+		monthly_loyalty = -5
+		pop_happiness = 0.25
+		trade_value_mult = -1
+        pc_habitat_habitability = -0.2
+		planet_crime_add = 100
+	}
+
+	potential = {
+		owner.overlord = {
+			is_machine_empire = no
+			is_hive_empire = no
+			has_authority = auth_magical_girl
+		}
+	}
+
+	resources = {
+		category = planet_holdings
+		cost = {
+			minerals = 720
+		}
+		upkeep = {
+			energy = 2
+			consumer_goods = 2
+		}
+	}
+	
+	country_modifier = {
+	    country_alloys_produces_mult = 0.2
+		country_consumer_goods_produces_mult = 0.2
+		country_rare_crystals_produces_mult = 0.2
+		country_exotic_gases_produces_mult = 0.2
+		country_volatile_motes_produces_mult = 0.2
+		country_energy_produces_mult = 0.05
+		planet_jobs_produces_mult = 0.02
+	}
+
+}
+
+holding_magic_conversion_center = { #魔法转化中心
+	base_buildtime = 720
+	owner_type = subject_holding
+	icon = holding_emporium
+	base_cap_amount = 1
+
+	planet_modifier = {
+		job_overlord_mg_alloy_transfer_add = 2   #权重不会写，由于不知道怎么写附庸资源产出，本建筑原定的产出加在岗位
+		job_overlord_mg_consumer_goods_transfer_add = 2  #合金转化者，消费品合成者岗位+2,给附庸产资源必须通过岗位
+	}
+
+	potential = {
+		owner.overlord = {
+			is_machine_empire = no
+			is_hive_empire = no
+			has_authority = auth_magical_girl
+		}
+	}
+
+	resources = {
+		category = planet_holdings
+		cost = {
+			minerals = 720
+		}
+		produces = {
+            alloys = 5
+            consumer_goods = 5
+		}
+        upkeep = {
+			energy = 10
+			minerals = 10
+			food = 10
+		}
+	}
+	
+}
+
+holding_magic_central_lab = { #魔法实验中心
+	base_buildtime = 720
+	owner_type = subject_holding
+	icon = holding_emporium
+	base_cap_amount = 1
+
+	potential = {
+		owner.overlord = {
+			is_machine_empire = no
+			is_hive_empire = no
+			has_authority = auth_magical_girl
+		}
+	}
+
+	resources = {
+		category = planet_holdings
+		cost = {
+			minerals = 720
+		}
+		produces = {
+		    physics_research = 75
+			society_research = 75
+			engineering_research = 75
+		}
+        upkeep = {
+			energy = 10
+			alloys = 1
+			consumer_goods = 5
+		}
+	}
+	triggered_country_modifier = {
+		all_technology_research_speed = 0.01 #附庸科研点数需通过岗位产出，附庸科研1%有点难写
+	}
+	
+}

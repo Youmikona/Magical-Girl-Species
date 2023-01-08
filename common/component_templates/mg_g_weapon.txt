@@ -1,0 +1,179 @@
+weapon_component_template = {
+	key = "MG_weapon_G_T1"
+	size = extra_large
+	entity = "invisible_turret_entity"
+	
+	icon = "GFX_MG_weapon_G_T1"
+	icon_frame = 1
+	type = missile
+	
+	firing_arc = 25.0
+	min_range = 20.0
+	static_rotation = yes
+	
+	
+	component_set = "MG_weapon_G_T1"
+	projectile_gfx = "uf_mega_torpedo"
+	tags = { weapon_type_explosive weapon_type_energy weapon_type_kinetic weapon_type_sr_uf }
+	ai_tags = { weapon_role_anti_shield }
+
+	damage = { min = 30000 max = 80000 }
+	windup = { min = 35 max = 55 }
+	total_fire_time = 120
+	range = 350.0
+	accuracy = 1.0
+	tracking = 0.8
+	power = -1000
+	
+	resources = {
+		category = ship_components
+		cost = {
+			sr_uf = 10
+			alloys = 250
+		}		
+		upkeep = {
+			energy = 8
+			alloys = 3
+		}
+	}
+
+	ai_weight = {
+		weight = 1000
+		modifier = {
+			factor = 0.0
+			has_monthly_income = { resource = sr_uf value <= 0 }
+		}
+	}
+
+	missile_speed = 35
+	missile_evasion = 0.20
+	missile_shield = 300
+	missile_armor = 300
+	missile_health = 600
+	missile_retarget_range = 350
+	
+	shield_penetration = 1
+	armor_penetration = 1
+	armor_damage = 3
+    hull_damage = 2
+}
+
+weapon_component_template = {
+	key = "MG_weapon_G_light_T1"
+	size = extra_large
+	entity = "invisible_turret_entity"
+	
+	icon = "GFX_MG_weapon_G_T1"
+	icon_frame = 1
+	type = missile
+	
+	firing_arc = 25.0
+	min_range = 20.0
+	static_rotation = yes
+	
+	
+	component_set = "MG_weapon_G_T1"
+	projectile_gfx = "uf_mega_torpedo"
+	tags = { weapon_type_explosive weapon_type_energy weapon_type_kinetic weapon_type_sr_uf }
+	ai_tags = { weapon_role_anti_shield }
+
+	damage = { min = 30000 max = 80000 }
+	windup = { min = 35 max = 55 }
+	total_fire_time = 120
+	range = 350.0
+	accuracy = 1.0
+	tracking = 0.8
+	power = -1000
+	
+	resources = {
+		category = ship_components
+		cost = {
+			sr_uf = 10
+			alloys = 250
+		}		
+		upkeep = {
+			energy = 8
+			alloys = 3
+		}
+	}
+
+	ai_weight = {
+		weight = 1000
+		modifier = {
+			factor = 0.0
+			has_monthly_income = { resource = sr_uf value <= 0 }
+		}
+	}
+
+	missile_speed = 35
+	missile_evasion = 0.20
+	missile_shield = 300
+	missile_armor = 300
+	missile_health = 600
+	missile_retarget_range = 350
+	
+	shield_penetration = 1
+	armor_penetration = 1
+	armor_damage = 3
+    hull_damage = 2
+}
+
+weapon_component_template = {
+	key = "MG_weapon_G_T1"
+	size = extra_large
+	entity = "invisible_turret_entity"
+	
+	icon = "GFX_MG_weapon_G_T1"
+	icon_frame = 1
+	type = missile
+	
+	firing_arc = 25.0
+	min_range = 20.0
+	static_rotation = yes
+	
+	
+	component_set = "MG_weapon_G_T1"
+	projectile_gfx = "uf_mega_torpedo"
+	tags = { weapon_type_explosive weapon_type_energy weapon_type_kinetic weapon_type_sr_uf }
+	ai_tags = { weapon_role_anti_shield }
+
+	damage = { min = 30000 max = 80000 }
+	windup = { min = 35 max = 55 }
+	total_fire_time = 120
+	range = 350.0
+	accuracy = 1.0
+	tracking = 0.8
+	power = -1000
+	
+	resources = {
+		category = ship_components
+		cost = {
+			sr_uf = 10
+			alloys = 250
+		}		
+		upkeep = {
+			energy = 8
+			alloys = 3
+		}
+	}
+
+	ai_weight = {
+		weight = 1000
+		modifier = {
+			factor = 0.0
+			has_monthly_income = { resource = sr_uf value <= 0 }
+		}
+	}
+
+	missile_speed = 35
+	missile_evasion = 0.20
+	missile_shield = 300
+	missile_armor = 300
+	missile_health = 600
+	missile_retarget_range = 350
+	
+	shield_penetration = 1
+	armor_penetration = 1
+	armor_damage = 3
+    hull_damage = 2
+}

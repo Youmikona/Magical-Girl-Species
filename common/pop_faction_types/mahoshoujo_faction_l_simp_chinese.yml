@@ -1,0 +1,58 @@
+﻿l_simp_chinese:
+
+pft_madokalist:0 "圆环派"
+pft_madokalist_desc:2 "圆环派的追随者们相信着圆环之理的存在，她们希望追随女神的信念，将魔法少女带向真正的救赎。\n\n§L唯心主义思潮"
+
+MADOKALIST_ASCENSION:0 "错误的飞升兼容"
+MADOKALIST_WRONG_ASCENSION:0 "错误的飞升兼容"
+MADOKALIST_ASCENSION_DESC:2 "请不要同时进行魔法少女专用飞升和原版的三大飞升。当你可以这么做时，十有八九mod文件冲突了。"
+
+MADOKALIST_AP1:0 "魔法少女政权"
+MADOKALIST_NO_AP1:0 "被掌控的命运"
+MADOKALIST_AP1_DESC:1 "魔法少女的命运应该有自己来掌握。\n启用飞升§Y$ap_mahoshoujo1$§!将会取悦[Root.GetName]，否则会令她们不满。"
+
+MADOKALIST_RIGHT_HIGH:0 "尊重"
+MADOKALIST_RIGHT_NORMAL:0 "平等公民"
+MADOKALIST_RIGHT_HIGH_DESC:1 "魔法少女为国家的发展做出了大量的贡献，她们的权力应该被尊重。\n在政策中提高魔法少女的权力将会取悦[Root.GetName]，反之则会激怒它。 "
+
+MADOKALIST_RIGHT_LIMITED:0 "获利工具"
+MADOKALIST_RIGHT_LIMITED_DESC:0 "魔法少女并不是当权者获利的工具，她们不该被如此利用。\n在政策中提高魔法少女的权力将会取悦[Root.GetName]，反之则会激怒它。"
+
+MADOKALIST_RIGHT_SLAVE:0 "奴隶"
+MADOKALIST_RIGHT_SLAVE_DESC:0 "不自由毋宁死！\n在政策中提高魔法少女的权力将会取悦[Root.GetName]，反之则会激怒它。"
+
+MADOKALIST_POPS_PERCENTAGE_10:0 "无法被理解之人"
+MADOKALIST_POPS_PERCENTAGE_LESS_10:0 "$MADOKALIST_POPS_PERCENTAGE_10$"
+MADOKALIST_POPS_PERCENTAGE_10_DESC:1 "人们终究不愿相信圆环之理的存在，终究无法理解我们的信仰。\n信徒人口比例少于§Y10%§!将会使[Root.GetName]不满。"
+
+MADOKALIST_POPS_PERCENTAGE_25:0 "圆环的信徒"
+MADOKALIST_POPS_PERCENTAGE_LESS_25:0 "$MADOKALIST_POPS_PERCENTAGE_25$"
+MADOKALIST_POPS_PERCENTAGE_25_DESC:1 "我们是圆环的信徒，共聚于圆环之下。\n信徒人口比例超过§Y25%§!将会取悦[Root.GetName]。"
+
+MADOKALIST_POPS_PERCENTAGE_40:0 "神圣的信仰"
+MADOKALIST_POPS_PERCENTAGE_LESS_40:0 "$MADOKALIST_POPS_PERCENTAGE_40$"
+MADOKALIST_POPS_PERCENTAGE_40_DESC:1 "圆神庇护着世人。\n信徒人口比例超过§Y40%§!将会取悦[Root.GetName]。"
+
+MADOKALIST_RULER_LEADER:0 "圆环的代行者"
+MADOKALIST_NOT_RULER_LEADER:0 "圆环的代行者"
+MADOKALIST_RULER_LEADER_DESC:1 "以圆环之理的名义，领导这个国家。\n由[Root.GetName]的派系领袖担任国家的统治者将会取悦[Root.GetName]。"
+
+MADOKALIST_HOMURA_LEADER:0 "被拒绝的邀请"
+MADOKALIST_NOT_HOMURA_LEADER:0 "被拒绝的邀请"
+MADOKALIST_HOMURA_LEADER_DESC:1 "第一次有了敬仰的领袖，还建立了自己的派系。两件快乐事情重合在一起。而这两份快乐，又给我带来更多的快乐。得到的，本该是像梦境一般幸福的时间……但是，为什么，会变成这样呢……\n晓美焰拒绝成为[Root.GetName]领袖使得她们将在一段时间内感到不满。"
+
+mahoshoujo.1000.name:0 "圆环的信徒"
+mahoshoujo.1000.desc:0 "§R“有这样一群人，祈求希望，甘受诅咒，不断战斗，她们名叫‘魔法少女’。作为得到奇迹的代价，这些灵魂们命中注定要战斗到底，而其末路则是由‘消亡’带来的解脱。唯有彻底从这个世界上消失，方才能摆脱绝望的轮回。等待着那必将来临的终结之日，遵从着圆环之理的引导，我们不断战斗着。悲伤与仇恨，周而复始。在这个无可救药的世界中，梦想着能与那令人眷恋的笑容再次重逢。”§!\n\n世界被改变，那已经是很久以前的事情了，但我的心中却一直难以平静。“当时是否阻止她更好？”、“为何只让我记住这一切？”、“没有了她的这个世界，我还能做什么？”、“这一切……是否只是……我的幻想？”。这样的疑问总是纠缠着我，“我竟然会怀疑她的存在？”。\n\n渐渐的我开始在向别人讲述起她的事，希望借此能减少我内心不安。最初是Inqubator，然后是麻美和杏子，最后是身边的其他人。不解、担心、轻蔑，这是大多数人的反应。但仍然有小部分魔法少女愿意相信我所诉说的一切。她们聚集起来，自称为圆环的信徒，倾听我讲述的故事，甚至向他人宣传圆环之理的存在，这可真是活像一个怪异的新兴宗教啊。这条道路究竟会通向何方呢……"
+mahoshoujo.1000.a:0 "就这样顺其自然吧。"
+mahoshoujo.1000.b:0 "也许，这就是我所期望的？"
+mahoshoujo.1000.c:0 "你带给我们的希望，由我来传播。"
+
+mahoshoujo.1011.name:0 "圆环派"
+mahoshoujo.1011.desc:0 "近日，在[Root.Owner.GetName]的国内政治版图中诞生了一个新的派系，她们自称为[Root.GetName]，似乎信仰着某种新兴的宗教。\n\n该派系的成员多为魔法少女，致力于保障和争取魔法少女的权利，同时在魔法少女及其他民众间传播她们的教义。"
+
+mahoshoujo.1012.name:0 "圆环派"
+mahoshoujo.1012.desc:0 "近日，信徒们公开建立了派系，并开始进入到国家的政治领域之中。随着信徒人数的增长，这也是理所当然的结果。\n\n国家正站在历史的分岔口，[Root.GetName]又会对这个国家的历史产生怎样的影响呢？以圆环之名，传播她的信念。但这真的是她所期望的吗？这么做的我，是为了她，还是单纯的自我满足？\n\n漫长的时光冲刷着我的精神，我已经连自己的意志都难以把握了。但是，已经没有时间踌躇了。[Root.GetName]向我发出了邀请，希望我们成为她们的领袖。现在，我必须做出选择。"
+mahoshoujo.1012.a:0 "圆环的旗帜由我来举起。"
+mahoshoujo.1012.b:0 "你是我最后的路标。"
+mahoshoujo.1012.c:0 "不，我没有这个资格。"
+mahoshoujo.1012.a.tooltip:0 "§R晓美焰将成为[Root.GetName]派系领袖。§!"

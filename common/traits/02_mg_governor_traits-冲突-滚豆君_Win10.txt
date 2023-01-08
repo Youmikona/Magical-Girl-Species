@@ -1,0 +1,147 @@
+leader_trait_governor_mg_1_walker = {#总督lv1
+	cost = 0
+	
+	immortal_leaders = yes
+	icon = "gfx/interface/icons/traits/leader/leader_trait_governor_mg_1_walker.dds"
+	modifier = {
+		planet_jobs_produces_mult = 0.15
+		planet_buildings_cost_mult = -0.20
+		planet_districts_cost_mult = -0.20
+		planet_building_build_speed_mult = 0.35
+	}
+	leader_potential_add = {
+		from = { has_authority = "auth_magical_girl" } 
+	}
+	leader_trait = { governor }
+	leader_class = { governor }
+	initial = no
+	randomized = yes
+}
+
+leader_trait_governor_mg_2_walker = {#总督lv2
+	cost = 0
+	
+	immortal_leaders = yes
+	icon = "gfx/interface/icons/traits/leader/leader_trait_governor_mg_2_walker.dds"
+	modifier = {
+		planet_jobs_produces_mult = 0.25
+		planet_buildings_cost_mult = -0.30
+		planet_districts_cost_mult = -0.30
+		planet_building_build_speed_mult = 0.50
+	}
+	leader_potential_add = {
+		from = { has_authority = "auth_magical_girl" } 
+	}
+	leader_trait = { governor }
+	leader_class = { governor }
+	initial = no
+	randomized = yes
+}
+
+leader_trait_governor_mg_3_walker = {#管理学院首席
+	cost = 0
+
+	immortal_leaders = yes
+	icon = "gfx/interface/icons/traits/leader/leader_trait_governor_mg_3_walker.dds"
+	modifier = {
+		planet_jobs_produces_mult = 0.25
+#无直接减少建筑维护费代码
+	}
+	leader_potential_add = {
+		from = { has_authority = "auth_magical_girl" } 
+	}
+	leader_trait = { governor }
+	leader_class = { governor }
+	initial = no
+	randomized = yes
+}
+leader_trait_governor_mg_4_walker = {#退役海军上将
+	cost = 0
+	
+	icon = "gfx/interface/icons/traits/leader/leader_trait_governor_mg_4_walker.dds"
+	modifier = {
+		starbase_shipyard_build_speed_mult = 0.25
+	    starbase_upgrade_speed_mult = 0.25
+		starbase_building_build_speed_mult = 0.25
+		starbase_module_build_speed_mult = 0.25
+		#待办，此处有如上如下两种方案
+		starbase_build_speed_mult = 0.25
+	}
+	leader_potential_add = {
+		from = { has_authority = "auth_magical_girl" } 
+	}
+	leader_trait = { governor }
+	leader_class = { governor }
+	initial = no
+	randomized = yes
+	requires_traits = {
+		trait_mgmagical_girl
+	}
+	#待办，本来这里有行opposites但是被误删撤销不了又不会写了
+	}
+leader_trait_governor_mg_5_walker = {#前首席科研官
+    cost = 0
+    
+    icon = "gfx/interface/icons/traits/leader/leader_trait_governor_mg_5_walker.dds"
+    modifier = {
+		all_technology_research_speed = 0.25
+	}
+	leader_potential_add = {
+		from = { has_authority = auth_magical_girl } 
+    }
+	leader_trait = { governor }
+	leader_class = { governor }
+    initial = no
+	randomized = yes
+	requires_traits = {
+		trait_mgmagical_girl
+	}
+}
+leader_trait_governor_mg_6_walker = {#环保主义者
+    cost = 0
+
+	icon = "gfx/interface/icons/traits/leader/leader_trait_governor_mg_6_walker.dds"
+	modifier = {
+        planet_jobs_alloys_produces_mult = -0.10
+		planet_jobs_consumer_goods_produces_mult = -0.10
+        trade_value_MULT = 0.2
+	}
+	leader_potential_add = {
+		from = { has_authority = auth_magical_girl } 
+    }
+	leader_trait = { governor }
+	leader_class = { governor }
+    initial = no
+	randomized = yes
+	requires_traits = {
+		trait_mgmagical_girl
+	}
+}
+leader_trait_governor_mg_7_walker = {#大型工业集团代表
+    cost = 0
+
+	icon = "gfx/interface/icons/traits/leader/leader_trait_governor_mg_7_walker.dds"
+	modifier = {
+		trade_value_mult = -0.05
+		planet_jobs_alloys_produces_mult = 0.25
+		planet_jobs_consumer_goods_produces_mult = 0.25
+	    warship_build_speed_mult = 0.05
+		starbase_build_speed_mult = 0.05
+	}
+	leader_potential_add = {
+		from = { has_authority = auth_magical_girl } 
+    }
+	leader_trait = { governor }
+	leader_class = { governor }
+    initial = no
+	randomized = yes
+	requires_traits = {
+		trait_mgmagical_girl
+	}	
+}
+
+
+
+
+
+

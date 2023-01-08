@@ -1,0 +1,152 @@
+leader_trait_scientist_mg_1_walker = {#首席科研官lv1
+	cost = 0
+	
+	icon = "gfx/interface/icons/traits/leader/leader_trait_scientist_mg_1_walker.dds"
+	modifier = {
+		all_technology_research_speed = 0.25
+	}
+	leader_potential_add = {
+		from = { has_trait = trait_mgmagical_girl} 
+	}
+	leader_trait = { scientist }
+	leader_class = { scientist }
+	initial = no
+	randomized = no
+	requires_traits = {
+		trait_mgmagical_girl
+	}
+}
+leader_trait_scientist_mg_2_walker = {#首席科研官lv2
+	cost = 0
+	
+	icon = "gfx/interface/icons/traits/leader/leader_trait_scientist_mg_2_walker.dds"
+	modifier = {
+		all_technology_research_speed = 0.5
+	}
+	leader_potential_add = {
+		from = { has_trait = trait_mgmagical_girl} 
+	}
+	leader_trait = { scientist }
+	leader_class = { scientist }
+	initial = no
+	randomized = no
+	requires_traits = {
+		trait_mgmagical_girl
+	}
+}
+leader_trait_scientist_mg_3_walker= {#科研学院首席
+	cost = 1
+	
+	icon = "gfx/interface/icons/traits/leader/leader_trait_scientist_mg_3_walker.dds"
+	modifier = {
+		all_technology_research_speed = 0.5
+	}
+	leader_potential_add = {
+		from = { has_trait = trait_mgmagical_girl} 
+	}
+	leader_trait = { scientist }
+	leader_class = { scientist }
+	initial = no
+	randomized = yes
+	requires_traits = {
+		trait_mgmagical_girl
+	}
+}
+leader_trait_scientist_mg_4_walker = {#考古学家
+    cost = 1
+
+	icon = "gfx/interface/icons/traits/leader/leader_trait_scientist_mg_4_walker.dds"
+	modifier = {
+		science_ship_survey_speed = 1
+	}	
+    leader_potential_add = {
+		from = { has_authority = "auth_magical_girl" } 
+	}
+	leader_trait = { scientist }
+	leader_class = { scientist }
+	initial = no
+	randomized = yes
+	requires_traits = {
+		trait_mgmagical_girl
+	}	
+}
+leader_trait_scientist_mg_5_walker = {#星辰漫步者
+    cost = 1
+
+	icon = "gfx/interface/icons/traits/leader/leader_trait_scientist_mg_5_walker.dds"
+	modifier = {
+		ship_anomaly_generation_chance_mult = 1
+		ship_anomaly_research_speed_mult = 1
+		ship_archeaological_site_clues_add = 5
+	}
+	leader_potential_add = {
+		from = { has_trait = trait_mgmagical_girl} 
+	}
+	leader_trait = { scientist }
+	leader_class = { scientist }
+	initial = no
+	randomized = yes
+	requires_traits = {
+		trait_mgmagical_girl
+	}
+}
+leader_trait_scientist_mg_6_walker = {#工程学家
+    cost = 1
+
+    icon = "gfx/interface/icons/traits/leader/leader_trait_scientist_mg_6_walker.dds"
+    modifier = {
+		country_engineering_research_cost_mult = -0.5
+		#待办
+		country_engineering_tech_research_speed = 0.5
+	}
+	leader_potential_add = {
+		from = { has_trait = trait_mgmagical_girl} 
+	}
+	leader_trait = { scientist }
+	leader_class = { scientist }
+	initial = no
+	randomized = yes
+	requires_traits = {
+		trait_mgmagical_girl
+	}
+}
+leader_trait_scientist_mg_7_walker = {#社会学家（生物学家）
+    cost = 1
+
+    icon = "gfx/interface/icons/traits/leader/leader_trait_scientist_mg_7_walker.dds"
+    modifier = {
+		country_society_research_cost_mult = -0.5
+		#待办
+		country_society_tech_research_speed = 0.5
+	}
+	leader_potential_add = {
+		from = { has_trait = trait_mgmagical_girl} 
+	}
+	leader_trait = { scientist }
+	leader_class = { scientist }
+	initial = no
+	randomized = yes
+	requires_traits = {
+		trait_mgmagical_girl
+	}
+}
+leader_trait_scientist_mg_8_walker = {#物理学家
+    cost = 1
+
+    icon = "gfx/interface/icons/traits/leader/leader_trait_scientist_mg_8_walker.dds"
+    modifier = {
+		country_physics_research_cost_mult = -0.5
+		#待办
+		country_physics_tech_research_speed = 0.5
+	}
+	leader_potential_add = {
+		from = { has_trait = trait_mgmagical_girl} 
+	}
+	leader_trait = { scientist }
+	leader_class = { scientist }
+	initial = no
+	randomized = yes
+	requires_traits = {
+		trait_mgmagical_girl
+	}
+}

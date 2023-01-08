@@ -1,0 +1,1576 @@
+greetings = {
+	# –«∫£¬√’ﬂ
+	IT_HOSTILE_GREETING_01 = {
+		weight = {
+			weight = 100
+		}
+		trigger = {
+			is_magic_girl_empire = yes
+			is_country_type = default
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+			}
+			FROM = {
+				NOR = {
+					is_species_class = Magical_Girl
+					has_country_flag = play_mg_country
+				}
+			}
+		}
+	}
+	IT_HOSTILE_GREETING_02 = {
+		weight = {
+			weight = 100
+		}
+		trigger = {
+			is_magic_girl_empire = yes
+			is_country_type = default
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+			}
+			FROM = {
+				NOR = {
+					is_species_class = Magical_Girl
+					has_country_flag = play_mg_country
+				}
+			}
+		}
+	}
+	IT_HOSTILE_GREETING_03 = {
+		weight = {
+			weight = 1000
+		}
+		trigger = {
+			has_ai_personality = stellar_travellers
+			FROM = {
+				is_magic_girl_empire = yes
+				is_country_type = default
+			}
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+			}
+		}
+	}
+	IT_HOSTILE_GREETING_05 = {
+		weight = {
+			weight = 1000
+		}
+		trigger = {
+			has_ai_personality = stellar_peacekeepers
+			FROM = {
+				is_magic_girl_empire = yes
+				is_country_type = default
+			}
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+			}
+		}
+	}	
+	IT_HOSTILE_GREETING_06 = {
+		weight = {
+			weight = 1000
+		}
+		trigger = {
+			has_ai_personality = stellar_peacekeepers
+			FROM = {
+				is_magic_girl_empire = yes
+				is_country_type = default
+			}
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+			}
+		}
+	}	
+	IT_HOSTILE_GREETING_04 = {
+		weight = {
+			weight = 1000
+		}
+		trigger = {
+			is_magic_girl_empire = yes
+			is_country_type = default
+			FROM = {
+				is_species_class = FUN
+			}
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+			}
+		}
+	}	
+	IT_HOSTILE_GREETING_11 = {
+		weight = {
+			weight = 1000
+		}
+		trigger = {
+			has_ai_personality = stellar_travellers
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+			}
+			FROM = {
+				has_origin = origin_servitude_aristocracy
+			}
+		}
+	}
+	IT_HOSTILE_GREETING_14 = {
+		weight = {
+			weight = 1000
+		}
+		trigger = {
+			has_ai_personality = stellar_peacekeepers
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+			}
+			FROM = {
+				is_magic_girl_empire = yes
+				is_country_type = default
+			}
+		}
+	}
+	IT_HOSTILE_GREETING_13 = {
+		weight = {
+			weight = 1000
+		}
+		trigger = {
+			NOR = {
+	            has_authority = auth_grey_witch_council
+	            has_authority = auth_witch_dictatorial
+				has_authority = auth_machine_intelligence
+	        } 
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+			}
+			FROM = {
+				has_origin = origin_servitude_aristocracy
+			}
+		}
+	}
+	IT_HOSTILE_GREETING_12 = {
+		weight = {
+			weight = 1000
+		}
+		trigger = {
+			has_origin = origin_servitude_aristocracy
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+			}
+			FROM = {
+				has_origin = origin_servitude_aristocracy
+			}
+		}
+	}
+	IT_HOSTILE_GREETING_07 = {
+		weight = {
+			weight = 500
+		}
+		trigger = {
+			is_magic_girl_empire = yes
+			is_country_type = default
+			FROM = {
+				has_authority = auth_corporate
+			}
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+			}
+		}
+	}
+	IT_HOSTILE_GREETING_08 = {
+		weight = {
+			weight = 500
+		}
+		trigger = {
+			is_magic_girl_empire = yes
+			is_country_type = default
+			FROM = {
+				has_authority = auth_corporate
+			}
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+			}
+		}
+	}
+	IT_HOSTILE_GREETING_09 = {
+		weight = {
+			weight = 1000
+		}
+		trigger = {
+			has_ai_personality = stellar_travellers
+			FROM = {
+				is_magic_girl_empire = yes
+				is_country_type = default
+			}
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+			}
+		}
+	}
+	IT_DOMINEERING_GREETING_01 = {
+		weight = {
+			weight = 100
+		}
+		trigger = {
+			is_magic_girl_empire = yes
+			is_country_type = default
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_domineering_to = FROM
+			}
+		}
+	}
+	IT_NEUTRAL_GREETING_01 = {
+		weight = {
+			weight = 100
+		}
+		trigger = {
+			is_magic_girl_empire = yes
+			is_country_type = default
+			NOT = { is_same_species = FROM }
+			NOT = { is_at_war_with = FROM }
+			is_neutral_to = FROM
+			FROM = {
+				NOR = {
+					is_species_class = Magical_Girl
+					has_country_flag = play_mg_country
+				}
+			}
+		}
+	}
+	IT_NEUTRAL_GREETING_02 = {
+		weight = {
+			weight = 100
+		}
+		trigger = {
+			is_magic_girl_empire = yes
+			is_country_type = default
+			NOT = { is_same_species = FROM }
+			NOT = { is_at_war_with = FROM }
+			is_neutral_to = FROM
+			FROM = {
+				NOR = {
+					is_species_class = Magical_Girl
+					has_country_flag = play_mg_country
+				}
+			}
+		}
+	}
+	IT_NEUTRAL_GREETING_05 = {
+		weight = {
+			weight = 100
+		}
+		trigger = {
+			is_magic_girl_empire = yes
+			is_country_type = default
+			NOT = { is_same_species = FROM }
+			NOT = { is_at_war_with = FROM }
+			is_neutral_to = FROM
+			FROM = {
+				NOR = {
+					is_species_class = Magical_Girl
+					has_country_flag = play_mg_country
+				}
+			}
+		}
+	}
+	IT_NEUTRAL_GREETING_06 = {
+		weight = {
+			weight = 100
+		}
+		trigger = {
+			OR = {
+					is_species_class = Magical_Girl
+					has_country_flag = play_mg_country
+				}
+				is_fallen_empire_victorika = no
+			NOT = { is_same_species = FROM }
+			NOT = { is_at_war_with = FROM }
+			is_neutral_to = FROM
+			FROM = {
+				NOR = {
+					is_species_class = Magical_Girl
+					has_country_flag = play_mg_country
+				}
+			}
+		}
+	}
+	IT_NEUTRAL_GREETING_03 = {
+		weight = {
+			weight = 1000
+		}
+		trigger = {
+			has_ai_personality = stellar_travellers
+			FROM = {
+				OR = {
+					is_species_class = Magical_Girl
+					has_country_flag = play_mg_country
+				}
+			}
+			NOT = { is_at_war_with = FROM }
+			is_neutral_to = FROM
+		}
+	}
+	IT_NEUTRAL_GREETING_04 = {
+		weight = {
+			weight = 1000
+		}
+		trigger = {
+			has_ai_personality = stellar_peacekeepers
+			FROM = {
+				OR = {
+					is_species_class = Magical_Girl
+					has_country_flag = play_mg_country
+				}
+			}
+			NOT = { is_at_war_with = FROM }
+			is_neutral_to = FROM
+		}
+	}
+	IT_NEUTRAL_GREETING_07 = {
+		weight = {
+			weight = 100
+		}
+		trigger = {
+			has_ai_personality = assimilators
+			NOT = { is_same_species = FROM }
+			NOT = { is_at_war_with = FROM }
+			is_neutral_to = FROM
+			FROM = {
+				has_origin = origin_servitude_aristocracy
+			}
+		}
+	}
+	IT_THREATENED_GREETING_01 = {
+		weight = {
+			weight = 100
+		}
+		trigger = {
+			OR = {
+					is_species_class = Magical_Girl
+					has_country_flag = play_mg_country
+				}
+				is_fallen_empire_victorika = no
+			NOT = { is_at_war_with = FROM }
+			is_threatened_to = FROM
+		}
+	}
+	IT_FRIENDLY_GREETING_01 = {
+		weight = {
+			weight = 1000
+		}
+		trigger = {
+			has_ai_personality = stellar_travellers
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_friendly_to = FROM
+				is_cordial_to = FROM
+				is_protective_to = FROM
+			}
+			FROM = {
+				OR = {
+					is_species_class = Magical_Girl
+					has_country_flag = play_mg_country
+				}
+			}
+		}
+	}
+	IT_FRIENDLY_GREETING_02 = {
+		weight = {
+			weight = 100
+		}
+		trigger = {
+			OR = {
+					is_species_class = Magical_Girl
+					has_country_flag = play_mg_country
+				}
+				is_fallen_empire_victorika = no
+			NOT = { is_same_species = FROM }
+			NOT = { is_at_war_with = FROM }
+			is_at_war = no
+			OR = {
+				is_friendly_to = FROM
+				is_cordial_to = FROM
+				is_protective_to = FROM
+			}
+			FROM = {
+				NOR = {
+					is_species_class = Magical_Girl
+					has_country_flag = play_mg_country
+				}
+			}
+		}
+	}
+	IT_FRIENDLY_GREETING_05 = {
+		weight = {
+			weight = 100
+		}
+		trigger = {
+			OR = {
+					is_species_class = Magical_Girl
+					has_country_flag = play_mg_country
+				}
+				is_fallen_empire_victorika = no
+			NOT = { is_same_species = FROM }
+			NOT = { is_at_war_with = FROM }
+			is_at_war = no
+			OR = {
+				is_friendly_to = FROM
+				is_cordial_to = FROM
+				is_protective_to = FROM
+			}
+			FROM = {
+				NOR = {
+					is_species_class = Magical_Girl
+					has_country_flag = play_mg_country
+				}
+			}
+		}
+	}	
+	IT_FRIENDLY_GREETING_06 = {
+		weight = {
+			weight = 200
+		}
+		trigger = {
+			OR = {
+					is_species_class = Magical_Girl
+					has_country_flag = play_mg_country
+				}
+				is_fallen_empire_victorika = no
+			NOT = { is_same_species = FROM }
+			NOT = { is_at_war_with = FROM }
+			is_at_war = no
+			OR = {
+				is_friendly_to = FROM
+				is_cordial_to = FROM
+				is_protective_to = FROM
+			}
+			FROM = {
+					has_authority = auth_corporate
+			}
+		}
+	}	
+	IT_FRIENDLY_GREETING_07 = {
+		weight = {
+			weight = 200
+		}
+		trigger = {
+			OR = {
+					is_species_class = Magical_Girl
+					has_country_flag = play_mg_country
+				}
+				is_fallen_empire_victorika = no
+			NOT = { is_same_species = FROM }
+			NOT = { is_at_war_with = FROM }
+			is_at_war = no
+			OR = {
+				is_friendly_to = FROM
+				is_cordial_to = FROM
+				is_protective_to = FROM
+			}
+			FROM = {
+					has_authority = auth_corporate
+			}
+		}
+	}	
+	IT_FRIENDLY_GREETING_08 = {
+		weight = {
+			weight = 200
+		}
+		trigger = {
+			OR = {
+					is_species_class = Magical_Girl
+					has_country_flag = play_mg_country
+				}
+				is_fallen_empire_victorika = no
+			NOT = { is_same_species = FROM }
+			NOT = { is_at_war_with = FROM }
+			is_at_war = no
+			OR = {
+				is_friendly_to = FROM
+				is_cordial_to = FROM
+				is_protective_to = FROM
+			}
+			FROM = {
+					has_authority = auth_corporate
+			}
+		}
+	}	
+	IT_FRIENDLY_GREETING_03 = {
+		weight = {
+			weight = 100
+		}
+		trigger = {
+			OR = {
+					is_species_class = Magical_Girl
+					has_country_flag = play_mg_country
+				}
+				is_fallen_empire_victorika = no
+			NOT = { is_same_species = FROM }
+			NOT = { is_at_war_with = FROM }
+			is_at_war = yes
+			OR = {
+				is_friendly_to = FROM
+				is_cordial_to = FROM
+				is_protective_to = FROM
+			}
+			FROM = {
+				NOR = {
+					is_species_class = Magical_Girl
+					has_country_flag = play_mg_country
+				}
+			}
+		}
+	}
+	IT_FRIENDLY_GREETING_04 = {
+		weight = {
+			weight = 1000
+		}
+		trigger = {
+			has_ai_personality = stellar_peacekeepers
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_friendly_to = FROM
+				is_cordial_to = FROM
+				is_protective_to = FROM
+			}
+			FROM = {
+				OR = {
+					is_species_class = Magical_Girl
+					has_country_flag = play_mg_country
+				}
+			}
+		}
+	}	
+	IT_WAR_GREETING_01 = {
+		weight = {
+			weight = 100
+		}
+		trigger = {
+			OR = {
+					is_species_class = Magical_Girl
+					has_country_flag = play_mg_country
+				}
+				is_fallen_empire_victorika = no
+			is_at_war_with = FROM
+			FROM = {
+				NOR = {
+					is_species_class = Magical_Girl
+					has_country_flag = play_mg_country
+				}
+			}
+		}
+	}
+	IT_WAR_GREETING_02 = {
+		weight = {
+			weight = 100
+		}
+		trigger = {
+			OR = {
+					is_species_class = Magical_Girl
+					has_country_flag = play_mg_country
+				}
+				is_fallen_empire_victorika = no
+			is_at_war_with = FROM
+			FROM = {
+				NOR = {
+					is_species_class = Magical_Girl
+					has_country_flag = play_mg_country
+				}
+			}
+		}
+	}
+	IT_WAR_GREETING_03 = {
+		weight = {
+			weight = 1000
+		}
+		trigger = {
+			has_ai_personality = stellar_travellers
+			is_at_war_with = FROM
+			FROM = {
+				OR = {
+					is_species_class = Magical_Girl
+					has_country_flag = play_mg_country
+				}
+			}
+		}
+	}
+	IT_WAR_GREETING_04 = {
+		weight = {
+			weight = 1000
+		}
+		trigger = {
+			has_ai_personality = stellar_peacekeepers
+			is_at_war_with = FROM
+			FROM = {
+				OR = {
+					is_species_class = Magical_Girl
+					has_country_flag = play_mg_country
+				}
+			}
+		}
+	}
+	IT_WAR_GREETING_05 = {
+		weight = {
+			weight = 100
+		}
+		trigger = {
+			OR = {
+					is_species_class = Magical_Girl
+					has_country_flag = play_mg_country
+				}
+				is_fallen_empire_victorika = no
+			is_at_war_with = FROM
+			FROM = {
+				NOR = {
+					is_species_class = Magical_Girl
+					has_country_flag = play_mg_country
+				}
+			}
+		}
+	}	
+	IT_WAR_GREETING_06 = {
+		weight = {
+			weight = 100
+		}
+		trigger = {
+			OR = {
+					is_species_class = Magical_Girl
+					has_country_flag = play_mg_country
+				}
+				is_fallen_empire_victorika = no
+			is_at_war_with = FROM
+			FROM = {
+				NOR = {
+					is_species_class = Magical_Girl
+					has_country_flag = play_mg_country
+				}
+			}
+		}
+	}
+	IT_VASSAL_GREETING_01 = {
+		weight = {
+			weight = 100
+		}
+		trigger = {
+			has_ai_personality = stellar_travellers
+			exists = overlord
+			overlord = { is_same_value = FROM }
+			NOT = { is_at_war_with = FROM }
+			NOT = { is_disloyal_to = FROM }
+		}
+	}
+	IT_VASSAL_GREETING_DISLOYAL_01 = {
+		weight = {
+			weight = 100
+		}
+		trigger = {
+			has_ai_personality = stellar_travellers
+			exists = overlord
+			overlord = { is_same_value = FROM }
+			NOT = { is_at_war_with = FROM }
+			is_disloyal_to = FROM
+		}
+	}
+	IP_VASSAL_GREETING_01 = {
+		weight = {
+			weight = 100
+		}
+		trigger = {
+			has_ai_personality = stellar_peacekeepers
+			exists = overlord
+			overlord = { is_same_value = FROM }
+			NOT = { is_at_war_with = FROM }
+			NOT = { is_disloyal_to = FROM }
+		}
+	}
+	IP_VASSAL_GREETING_DISLOYAL_01 = {
+		weight = {
+			weight = 100
+		}
+		trigger = {
+			has_ai_personality = stellar_peacekeepers
+			exists = overlord
+			overlord = { is_same_value = FROM }
+			NOT = { is_at_war_with = FROM }
+			is_disloyal_to = FROM
+		}
+	}
+}
+
+action_declare_war = {
+    propose = {
+	    # –«∫£¬√’ﬂ
+		IT_DOW_PROPOSE_01 = {
+			weight = { weight = 100 }
+			trigger = {
+				FROM = { has_ai_personality = stellar_travellers }
+				ROOT = {
+					NOR = {
+						is_species_class = Magical_Girl
+						has_country_flag = play_mg_country
+					}
+				}
+			}
+		}
+		IT_DOW_PROPOSE_02 = {
+			weight = { weight = 100 }
+			trigger = {
+				FROM = { has_ai_personality = stellar_travellers }
+				ROOT = {
+					NOR = {
+						is_species_class = Magical_Girl
+						has_country_flag = play_mg_country
+					}
+				}
+			}
+		}
+		IT_DOW_PROPOSE_03 = {
+			weight = { weight = 100 }
+			trigger = {
+				FROM = { has_ai_personality = stellar_travellers }
+				ROOT = {
+					OR = {
+					    has_authority = auth_grey_witch_council
+					    has_authority = auth_witch_dictatorial
+				    }
+			    }
+			}
+		}
+		IT_DOW_PROPOSE_04 = {
+			weight = { weight = 10000 }
+			trigger = {
+				FROM = { OR = {
+					is_species_class = Magical_Girl
+					has_country_flag = play_mg_country
+				} }
+				ROOT = {
+					is_species_class = FUN
+				}
+			}
+		}
+		IP_DOW_PROPOSE_01 = {
+			weight = { weight = 100 }
+			trigger = {
+				FROM = { has_ai_personality = stellar_peacekeepers }
+				ROOT = {
+					NOR = {
+						is_species_class = Magical_Girl
+						has_country_flag = play_mg_country
+					}
+				}
+			}
+		}
+		IP_DOW_PROPOSE_02 = {
+			weight = { weight = 100 }
+			trigger = {
+				FROM = { has_ai_personality = stellar_peacekeepers }
+				ROOT = {
+					NOR = {
+						is_species_class = Magical_Girl
+						has_country_flag = play_mg_country
+					}
+				}
+			}
+		}
+		IP_DOW_PROPOSE_03 = {
+			weight = { weight = 100 }
+			trigger = {
+				FROM = { has_ai_personality = stellar_peacekeepers }
+				ROOT = {
+					OR = {
+						is_species_class = Magical_Girl
+						has_country_flag = play_mg_country
+					}
+				}
+			}
+		}
+		01_FALLEN_EMPIRE_VICTORIKA_DOW_PROPOSE = {
+			trigger = {
+				FROM = {
+					is_fallen_empire_victorika = yes
+				}
+			}
+		}
+		01_RMP_DOW_PROPOSE = {
+			trigger = {
+				FROM = {
+					has_origin = origin_garbage_princesses
+					NOT = { has_country_flag = free_magic_puppets }
+				}
+			}
+		}
+	}
+	accept = {
+	    # “¡¿Ÿƒ»
+		IT_DOW_ACCEPT_01 = {
+			trigger = {
+				OR = {
+					is_species_class = Magical_Girl
+					has_country_flag = play_mg_country
+				}
+			}
+			weight = {
+				weight = 200
+			}
+		}
+		IT_DOW_ACCEPT_02 = {
+			trigger = {
+				OR = {
+					is_species_class = Magical_Girl
+					has_country_flag = play_mg_country
+				}
+			}
+			weight = {
+				weight = 200
+			}
+		}
+		IT_DOW_ACCEPT_03 = {
+			trigger = {
+				OR = {
+					is_species_class = Magical_Girl
+					has_country_flag = play_mg_country
+				}
+			}
+			weight = {
+				weight = 200
+			}
+		}
+		01_FALLEN_EMPIRE_VICTORIKA_DOW_ACCEPT = {
+			trigger = {
+				is_fallen_empire_victorika = yes
+			}
+		}
+	}
+}
+
+action_offer_peace = {
+	propose = {
+		FALLEN_EMPIRE_VICTORIKA_PEACE_PROPOSE = {
+			trigger = {
+				from = {
+					is_fallen_empire_victorika = yes
+					NOT = { is_berserker_to = FROM }
+				}
+			}
+		}
+        IT_PEACE_PROPOSE = {
+			weight = { weight = 100 }
+			trigger = {
+				FROM = { 
+				    OR = {
+					    has_authority = auth_grey_witch_council
+					    has_authority = auth_witch_dictatorial
+				    }
+					is_fallen_empire_victorika = no
+			    }
+				ROOT = {
+					OR = {
+					    has_authority = auth_grey_witch_council
+					    has_authority = auth_witch_dictatorial
+				    }
+					is_fallen_empire_victorika = no
+				}
+			}
+		}
+		
+    }
+	accept = {
+		FALLEN_EMPIRE_VICTORIKA_PEACE_ACCEPT = {
+			trigger = {
+				is_fallen_empire_victorika = yes
+				NOT = { is_berserker_to = FROM }
+			}
+		}
+	}
+	refuse = {
+		FALLEN_EMPIRE_VICTORIKA_PEACE_REFUSE = {
+			trigger = {
+				is_fallen_empire_victorika = yes
+				NOT = { is_berserker_to = FROM }
+			}
+		}
+	}
+}
+
+action_insult = {
+    select = {
+		01_INSULT_FALLEN_EMPIRE_VICTORIKA = {
+			trigger = {
+				is_fallen_empire_victorika = yes
+			}
+			weight = {
+				weight = 10000
+			}
+		}
+		RMP_INSULT_01 = {
+			trigger = {
+				OR = {
+					has_origin = origin_garbage_princesses
+				}
+				FROM = {
+					is_magic_girl_empire = yes
+				}
+			}
+		}
+	    IT_INSULT_01 = {
+			trigger = {
+				OR = {
+					is_species_class = Magical_Girl
+					has_country_flag = play_mg_country
+				}
+				NOR = {
+					is_friendly_to = FROM
+					is_cordial_to = FROM
+					is_protective_to = FROM
+					is_loyal_to = FROM
+					is_overlord_to = FROM
+				}
+			}
+		}
+		IT_INSULT_02 = {
+			trigger = {
+				OR = {
+					is_species_class = Magical_Girl
+					has_country_flag = play_mg_country
+				}
+				NOR = {
+					is_friendly_to = FROM
+					is_cordial_to = FROM
+					is_protective_to = FROM
+					is_loyal_to = FROM
+					is_overlord_to = FROM
+				}
+			}
+		}
+		IT_INSULT_FRIENDLY_01 = {
+			trigger = {
+				OR = {
+					is_species_class = Magical_Girl
+					has_country_flag = play_mg_country
+				}
+				OR = {
+					is_friendly_to = FROM
+					is_cordial_to = FROM
+					is_protective_to = FROM
+					is_loyal_to = FROM
+					is_overlord_to = FROM
+				}
+			}
+		}
+		IT_INSULT_FRIENDLY_02 = {
+			trigger = {
+				OR = {
+					is_species_class = Magical_Girl
+					has_country_flag = play_mg_country
+				}
+				OR = {
+					is_friendly_to = FROM
+					is_cordial_to = FROM
+					is_protective_to = FROM
+					is_loyal_to = FROM
+					is_overlord_to = FROM
+				}
+			}
+		}
+		
+		# Organics to Elaina
+		ORG_TO_ELAINA_INSULT_01 = {
+			trigger = {
+				NOR = {
+						has_authority = auth_machine_intelligence
+						is_species_class = ROBOT
+						is_species_class = Magical_Girl
+					has_country_flag = play_mg_country
+					}
+				FROM = {
+					OR = {
+						is_species_class = Magical_Girl
+						has_country_flag = play_mg_country
+					}
+				}
+			}
+			weight = {
+				weight = 1
+			}
+		}
+		ORG_TO_ELAINA_INSULT_02 = {
+			trigger = {
+				NOR = {
+						has_authority = auth_machine_intelligence
+						is_species_class = ROBOT
+						is_species_class = Magical_Girl
+					has_country_flag = play_mg_country
+					}
+				FROM = {
+					OR = {
+						is_species_class = Magical_Girl
+						has_country_flag = play_mg_country
+					}
+				}
+			}
+			weight = {
+				weight = 1
+			}
+		}
+		ORG_TO_ELAINA_INSULT_03 = {
+			trigger = {
+				NOR = {
+						has_authority = auth_machine_intelligence
+						is_species_class = ROBOT
+						is_species_class = Magical_Girl
+					has_country_flag = play_mg_country
+					}
+				FROM = {
+					OR = {
+						is_species_class = Magical_Girl
+						has_country_flag = play_mg_country
+					}
+				}
+			}
+			weight = {
+				weight = 1
+			}
+		}
+		ORG_TO_ELAINA_INSULT_04 = {
+			trigger = {
+				NOR = {
+						has_authority = auth_machine_intelligence
+						is_species_class = ROBOT
+						is_species_class = Magical_Girl
+					has_country_flag = play_mg_country
+					}
+				FROM = {
+					OR = {
+						is_species_class = Magical_Girl
+						has_country_flag = play_mg_country
+					}
+				}
+			}
+			weight = {
+				weight = 1
+			}
+		}
+		ORG_TO_ELAINA_INSULT_05 = {
+			trigger = {
+				NOR = {
+						has_authority = auth_machine_intelligence
+						is_species_class = ROBOT
+						is_species_class = Magical_Girl
+					has_country_flag = play_mg_country
+					}
+				FROM = {
+					OR = {
+						is_species_class = Magical_Girl
+						has_country_flag = play_mg_country
+					}
+				}
+			}
+			weight = {
+				weight = 1
+			}
+		}
+	}
+	
+
+            # Organics to Elaina
+	propose = {
+		ORG_TO_ELAINA_INSULT_PROPOSE_01 = {
+			trigger = {
+				OR = {
+					is_species_class = Magical_Girl
+					has_country_flag = play_mg_country
+				}
+				FROM = {
+					NOR = {
+						has_authority = auth_machine_intelligence
+						is_species_class = ROBOT
+						is_species_class = Magical_Girl
+					has_country_flag = play_mg_country
+					}
+				}
+			}
+			weight = {
+				weight = 50
+			}
+		}
+	}
+	propose = {
+		UNE_TO_ELAINA_INSULT_PROPOSE = {
+			trigger = {
+				OR = {
+					is_species_class = Magical_Girl
+					has_country_flag = play_mg_country
+				}
+				FROM = {
+					has_country_flag = human_1
+				}
+			}
+			weight = {
+				weight = 100
+			}
+		}
+	}
+	propose = {
+		ORG_TO_ELAINA_INSULT_PROPOSE_02 = {
+			trigger = {
+				OR = {
+					is_species_class = Magical_Girl
+					has_country_flag = play_mg_country
+				}
+				FROM = {
+					NOR = {
+						has_authority = auth_machine_intelligence
+						is_species_class = ROBOT
+						is_species_class = Magical_Girl
+					has_country_flag = play_mg_country
+					}
+				}
+			}
+			weight = {
+				weight = 50
+			}
+		}
+	}
+	propose = {
+		ORG_TO_ELAINA_INSULT_PROPOSE_03 = {
+			trigger = {
+				OR = {
+					is_species_class = Magical_Girl
+					has_country_flag = play_mg_country
+				}
+				FROM = {
+					NOR = {
+						has_authority = auth_machine_intelligence
+						is_species_class = ROBOT
+						has_authority = auth_grey_witch_council
+					}
+				}
+			}
+			weight = {
+				weight = 50
+			}
+		}
+	}
+	propose = {
+		ORG_TO_ELAINA_INSULT_PROPOSE_04 = {
+			trigger = {
+				OR = {
+					is_species_class = Magical_Girl
+					has_country_flag = play_mg_country
+				}
+				FROM = {
+					NOR = {
+						has_authority = auth_machine_intelligence
+						is_species_class = ROBOT
+						has_authority = auth_grey_witch_council
+					}
+				}
+			}
+			weight = {
+				weight = 50
+			}
+		}
+	}
+	propose = {
+		ORG_TO_ELAINA_INSULT_PROPOSE_05 = {
+			trigger = {
+				OR = {
+					is_species_class = Magical_Girl
+					has_country_flag = play_mg_country
+				}
+				FROM = {
+					NOR = {
+						has_authority = auth_machine_intelligence
+						is_species_class = ROBOT
+						has_authority = auth_grey_witch_council
+					}
+				}
+			}
+			weight = {
+				weight = 50
+			}
+		}
+	}
+	propose = {
+		ORG_TO_ELAINA_INSULT_PROPOSE_06 = {
+			trigger = {
+				OR = {
+					is_species_class = Magical_Girl
+					has_country_flag = play_mg_country
+				}
+				FROM = {
+					NOR = {
+						has_authority = auth_machine_intelligence
+						is_species_class = ROBOT
+						is_species_class = Magical_Girl
+					has_country_flag = play_mg_country
+					}
+				}
+			}
+			weight = {
+				weight = 50
+			}
+		}
+	}
+	
+	# Elaina to others
+	propose = {
+		ELAINA_TO_MECH_INSULT_PROPOSE_01 = {
+			trigger = {
+				has_authority = auth_machine_intelligence
+				FROM = {
+					OR = {
+						is_species_class = Magical_Girl
+						has_country_flag = play_mg_country
+					}
+				}
+			}
+			weight = {
+				weight = 40
+			}
+		}
+	}
+	propose = {
+		ELAINA_TO_MECH_INSULT_PROPOSE_02 = {
+			trigger = {
+				OR = {
+					has_authority = auth_machine_intelligence
+					is_species_class = ROBOT
+				}
+				FROM = {
+					OR = {
+						is_species_class = Magical_Girl
+						has_country_flag = play_mg_country
+					}
+				}
+			}
+			weight = {
+				weight = 40
+			}
+		}
+	}
+	propose = {
+		ELAINA_TO_ORG_INSULT_PROPOSE_01 = {
+			trigger = {
+				NOR = {
+						has_authority = auth_machine_intelligence
+						is_species_class = ROBOT
+					}
+				FROM = {
+					OR = {
+						is_species_class = Magical_Girl
+						has_country_flag = play_mg_country
+					}
+				}
+			}
+			weight = {
+				weight = 40
+			}
+		}
+	}
+	propose = {
+		ELAINA_TO_ORG_INSULT_PROPOSE_02 = {
+			trigger = {
+				NOR = {
+						has_authority = auth_machine_intelligence
+						is_species_class = ROBOT
+						is_species_class = Magical_Girl
+						has_country_flag = play_mg_country
+					}
+				FROM = {
+					OR = {
+						is_species_class = Magical_Girl
+						has_country_flag = play_mg_country
+					}
+				}
+			}
+			weight = {
+				weight = 40
+			}
+		}
+	}
+	propose = {
+		ELAINA_TO_ORG_INSULT_PROPOSE_03 = {
+			trigger = {
+				NOR = {
+						has_authority = auth_machine_intelligence
+						is_species_class = ROBOT
+						is_species_class = Magical_Girl
+						has_country_flag = play_mg_country
+					}
+				FROM = {
+					OR = {
+						is_species_class = Magical_Girl
+						has_country_flag = play_mg_country
+					}
+				}
+			}
+			weight = {
+				weight = 40
+			}
+		}
+	}
+	propose = {
+		ELAINA_TO_ORG_INSULT_PROPOSE_04 = {
+			trigger = {
+				NOR = {
+						has_authority = auth_machine_intelligence
+						is_species_class = ROBOT
+						is_species_class = Magical_Girl
+						has_country_flag = play_mg_country
+					}
+				FROM = {
+					OR = {
+						is_species_class = Magical_Girl
+						has_country_flag = play_mg_country
+					}
+				}
+			}
+			weight = {
+				weight = 40
+			}
+		}
+	}
+	propose = {
+		ELAINA_TO_ORG_INSULT_PROPOSE_05 = {
+			trigger = {
+				NOR = {
+						has_authority = auth_machine_intelligence
+						is_species_class = ROBOT
+						is_species_class = Magical_Girl
+						has_country_flag = play_mg_country
+						is_spiritualist = yes
+					}
+				FROM = {
+					OR = {
+						is_species_class = Magical_Girl
+						has_country_flag = play_mg_country
+					}
+				}
+			}
+			weight = {
+				weight = 40
+			}
+		}
+	}
+	propose = {
+		ELAINA_TO_ORG_INSULT_PROPOSE_06 = {
+			trigger = {
+				NOR = {
+						has_authority = auth_machine_intelligence
+						is_species_class = ROBOT
+						is_species_class = Magical_Girl
+						has_country_flag = play_mg_country
+						is_spiritualist = yes
+					}
+				FROM = {
+					OR = {
+						is_species_class = Magical_Girl
+						has_country_flag = play_mg_country
+					}
+				}
+			}
+			weight = {
+				weight = 40
+			}
+		}
+	}
+	propose = {
+		ELAINA_TO_ORG_INSULT_PROPOSE_07 = {
+			trigger = {
+				NOR = {
+						has_authority = auth_machine_intelligence
+						is_species_class = ROBOT
+						is_spiritualist = yes
+					}
+				FROM = {
+					OR = {
+						is_species_class = Magical_Girl
+						has_country_flag = play_mg_country
+					}
+				}
+			}
+			weight = {
+				weight = 40
+			}
+		}
+	}
+	
+	# Elaina to Elaina
+	propose = {
+		ELAINA_TO_ELAINA_INSULT_PROPOSE_01 = {
+			trigger = {
+				OR = {
+					is_species_class = Magical_Girl
+					has_country_flag = play_mg_country
+				}
+				FROM = {
+					OR = {
+						is_species_class = Magical_Girl
+						has_country_flag = play_mg_country
+					}
+				}
+			}
+			weight = {
+				weight = 30
+			}
+		}
+	}
+	propose = {
+		ELAINA_TO_ELAINA_INSULT_PROPOSE_02 = {
+			trigger = {
+				OR = {
+					is_species_class = Magical_Girl
+					has_country_flag = play_mg_country
+				}
+				has_ai_personality = stellar_peacekeepers
+				FROM = {
+				    OR = {
+						is_species_class = Magical_Girl
+						has_country_flag = play_mg_country
+					}
+					NOT = { has_government = gov_sentinel_association }
+				}
+			}
+			weight = {
+				weight = 40
+			}
+		}
+	}
+	propose = {
+		ELAINA_TO_ELAINA_INSULT_PROPOSE_03 = {
+			trigger = {
+				OR = {
+					is_species_class = Magical_Girl
+					has_country_flag = play_mg_country
+				}
+				has_ai_personality = stellar_peacekeepers
+				FROM = {
+				    OR = {
+						is_species_class = Magical_Girl
+						has_country_flag = play_mg_country
+					}
+					NOT = { has_government = gov_sentinel_association }
+				}
+			}
+			weight = {
+				weight = 40
+			}
+		}
+	}
+	propose = {
+		ELAINA_TO_ELAINA_INSULT_PROPOSE_04 = {
+			trigger = {
+				OR = {
+					is_species_class = Magical_Girl
+					has_country_flag = play_mg_country
+				}
+				NOT = { has_government = gov_sentinel_association }
+				FROM = {
+				    OR = {
+						is_species_class = Magical_Girl
+						has_country_flag = play_mg_country
+					}
+				    has_government = gov_sentinel_association 
+				}
+			}
+			weight = {
+				weight = 40
+			}
+		}
+	}
+	propose = {
+		ELAINA_TO_ELAINA_INSULT_PROPOSE_05 = {
+			trigger = {
+				OR = {
+					is_species_class = Magical_Girl
+					has_country_flag = play_mg_country
+				}
+				NOT = { has_government = gov_sentinel_association }
+				FROM = {
+				   OR = {
+					   is_species_class = Magical_Girl
+					   has_country_flag = play_mg_country
+				   }
+				    has_government = gov_sentinel_association 
+				}
+			}
+			weight = {
+				weight = 40
+			}
+		}
+	}	
+	
+	propose = {
+		ELAINA_TO_CORP_INSULT_PROPOSE_01 = {
+			trigger = {
+				has_authority = auth_corporate
+				FROM = {
+					OR = {
+						is_species_class = Magical_Girl
+						has_country_flag = play_mg_country
+					}
+				}
+			}
+			weight = {
+				weight = 40
+			}
+		}
+	}	
+	propose = {
+		ELAINA_TO_CORP_INSULT_PROPOSE_02 = {
+			trigger = {
+				has_authority = auth_corporate
+				FROM = {
+					OR = {
+						is_species_class = Magical_Girl
+						has_country_flag = play_mg_country
+					}
+				}
+			}
+			weight = {
+				weight = 40
+			}
+		}
+	}
+	accept = {
+		01_INSULT_ACCEPT_FALLEN_EMPIRE_VICTORIKA = {
+			trigger = {
+				is_fallen_empire_victorika = yes
+			}
+			weight = {
+				weight = 10000
+			}
+		}
+		02_INSULT_ACCEPT_FALLEN_EMPIRE_VICTORIKA = {
+			trigger = {
+				is_fallen_empire_victorika = yes
+			}
+			weight = {
+				weight = 10000
+			}
+		}
+	}	
+}

@@ -1,0 +1,219 @@
+edicts_navy_build_speed = {
+	length = 3650 #时长
+	icon = "GFX_mg_edict" #图标
+	#edict_cap_usage = 1 #项目
+	resources = { #资源消耗或者产生
+		category = edicts
+		cost = {
+			influence = 50
+		}
+	}
+
+	modifier = { #修正
+		starbase_shipyard_build_speed_mult = 0.1
+	}
+	potential = { #限制条件
+		has_authority = auth_magical_girl
+	}
+}
+
+edicts_army_bulid_speed = {
+	length = 3650 #时长1
+	icon = "GFX_mg_edict" #图标
+	#edict_cap_usage = 1 #项目
+	resources = { #资源消耗或者产生
+		category = edicts
+		cost = {
+			influence = 50
+		}
+	}
+
+	modifier = { #修正
+		planet_army_build_speed_mult  = 0.1
+	}
+	potential = { #限制条件
+		has_authority = auth_magical_girl
+	}
+}
+
+edicts_officer_drill = {
+	length = 1825 #时长1
+	icon = "GFX_mg_edict" #图标
+	#edict_cap_usage = 1 #项目
+	resources = { #资源消耗或者产生
+		category = edicts
+		cost = {
+			influence = 25
+		}
+	}
+
+	modifier = { #修正
+		#planet_army_build_speed_mult  = 0.1
+	}
+	potential = { #限制条件
+		has_authority = auth_magical_girl
+	}
+}
+
+edicts_space_accelerate = {
+	length = 1825 #时长1
+	icon = "GFX_mg_edict" #图标 
+	#edict_cap_usage = 1 #项目
+	resources = { #资源消耗或者产生
+		category = edicts
+		cost = {
+			influence = 25
+		}
+	}
+
+	modifier = { #修正
+		ship_speed_mult = 0.1
+	}
+	potential = { #限制条件
+		has_authority = auth_magical_girl
+	}
+}
+
+edicts_holy_life = {
+	length = 1825 #时长1
+	icon = "GFX_mg_edict" #图标
+	#edict_cap_usage = 1 #项目
+	resources = { #资源消耗或者产生
+		category = edicts
+		cost = {
+			influence = 25
+		}
+	}
+
+	modifier = { #修正
+		country_war_exhaustion_mult = -1
+		#缺乏宣战花费
+	}
+	potential = { #限制条件
+		has_authority = auth_magical_girl
+	}
+}
+edicts_space_fortress = {
+	length = 1825 #时长1
+	icon = "GFX_mg_edict" #图标
+	#edict_cap_usage = 1 #项目
+	resources = { #资源消耗或者产生
+		category = edicts
+		cost = {
+			influence = 25
+		}
+	}
+
+	modifier = { #修正
+		starbase_building_build_speed_mult = 0.1
+		#starbase_trade_protection_range_add = 
+		#starbase_trade_collection_range_add = 
+		#starbase hp
+	}
+	potential = { #限制条件
+		has_authority = auth_magical_girl
+	}
+}
+edicts_no_run = {
+	length = 1825 #时长1
+	icon = "GFX_mg_edict" #图标
+	#edict_cap_usage = 1 #项目
+	resources = { #资源消耗或者产生
+		category = edicts
+		cost = {
+			influence = 25
+		}
+	}
+
+	modifier = { #修正
+		ship_sensor_range_add = 20
+		ship_weapon_range_mult = 0.5
+		ship_fire_rate_mult = 0.1
+	}
+	potential = { #限制条件
+		has_authority = auth_magical_girl
+	}
+}
+
+edicts_solidarity = {
+	length = 1825 #时长1
+	icon = "GFX_mg_edict" #图标
+	#edict_cap_usage = 1 #项目
+	resources = { #资源消耗或者产生
+		category = edicts
+		cost = {
+			influence = 25
+		}
+	}
+
+	modifier = { #修正
+		planet_jobs_unity_produces_mult = 0.1
+		planet_jobs_influence_produces_mult = 0.1
+	}
+	potential = { #限制条件
+		has_authority = auth_magical_girl
+	}
+}
+
+edicts_food = {
+	length = 1825 #时长1
+	icon = "GFX_mg_edict" #图标
+	#edict_cap_usage = 1 #项目
+	resources = { #资源消耗或者产生
+		category = edicts
+		cost = {
+			influence = 25
+		}
+	}
+
+	modifier = { #修正
+		planet_jobs_food_produces_mult =0.1
+		pop_happiness  = 0.1
+	}
+	potential = { #限制条件
+		has_authority = auth_magical_girl
+	}
+}
+
+edicts_comicon = {
+	length = 1825 #时长1
+	icon = "GFX_mg_edict" #图标
+	#edict_cap_usage = 1 #项目
+	resources = { #资源消耗或者产生
+		category = edicts
+		cost = {
+			influence = 25
+		}
+	}
+
+	modifier = { #修正
+	    planet_jobs_unity_produces_mult = 0.1
+		planet_stability_add = 10
+		planet_amenities_add = 10
+		planet_jobs_produces_mult = 0.05
+	}
+	potential = { #限制条件
+		has_authority = auth_magical_girl
+	}
+}
+
+edicts_pretty_girl_concret = {
+	length = 1825 #时长1
+	icon = "GFX_mg_edict" #图标
+	#edict_cap_usage = 1 #项目
+	resources = { #资源消耗或者产生
+		category = edicts
+		cost = {
+			influence = 25
+		}
+	}
+
+	modifier = { #修正
+	    pop_happiness = 0.1
+		planet_pop_assembly_add = 0.15
+		planet_jobs_produces_mult = -0.05
+	}
+	potential = { #限制条件
+		has_authority = auth_magical_girl
+	}
+}

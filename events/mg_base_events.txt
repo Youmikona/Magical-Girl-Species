@@ -1,0 +1,117 @@
+namespace = mg
+
+#前提
+country_event = {
+	id = mg.0
+	hide_window = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		every_country = {
+			if= {
+				limit = { 
+					has_authority = auth_magical_girl
+				}
+				set_country_flag = play_mg_country
+			}
+		}
+		every_country = {
+			limit = {
+				has_mg_authority = yes
+				is_ai = no
+			} 
+		}
+		#标记
+		set_global_flag = has_mg_mod
+		set_country_flag = is_mg_human_player
+	}
+}
+
+#锁性别
+country_event = {
+	id = mg.1
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		has_mg_authority = yes
+	}
+	is_triggered_only = yes
+	immediate = {
+		every_owned_species = {
+			limit = { 
+				has_mg_traits = yes 
+			}
+			change_species_characteristics = {
+				immortal = yes
+				gender = female
+			}
+		}
+		every_owned_leader = {
+			limit = { 
+				species = {
+					has_mg_traits = yes 
+				}
+			}
+			set_is_female = yes
+		}
+	}
+}
+
+#领袖加特质
+country_event = {
+	id = mg.2
+	is_triggered_only = yes
+	hide_window = yes
+
+	immediate = {
+		every_owned_leader = {
+			limit = {
+				OR = {
+					is_mg_normal_leader = yes
+				}
+				NOR = {
+					has_trait = leader_trait_admiral_mg_1_walker
+					has_trait = leader_trait_general_mg_1_walker
+					has_trait = leader_trait_governor_mg_1_walker
+					has_trait = leader_trait_scientist_mg_1_walker
+					has_trait = leader_trait_ruler_mg_1
+				}
+			}
+			add_ruler_trait = leader_trait_ruler_warshipgirls
+			switch = {
+				trigger = leader_class
+				admiral = { add_trait = leader_trait_admiral_mg_1_walker }
+				general = { add_trait = leader_trait_general_mg_1_walker }
+				governor = { add_trait = leader_trait_governor_mg_1_walker }
+				scientist = { add_trait = leader_trait_scientist_mg_1_walker }
+				ruler = { add_trait = leader_trait_ruler_mg_1 }				
+			}
+		}
+		every_pool_leader = {
+			limit = {
+				OR = {
+					is_mg_normal_leader = yes
+				}
+				NOR = {
+					has_trait = leader_trait_admiral_mg_1_walker
+					has_trait = leader_trait_general_mg_1_walker
+					has_trait = leader_trait_governor_mg_1_walker
+					has_trait = leader_trait_scientist_mg_1_walker
+					has_trait = leader_trait_ruler_mg_1
+				}
+			}
+			add_ruler_trait = leader_trait_ruler_warshipgirls
+			switch = {
+				trigger = leader_class
+				admiral = { add_trait = leader_trait_admiral_mg_1_walker }
+				general = { add_trait = leader_trait_general_mg_1_walker }
+				governor = { add_trait = leader_trait_governor_mg_1_walker }
+				scientist = { add_trait = leader_trait_scientist_mg_1_walker }
+				ruler = { add_trait = leader_trait_ruler_mg_1 }				
+			}
+		}
+	}
+}
+
+#领袖二级特质
+

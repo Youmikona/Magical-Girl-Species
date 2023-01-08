@@ -1,0 +1,4 @@
+MAGICAL_GIRL = { 
+	species_trait_points = 24
+	species_max_traits = 12
+}

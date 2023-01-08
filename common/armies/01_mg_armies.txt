@@ -1,0 +1,193 @@
+mg_defend_army = {
+	defensive = yes
+	is_pop_spawned = yes
+	damage = 20
+	morale = 2.00
+	health = 6
+	morale_damage = 3
+	collateral_damage = 0.5
+	war_exhaustion = 0
+	time = 30
+	pop_limited = yes
+	has_species = yes
+	icon = battle_troops
+	resources = {
+		category = armies
+		cost = {
+			minerals = 200
+			food = 50
+			alloys = 20
+		}
+
+		upkeep = {
+			energy = 2
+			food = 1
+			alloys = 1
+		}
+	}
+	potential = {
+
+		from = {
+			OR = {
+				has_trait = trait_mgmagical_girl
+			}
+		}	
+		owner = { has_authority = auth_magical_girl }
+	}
+}
+
+mg_motorized_troops = {
+	damage = 30
+	has_morale = no
+	morale_damage = 5
+	collateral_damage = 0.5
+	war_exhaustion = 1
+	health = 6
+	time = 360
+	icon = motorized_troops
+	pop_limited = yes
+	prerequisites = { "tech_mg_soc_motorized_troops" }
+
+	resources = {
+		category = armies
+		cost = {
+			minerals = 800
+			food = 100
+			alloys = 50
+		}
+
+		upkeep = {
+			energy = 5
+			food = 2
+			alloys = 2
+		}
+	}
+	potential = {
+		owner = { has_authority = auth_magical_girl }
+		
+	}
+}
+
+mg_summon_spells = {
+	damage = 100
+	has_morale = no
+	morale = 25.00
+	morale_damage = 25
+	collateral_damage = 0.5
+	war_exhaustion = 5.0
+	health = 30
+	pop_limited = yes
+	time = 720
+	icon = summon_spells
+
+	resources = {
+		category = armies
+		cost = {
+			alloys = 250
+			minerals = 1000
+			sr_zro = 1000
+			sr_magic_crystals = 500
+			food = 500
+		}
+
+		upkeep = {
+			energy = 20
+			sr_zro = 5
+			food = 10
+			alloys = 10
+			sr_magic_crystals = 2
+		}
+	}
+	prerequisites = { "tech_mg_soc_summon_spells" }
+	potential = {
+		from = {
+			OR = {
+				has_trait = trait_mgmagical_girl
+			}
+		}	
+		owner = { has_authority = auth_magical_girl }
+	}
+}
+
+mg_heavy_troops = {
+	damage = 100
+	has_morale = no
+	morale_damage = 100
+	collateral_damage = 10
+	war_exhaustion = 10.0
+	health = 1000
+	time = 1800
+	icon = heavy_troops
+
+	resources = {
+		category = armies
+		cost = {
+			alloys = 500
+			minerals = 2000
+			sr_zro = 2000
+			sr_magic_crystals = 1000
+			food = 250
+			sr_light_magic_crystallization = 100
+		}
+
+		upkeep = {
+			energy = 20
+			sr_zro = 6
+			food = 5
+			alloys = 20
+			sr_magic_crystals = 3
+			sr_light_magic_crystallization = 1
+		}
+	}
+	prerequisites = { "tech_mg_soc_heavy_troops" }
+	potential = {
+		from = {
+			OR = {
+				has_trait = trait_mgmagical_girl
+			}
+		}	
+		owner = { has_authority = auth_magical_girl }
+	}
+}
+
+mg_dark_spells_troops = {
+	damage = 1000
+	has_morale = no
+	morale_damage = 1000
+	collateral_damage = 20
+	war_exhaustion = 20
+	health = 500
+	time = 2000
+	icon = dark_spells_troops
+	resources = {
+		category = armies
+		cost = {
+			alloys = 500
+			minerals = 2000
+			sr_zro = 2000
+			sr_magic_crystals = 1000
+			food = 250
+			sr_dark_magic_crystallization = 100
+			sr_dark_matter = 500
+		}
+
+		upkeep = {
+			energy = 50
+			sr_zro = 10
+			food = 10
+			alloys = 30
+			sr_magic_crystals = 3
+			sr_light_magic_crystallization = 1
+			sr_dark_matter = 2
+		}
+	}
+	prerequisites = { "tech_mg_soc_dark_spells_troops" }
+	potential = {
+		from = {
+			OR = {
+				has_trait = trait_mgmagical_girl
+			}
+		}	
+		owner = { has_authority = auth_magical_girl }
+	}
+}

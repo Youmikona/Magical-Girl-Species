@@ -1,0 +1,253 @@
+weapon_component_template = {
+	key = "MG_weapon_X_T1"
+	size = extra_large
+	type = instant
+	color = { 2.0 1.0 1.0 1 }
+	
+	icon = "GFX_MG_weapon_X_T1"
+	icon_frame = 1
+	
+	static_rotation = yes
+	use_ship_kill_target = no
+	
+	damage = { min = 24000 max = 36000 }
+	windup = { min = 10 max = 16 }
+	total_fire_time = 86
+	range = 300.0
+	accuracy = 1.0
+	shield_penetration = 1.0
+	armor_penetration = 1.0
+	tracking = 0.30
+	power = -800
+	
+	resources = {
+		category = ship_components
+		cost = {
+			sr_uf = 150
+			alloys = 200
+		}
+		upkeep = {
+			energy = 2
+			alloys = 1.0
+		}
+	}
+	prerequisites = {
+		
+	}
+	component_set = "MG_weapon_X_T1"
+	projectile_gfx = "uf_lance_406"
+	size_restriction = { uf_star_fortress_2 uf_star_fortress }
+	tags = { weapon_type_energy weapon_type_kinetic weapon_type_sr_uf }
+	ai_tags = { weapon_role_artillery }
+	ai_tag_weight = 0
+    ai_weight = {
+		weight = 200
+		modifier = {
+			factor = 0.0
+			has_monthly_income = { resource = sr_uf value <= 0 }
+		}
+	}
+}
+
+weapon_component_template = {
+	key = "MG_weapon_X_dark_T1"
+	size = extra_large
+	type = instant
+	color = { 2.0 1.0 1.0 1 }
+	
+	icon = "GFX_MG_weapon_X_dark_T1"
+	icon_frame = 1
+	
+	static_rotation = yes
+	use_ship_kill_target = no
+	
+	damage = { min = 24000 max = 36000 }
+	windup = { min = 10 max = 16 }
+	total_fire_time = 86
+	range = 300.0
+	accuracy = 1.0
+	shield_penetration = 1.0
+	armor_penetration = 1.0
+	tracking = 0.30
+	power = -800
+	
+	resources = {
+		category = ship_components
+		cost = {
+			sr_uf = 150
+			alloys = 200
+		}
+		upkeep = {
+			energy = 2
+			alloys = 1.0
+		}
+	}
+	prerequisites = {
+		
+	}
+	component_set = "MG_weapon_X_dark_T1"
+	projectile_gfx = "uf_lance_406"
+	size_restriction = { uf_star_fortress_2 uf_star_fortress }
+	tags = { weapon_type_energy weapon_type_kinetic weapon_type_sr_uf }
+	ai_tags = { weapon_role_artillery }
+	ai_tag_weight = 0
+    ai_weight = {
+		weight = 200
+		modifier = {
+			factor = 0.0
+			has_monthly_income = { resource = sr_uf value <= 0 }
+		}
+	}
+}
+weapon_component_template = {
+	key = "MG_weapon_X_dark_T2"
+	size = extra_large
+	type = instant
+	color = { 2.0 1.0 1.0 1 }
+	
+	icon = "GFX_MG_weapon_X_dark_T2"
+	icon_frame = 1
+	
+	static_rotation = yes
+	use_ship_kill_target = no
+	
+	damage = { min = 24000 max = 36000 }
+	windup = { min = 10 max = 16 }
+	total_fire_time = 86
+	range = 300.0
+	accuracy = 1.0
+	shield_penetration = 1.0
+	armor_penetration = 1.0
+	tracking = 0.30
+	power = -800
+	
+	resources = {
+		category = ship_components
+		cost = {
+			sr_uf = 150
+			alloys = 200
+		}
+		upkeep = {
+			energy = 2
+			alloys = 1.0
+		}
+	}
+	prerequisites = {
+		
+	}
+	component_set = "MG_weapon_X_dark_T2"
+	projectile_gfx = "uf_lance_406"
+	size_restriction = { uf_star_fortress_2 uf_star_fortress }
+	tags = { weapon_type_energy weapon_type_kinetic weapon_type_sr_uf }
+	ai_tags = { weapon_role_artillery }
+	ai_tag_weight = 0
+    ai_weight = {
+		weight = 200
+		modifier = {
+			factor = 0.0
+			has_monthly_income = { resource = sr_uf value <= 0 }
+		}
+	}
+}
+
+
+weapon_component_template = {
+	key = "MG_weapon_X_light_T1"
+	size = extra_large
+	type = instant
+	color = { 2.0 1.0 1.0 1 }
+	
+	icon = "GFX_MG_weapon_X_light_T1"
+	icon_frame = 1
+	
+	static_rotation = yes
+	use_ship_kill_target = no
+	
+	damage = { min = 24000 max = 36000 }
+	windup = { min = 10 max = 16 }
+	total_fire_time = 86
+	range = 300.0
+	accuracy = 1.0
+	shield_penetration = 1.0
+	armor_penetration = 1.0
+	tracking = 0.30
+	power = -800
+	
+	resources = {
+		category = ship_components
+		cost = {
+			sr_uf = 150
+			alloys = 200
+		}
+		upkeep = {
+			energy = 2
+			alloys = 1.0
+		}
+	}
+	prerequisites = {
+		
+	}
+	component_set = "MG_weapon_X_light_T1"
+	projectile_gfx = "uf_lance_406"
+	size_restriction = { uf_star_fortress_2 uf_star_fortress }
+	tags = { weapon_type_energy weapon_type_kinetic weapon_type_sr_uf }
+	ai_tags = { weapon_role_artillery }
+	ai_tag_weight = 0
+    ai_weight = {
+		weight = 200
+		modifier = {
+			factor = 0.0
+			has_monthly_income = { resource = sr_uf value <= 0 }
+		}
+	}
+}
+weapon_component_template = {
+	key = "MG_weapon_X_light_T2"
+	size = extra_large
+	type = instant
+	color = { 2.0 1.0 1.0 1 }
+	
+	icon = "GFX_MG_weapon_X_light_T2"
+	icon_frame = 1
+	
+	static_rotation = yes
+	use_ship_kill_target = no
+	
+	damage = { min = 24000 max = 36000 }
+	windup = { min = 10 max = 16 }
+	total_fire_time = 86
+	range = 300.0
+	accuracy = 1.0
+	shield_penetration = 1.0
+	armor_penetration = 1.0
+	tracking = 0.30
+	power = -800
+	
+	resources = {
+		category = ship_components
+		cost = {
+			sr_uf = 150
+			alloys = 200
+		}
+		upkeep = {
+			energy = 2
+			alloys = 1.0
+		}
+	}
+	prerequisites = {
+		
+	}
+	component_set = "MG_weapon_X_light_T2"
+	projectile_gfx = "uf_lance_406"
+	size_restriction = { uf_star_fortress_2 uf_star_fortress }
+	tags = { weapon_type_energy weapon_type_kinetic weapon_type_sr_uf }
+	ai_tags = { weapon_role_artillery }
+	ai_tag_weight = 0
+    ai_weight = {
+		weight = 200
+		modifier = {
+			factor = 0.0
+			has_monthly_income = { resource = sr_uf value <= 0 }
+		}
+	}
+}

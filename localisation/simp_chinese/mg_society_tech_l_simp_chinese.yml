@@ -1,0 +1,194 @@
+﻿l_simp_chinese:
+#base
+#魔法少女联合
+tech_mg_soc_union_girl:0 "魔法少女联合"
+tech_mg_soc_union_girl_desc:0 "曾经的魔法少女们因为黑魔法和白魔法的的正义性而内战。后来，内战爆发了。战争结束后，魔法少女们终于意识到只有联合起来，相互合作，才能够探索这广袤的群星。在星海之下，我们彼此的不同之处是显得如此渺小，乃至可以忽略。"
+#文学少女
+tech_mg_soc_literary_girl:0 "文学少女养成记前篇"
+tech_mg_soc_literary_girl_desc:0 "内在修养与美丽的外表同样重要。不！是更重要啦"
+tech_mg_soc_literary_girl_1:0 "文学少女养成记中篇"
+tech_mg_soc_literary_girl_1_desc:0 "内在修养与美丽的外表同样重要。不！是更重要啦"
+tech_mg_soc_literary_girl_2:0 "文学少女养成记最终篇"
+tech_mg_soc_literary_girl_2_desc:0 "内在修养与美丽的外表同样重要。不！是更重要啦"
+#魔法美食中心
+tech_mg_soc_food_magic_circle:0 "魔法美食中心"
+tech_mg_soc_food_magic_circle_desc:0 "一所超大的美食饭堂，数以万计的摊位上摆满了琳琅满目的珍馐"
+#创生真言
+tech_mg_soc_creation_spells:0 "创生真言"
+tech_mg_soc_creation_spells_desc:0 "我们有把其他物种变成我们姐妹的创生之术,创生的时候我们利用的仅仅是外星贱种的有机物质,仅此而已,它们的知性会被抹除,而我们将会创造出一个新的知性姐妹"
+#自律法术
+tech_mg_soc_auto_spells:0 "自律法术"
+tech_mg_soc_auto_spells_desc:0 "自律法术能够让建筑自动生产资源，这样姐妹们就可以投身更重要的岗位，而无需在这些重复的工作上浪费时间"
+#时间法术
+tech_mg_soc_time_spells:0 "时间法术"
+tech_mg_soc_time_spells_desc:0 "嘿，时间停止系列！啊不，是，是时间加速啦"
+#魔法网络
+tech_mg_soc_magiciacl_network:0 "魔法网络"
+tech_mg_soc_magiciacl_network_desc:0 "提供比灵能网络更加高效的魔法少女间的交流网络"
+#次元通讯网络
+tech_mg_soc_dimensions_of_the_communication_network:0 "次元通讯网络"
+tech_mg_soc_dimensions_of_the_communication_network_desc:0 "利用时间法术的改良实现通信时间无限短，进行跨次元多维通讯，发现了很多新的文明，并与我们进行交流。"
+#魔法少女游戏厅
+tech_mg_soc_geme:0 "魔法少女游戏厅"
+tech_mg_soc_geme_desc:0 "游戏厅里的游戏琳琅满目，在家里可玩不到这么多。有了游戏厅，再也不用担心会变宅女了！"
+tech_mg_soc_geme_edicts:0 "解锁建筑:§E魔法少女游戏厅§!"
+tech_mg_soc_geme_1:0 "魔法少女游戏中心"
+tech_mg_soc_geme_1_desc:0 "游戏厅为魔法少女提供了娱乐空间，巨大的大厅内部坐落着数百乃至数千台大型游戏机。常常有人会在里面呆上数十个星期还不愿出来。"
+tech_mg_soc_geme_1_edicts:0 "解锁建筑升级:§E魔法少女游戏中心§!"
+#女皇圣坛
+tech_mg_soc_holy_queen_bud:0 "女皇圣坛"
+tech_mg_soc_holy_queen_bud_desc:0 "能够侍奉伟大的魔法少女女皇，是每一位公民的荣幸！"
+tech_mg_soc_holy_queen_bud_edicts:0 "解锁建筑:§E女皇圣坛§!"
+tech_mg_soc_holy_queen_bud_1:0 "神圣女皇圣坛"
+tech_mg_soc_holy_queen_bud_1_desc:0 "伟大的神圣女王定能带领我们向未来前进"
+tech_mg_soc_holy_queen_bud_1_edicts:0 "解锁建筑升级:§E神圣女皇圣坛§!"
+#魔法管理中心
+tech_mg_soc_magical_government:0 "魔法管理中心"
+tech_mg_soc_magical_government_desc:0 "随着我们的扩张，需要有更多的人员帮助我们管理舰队的建设与后勤。毕竟，一支指挥系统混乱的舰队可没有丝毫的战斗力。"
+tech_mg_soc_magical_government_edicts:0 "解锁建筑:§E魔法管理中心§!"
+tech_mg_soc_magical_government_1:0 "魔法管理总站"
+tech_mg_soc_magical_government_1_desc:0 "在魔法中心上班的后勤人员是保证我们舰队有战斗力的重要人员，这些人的重要性丝毫不比舰队士兵更低。"
+tech_mg_soc_magical_government_1_edicts:0 "解锁建筑升级:§E魔法管理总站§!"
+#理事会改革 #飞升前置
+tech_mg_soc_council_reform:0 "理事会改革"
+tech_mg_soc_council_reform_desc:0 "自从内战结束之后，理事会制度一直是帝国政体的核心。但是发展离不开变革，在新时代，我们有必要改革理事会以让其更高效的运作。"
+#魔法农业应用
+tech_mg_soc_magical_agricultural_applications:0 "魔法农业应用"
+tech_mg_soc_magical_agricultural_applications_desc:0 "利用魔法可以改变农作物的基因让它们增产，大伙儿就再也不用饿肚子了！虽说如此，可不许浪费食物哦。"
+#魔法少女婚姻法
+tech_mg_soc_marriage_law:0 "魔法少女婚姻法"
+tech_mg_soc_marriage_law_desc:0 "由于我们的种族大量与魔物娘或者外星种族结婚,导致魔力下降，人口出生率降低，我们必须做出限制。"
+#魔法少女公共基础设施建设
+tech_mg_soc_magical_infrastructure:0 "魔法少女公共基础设施建设"
+tech_mg_soc_magical_infrastructure_desc:0 "一些公共魔法娱乐设被布置在魔法少女的社区之间，能有效提高公民们的幸福度和舒适感。"
+#魔法科研部门
+tech_mg_soc_magical_research_department:0 "魔法科研部门"
+tech_mg_soc_magical_research_department_desc:0 "增设魔法科研部门可以让我们综合各个领域的知识，并且增加科研人员的激情，这能有效的提高我们的科研水平。"
+#魔法少女殖民地快速发展协议
+tech_mg_soc_magical_development:0 "魔法少女殖民地快速发展协议"
+tech_mg_soc_magical_development_desc:0 "各个殖民地之间情况各不相同。快速发展协议将允许各个地方根据星球的特点得出并采取最有效的发展策略。"
+tech_mg_soc_magical_development_1:0 "魔法少女殖民地快速发展协议"
+tech_mg_soc_magical_development_1_desc:0 "给予各个殖民地更高的自主权将会有效的激发该殖民地的主动性。"
+tech_mg_soc_magical_development_2:0 "魔法少女殖民地快速发展协议"
+tech_mg_soc_magical_development_2_desc:0 "随着我们技术条件的进步，现在的我们可以通过将整个帝国所有殖民地的信息综合分析，为单独的殖民地分配最适合的任务。"
+#魔法少女机动部队
+tech_mg_soc_motorized_troops:0 "魔法少女机动部队"
+tech_mg_soc_motorized_troops_desc:0 "快速镇压外星种族和组建本土防御的利器，但是由于训练较为草率，导致战斗力较为低下。"
+tech_mg_soc_motorized_troops_edicts:0 "解锁陆军类型:§E魔法少女机动部队§!"
+#2
+#心灵法术
+tech_mg_soc_psychological_spells:0 "心灵法术"
+tech_mg_soc_psychological_spells_desc:0 "心智影响中心往往建立在不为人知的暗处，在这里，我们能在犯罪发生之前察觉到并加以制止"
+#魔法城堡 #建筑
+tech_mg_soc_magic_castle:0 "魔法城堡"
+tech_mg_soc_magic_castle_desc:0 "利用黑魔法所建造的悬空城堡。无数负责管理工作的文职魔法少女不断进进出出，保证着魔法少女帝国的高效率运行。也是日常魔法少女们的摸鱼场所。虚，小声点，不要打扰到姐妹们玩游戏了！"
+tech_mg_soc_magic_castle_edicts:0 "解锁建筑:§E魔法城堡§!"
+tech_mg_soc_magic_castle_1:0 "大型魔法城堡"
+tech_mg_soc_magic_castle_1_desc:0 "利用黑魔法所建造的悬空城堡。无数负责管理工作的文职魔法少女不断进进出出，保证着魔法少女帝国的高效率运行。也是日常魔法少女们的摸鱼场所。虚，小声点，不要打扰到姐妹们玩游戏了！"
+tech_mg_soc_magic_castle_1_edicts:0 "解锁建筑升级:§E大型魔法城堡§!"
+#魔法少女游乐场
+tech_mg_soc_playground:0 "魔法少女游乐场"
+tech_mg_soc_playground_desc:0 "这是一座供魔法少女们玩乐的巨型游乐场，内部有着各种娱乐设施。摩天轮，过山车，海盗船。还有美食街，全息影院等等。能够吸引来自银河各处的魔法少女前来游玩。"
+tech_mg_soc_playground_edicts:0 "解锁建筑:§E魔法少女游乐场§!"
+#魔法少女商业区
+tech_mg_soc_downtown:0 "魔法少女商业区"
+tech_mg_soc_downtown_desc:0 "一块巨大的商业区划，是整颗星球上著名的商业中心。从最遥远的偏远星球特产到首都生产的奢侈品应有尽有。每当下班时，这里总是魔法少女们最喜欢逛街的地方。"
+tech_mg_soc_downtown_edicts:0 "解锁建筑:§E魔法少女商业区§!"
+tech_mg_soc_downtown_1:0 "大型魔法少女商业区"
+tech_mg_soc_downtown_1_desc:0 "预留"
+tech_mg_soc_downtown_1_edicts:0 "解锁建筑升级:§E大型魔法少女商业区§!"
+#魔法堡垒
+tech_mg_soc_fortress:0 "魔法堡垒"
+tech_mg_soc_fortress_desc:0 "我们必须召集那些善于利用魔法战斗的魔法少女到堡垒内训练，这样她们才能够发挥出自己的战斗天赋。这些战斗姐妹们能够极大地充实魔法少女们的军队力量。"
+tech_mg_soc_fortress_edicts:0 "解锁建筑:§E魔法堡垒§!"
+tech_mg_soc_fortress_1:0 "大型魔法堡垒"
+tech_mg_soc_fortress_1_desc:0 "预留"
+tech_mg_soc_fortress_1_edicts:0 "解锁建筑升级:§E大型魔法堡垒§!"
+#召唤法术
+tech_mg_soc_summon_spells:0 "召唤法术"
+tech_mg_soc_summon_spells_desc:0 "自从异世界被次元通信网络证明存在后，我们便能够通过召唤法术从异世界里召唤那些作战能力极强的生物来到我们的世界。只要稍加调教，这些异世界的生物便能够被编入我们的作战序列当中。"
+tech_mg_soc_summon_spells_edicts:0 "解锁陆军类型:§E魔法少女召唤师部队§!"
+#治愈法术
+tech_mg_soc_heal_spells:0 "治愈法术"
+tech_mg_soc_heal_spells_desc:0 "治愈法术不仅仅能够被用到生物上，还能被应用在我们的军舰和装备上。至于原因嘛，那可是秘密啦！才不会告诉你呢，哼。"
+#魔法森林科研魔法使
+tech_mg_soc_forest_devil:0 "魔法森林科研魔法使"
+tech_mg_soc_forest_devil_desc:0 "魔法森林科研魔法使"
+#红魔馆
+tech_mg_soc_red:0 "红魔馆"
+tech_mg_soc_red_desc:0 "红魔馆"
+#魔法少女外交团队
+tech_mg_soc_diplomatic_team:0 "魔法少女外交团队"
+tech_mg_soc_diplomatic_team_desc:0 "当一个可爱的美少女坐在谈判桌的对面时，无论对方提出什么要求你都是绝对拒绝不了的！倒不如说，你会恨不得想要献上一切呢……嘻嘻。"
+#魔法少女基本法
+tech_mg_soc_base_law:0 "魔法少女基本法"
+tech_mg_soc_base_law_desc:0 "魔法少女基本法规定了每个优秀的魔法少女应尽的义务与责任"
+#3
+#魔法学院
+tech_mg_soc_magic_school:0 "魔法学院"
+tech_mg_soc_magic_school_desc:0 "占地面积相当于一个大型城市群。包括了包含了数十所大学与数百所小学、初中及高中 ，还有一千个以上的大小研究机构，还有服务学生的商业区，美食街，工业区等等。"
+tech_mg_soc_magic_school_edicts:0 "解锁建筑:§E魔法学院§!"
+#魔法少女研究中心
+tech_mg_soc_research_center:0 "魔法少女研究中心"
+tech_mg_soc_research_center_desc:0 "我们可不能让各个魔法研究所各自为政，这样的效率也太低下了。建设一个统一的魔法少女研究所能够有效地协调各个实验室之间展开合作与交流，并且还能够鼓励研究所之间的竞争。不许偷懒！我在看着你呢！"
+tech_mg_soc_research_center_edicts:0 "解锁建筑:§E魔法少女研究中心§!"
+#光明面魔法
+tech_mg_soc_light_magic:0 "光明面魔法"
+tech_mg_soc_light_magic_desc:0 "光明面魔法是在历史上很长一段时期里是魔法少女社会标准的使用魔法。光明面魔法的术式一直到今天都是所有魔法领域内最多的术式。光明面魔法之所以如此受到欢迎是因为其具有极其广泛的适用性。小到烹饪锅中食物，大到用能聊摧毁一座山脉，你总是能在光明面魔法中找到自己需要的部分。抛开这一优势不谈，光明面魔法在玄学领域有其特殊功效，历史上经常出现依靠普通的光明面魔法奇迹般逆转局势的故事，就好像有着特殊的幸运加护一般。"
+tech_mg_soc_light_magic_edicts:0 "§E解锁光明面魔法的后续科技§"
+#黑暗面魔法
+tech_mg_soc_dark_magic:0 "黑暗面魔法"
+tech_mg_soc_dark_magic_desc:0 "黑暗面魔法长久以来在魔法少女的历史中被视作是禁忌学识。当然那已经是不知多少年前的事情了。黑暗面魔法之所以被视为是禁忌，是因为虽然它将赋予使用者极为强大的力量，甚至能够帮助使用者打破自然规律的限制去完成一些原本在我们这个宇宙中不可能完成的成就。但是它总会在某一时刻令使用者付出一些难以割舍的代价……"
+tech_mg_soc_dark_magic_edicts:0 "§E解锁黑暗面魔法的后续科技§"
+#魔法少女工业生产部
+tech_mg_soc_production_department:0 "魔法少女工业生产部"
+tech_mg_soc_production_department_desc:0 "随着魔法少女信息收集与统计能力的进步，我们完全有能力将整个星球的魔法生产工厂的数据汇总起来，采用精密的算法得出生产的最优解。"
+tech_mg_soc_production_department_edicts:0 "解锁建筑:§E魔法少女工业生产部§!"
+#魔法少女魔力中枢
+tech_mg_soc_magic_center:0 "魔法少女魔力中枢"
+tech_mg_soc_production_department_desc:0 "随着魔法少女信息收集与统计能力的进步，我们完全有能力将整个星球的魔法生产工厂的数据汇总起来，采用精密的算法得出生产的最优解。"
+#魔法少女政府改革
+tech_mg_soc_government_reform:0 "魔法少女政府改革"
+tech_mg_soc_government_reform_desc:0 "随着魔法少女帝国的扩张，我们原先的政府机关显得有些不合时宜了。管理一个庞大的星际帝国从不是一件容易时。帝国各项事务复杂繁多，各个星球的情况不尽相同，难以统一而论。现在是时候对帝国的行政机构进行改革了！"
+tech_mg_soc_government_reform_edicts:0 "§E我们将决定谁带领我们走向未来!§"
+#魔法少女重装部队
+tech_mg_soc_heavy_troops:0 "魔法少女重装部队"
+tech_mg_soc_heavy_troops_desc:0 "大量使用魔导器具，光魔法结晶是魔法少女常规作战的巅峰部队"
+tech_mg_soc_heavy_troops_edicts:0 "解锁陆军类型:§E魔法少女重装部队§!"
+#魔法少女咒怨打击团
+tech_mg_soc_dark_spells_troops:0 "魔法少女咒怨打击团"
+tech_mg_soc_dark_spells_troops_desc:0 "原本是女皇的亲卫队，但是帝国改革后女皇上台，黑魔法全面开放，让我们得以训练，其是使用黑魔法结晶的强大部队，可以远程对敌人造成毁灭性打击"
+tech_mg_soc_dark_spells_troops_edicts:0 "解锁陆军类型:§E魔法少女咒怨打击团§!"
+#二阶舰船配件
+#第一真言
+tech_mg_soc_light_first_spells:0 "第一真言"
+tech_mg_soc_light_first_spells_desc:0 "光魔法的巅峰，用光明，去毁灭一切。"
+tech_mg_soc_light_first_spells_edicts:0 "解锁舰船武器:§E第一真言§!"
+#常暗真言
+tech_mg_soc_dark_first_spells:0 "常暗真言"
+tech_mg_soc_dark_first_spells_desc:0 "无数死去生灵的怨恨汇聚成的力量，黑暗的强大力量甚至可以撕碎空间对敌人的舰船造成扭曲。"
+tech_mg_soc_dark_first_spells_edicts:0 "解锁舰船武器:§E常暗真言§!"
+#光辉真言
+tech_mg_soc_light_shine_spells:0 "光辉真言"
+tech_mg_soc_light_shine_spells_desc:0 "预留"
+tech_mg_soc_light_shine_spells_edicts:0 "解锁舰船武器:§E光辉真言§!"
+#禁忌真言
+tech_mg_soc_dark_ban_spells:0 "禁忌真言"
+tech_mg_soc_dark_ban_spells_desc:0 "强大的法术，拥有超越宇宙规律的力量，但它也需要付出巨大的代价。"
+tech_mg_soc_dark_ban_spells_edicts:0 "解锁舰船武器:§E禁忌真言§!"
+#咒怨真言
+tech_mg_soc_dark_bitter_spells:0 "咒怨真言"
+tech_mg_soc_dark_bitter_spells_desc:0 "本来一种需要献祭生命的一种强大法术，通过扭曲时间来毁灭一切，但是我们提纯黑魔法结晶后我们可利用其安全的使用。"
+tech_mg_soc_dark_bitter_spells_edicts:0 "解锁舰船武器:§E咒怨真言§!"
+#普世真言
+tech_mg_soc_light_all_spells:0 "普世真言"
+tech_mg_soc_light_all_spells_desc:0 "我们用光明去普照大地，用光辉去毁灭一切。"
+tech_mg_soc_light_all_spells_edicts:0 "解锁舰船武器:§E普世真言§!"
+#光明之盾
+tech_mg_soc_light_shield:0 "光明之盾"
+tech_mg_soc_light_shield_desc:0 "光明的力量将会成为我们最可靠的盾牌！任何阴暗污秽之物，都休想穿透光明之盾的防线！"
+tech_mg_soc_light_shield_edicts:0 "解锁舰船护盾:§E光明之盾§!"
+#无尽漩涡
+tech_mg_soc_dark_shield:0 "无尽漩涡"
+tech_mg_soc_dark_shield_desc:0 "哪怕是足以摧毁一块星球大陆的攻击都无法伤到我们分毫，无尽的黑暗帮我们吸收一切伤害！"
+tech_mg_soc_dark_shield_edicts:0 "解锁舰船护盾:§E无尽漩涡§!"

@@ -1,0 +1,539 @@
+#美食制作者
+mg_food_worker = {
+	category = specialist
+	condition_string = SPECIALIST_JOB_TRIGGER
+	building_icon = building_capital
+	clothes_texture_index = 1
+
+	possible_pre_triggers = {
+		has_owner = yes
+		is_being_purged = no
+		is_being_assimilated = no
+		is_sapient = yes
+	}
+
+	possible = {
+		species = {
+			OR = {
+				has_trait = trait_mgmagical_girl
+			}
+		}
+	}
+
+	resources = {
+		category = planet_entertainers
+		produces = {
+			food = 25
+		}
+		upkeep = {
+			consumer_goods = 2
+			food = 2
+			energy = 1
+		}
+	}
+    weight = {
+		weight = 20
+	}
+}
+
+#电竞选手
+mg_esports_player = {
+	category = specialist
+	condition_string = SPECIALIST_JOB_TRIGGER
+	building_icon = building_capital
+	clothes_texture_index = 1
+
+	possible_pre_triggers = {
+		has_owner = yes
+		is_being_purged = no
+		is_being_assimilated = no
+		is_sapient = yes
+	}
+
+	possible = {
+		species = {
+			OR = {
+				has_trait = trait_mgmagical_girl
+			}
+		}
+	}
+
+	resources = {
+		category = planet_entertainers
+		produces = {
+			unity = 20
+		}
+		upkeep = {
+			consumer_goods = 2
+			energy = 2
+			food = 2
+		}
+	}
+
+	planet_modifier = {
+		planet_amenities_add = 5
+	}
+    weight = {
+		weight = 50		
+	}
+}
+
+#主教
+mg_priest = {
+	category = specialist
+	condition_string = SPECIALIST_JOB_TRIGGER
+	building_icon = building_capital
+	clothes_texture_index = 1
+
+	possible_pre_triggers = {
+		has_owner = yes
+		is_being_purged = no
+		is_being_assimilated = no
+		is_sapient = yes
+	}
+
+	possible = {
+		species = {
+			OR = {
+				has_trait = trait_mgmagical_girl
+			}
+		}
+	}
+
+	resources = {
+		category = planet_entertainers
+		produces = {
+			unity = 20
+		}
+		upkeep = {
+			consumer_goods = 2
+			food = 2
+			energy = 2
+		}
+	}
+
+	planet_modifier = {
+		planet_amenities_add = 5
+	}
+    weight = {
+		weight = 50		
+	}
+}
+
+#后勤专家
+mg_logistics_specialist = {
+	category = specialist
+	condition_string = SPECIALIST_JOB_TRIGGER
+	building_icon = building_capital
+	clothes_texture_index = 1
+
+	possible_pre_triggers = {
+		has_owner = yes
+		is_being_purged = no
+		is_being_assimilated = no
+		is_sapient = yes
+	}
+
+	possible = {
+		species = {
+			OR = {
+				has_trait = trait_mgmagical_girl
+			}
+		}
+	}
+
+	resources = {
+		category = planet_entertainers
+		produces = {
+			
+		}
+		upkeep = {
+			consumer_goods = 3
+			food = 5
+			energy = 15
+		}
+	}
+
+	planet_modifier = {
+		pop_defense_armies_add = 5
+	}
+	country_modifier = {
+		country_naval_cap_add = 30
+	}
+    weight = {
+		weight = 50		
+	}
+}
+
+#商业区售货员
+mg_salesperson = {
+	category = specialist
+	condition_string = SPECIALIST_JOB_TRIGGER
+	building_icon = building_capital
+	clothes_texture_index = 1
+
+	possible_pre_triggers = {
+		has_owner = yes
+		is_being_purged = no
+		is_being_assimilated = no
+		is_sapient = yes
+	}
+
+	possible = {
+		species = {
+			OR = {
+				has_trait = trait_mgmagical_girl
+			}
+		}
+	}
+
+	resources = {
+		category = planet_entertainers
+		produces = {
+			consumer_goods = 20
+			energy = 25
+		}
+		upkeep = {
+			consumer_goods = 2
+			food = 2
+			energy =5
+		}
+	}
+
+	planet_modifier = {
+		trade_value_add = 10
+	}
+    weight = {
+		weight = 50		
+	}
+}
+
+#精英学员
+mg_student = {
+	category = specialist
+	condition_string = SPECIALIST_JOB_TRIGGER
+	building_icon = building_capital
+	clothes_texture_index = 1
+
+	possible_pre_triggers = {
+		has_owner = yes
+		is_being_purged = no
+		is_being_assimilated = no
+		is_sapient = yes
+	}
+
+	possible = {
+		species = {
+			OR = {
+				has_trait = trait_mgmagical_girl
+			}
+		}
+	}
+
+	resources = {
+		category = planet_entertainers
+		produces = {
+			physics_research = 20
+			engineering_research = 20
+			society_research = 20
+		}
+		upkeep = {
+			consumer_goods = 2
+			food = 2
+			energy = 5
+		}
+	}
+    weight = {
+		weight = 50		
+	}
+}
+
+#魔法泽洛收集者
+mg_zro_specialist = {
+	category = specialist
+	condition_string = SPECIALIST_JOB_TRIGGER
+	building_icon = building_capital
+	clothes_texture_index = 1
+
+	possible_pre_triggers = {
+		has_owner = yes
+		is_being_purged = no
+		is_being_assimilated = no
+		is_sapient = yes
+	}
+
+	possible = {
+		species = {
+			OR = {
+				has_trait = trait_mgmagical_girl
+			}
+		}
+	}
+
+	resources = {
+		category = planet_entertainers
+		produces = {
+			sr_zro = 30
+		}
+		upkeep = {
+			consumer_goods = 2
+			food = 2
+			energy = 30
+			minerals = 10
+		}
+	}
+    weight = {
+		weight = 50		
+	}
+}
+
+#魔法源晶合成者
+mg_magic_crystals_specialist = {
+	category = specialist
+	condition_string = SPECIALIST_JOB_TRIGGER
+	building_icon = building_capital
+	clothes_texture_index = 1
+
+	possible_pre_triggers = {
+		has_owner = yes
+		is_being_purged = no
+		is_being_assimilated = no
+		is_sapient = yes
+	}
+
+	possible = {
+		species = {
+			OR = {
+				has_trait = trait_mgmagical_girl
+			}
+		}
+	}
+
+	resources = {
+		category = planet_entertainers
+		produces = {
+			sr_magic_crystals = 10
+		}
+		upkeep = {
+			consumer_goods = 2
+			food = 2
+			sr_zro = 15
+			energy = 40
+			minerals = 20
+		}
+	}
+    weight = {
+		weight = 50		
+	}
+}
+
+#光魔法结晶合成者
+mg_light_magic_crystallization_specialist = {
+	category = specialist
+	condition_string = SPECIALIST_JOB_TRIGGER
+	building_icon = building_capital
+	clothes_texture_index = 1
+
+	possible_pre_triggers = {
+		has_owner = yes
+		is_being_purged = no
+		is_being_assimilated = no
+		is_sapient = yes
+	}
+
+	possible = {
+		species = {
+			OR = {
+				has_trait = trait_mgmagical_girl
+			}
+		}
+	}
+
+	resources = {
+		category = planet_entertainers
+		produces = {
+			sr_light_magic_crystallization = 5
+		}
+		upkeep = {
+			consumer_goods = 2
+			food = 2
+			sr_magic_crystals = 10
+			sr_zro = 15
+			energy = 50
+			minerals = 20
+		}
+	}
+    weight = {
+		weight = 50		
+	}
+}
+
+#暗魔法结晶合成者
+mg_dark_magic_crystallization_specialist = {
+	category = specialist
+	condition_string = SPECIALIST_JOB_TRIGGER
+	building_icon = building_capital
+	clothes_texture_index = 1
+
+	possible_pre_triggers = {
+		has_owner = yes
+		is_being_purged = no
+		is_being_assimilated = no
+		is_sapient = yes
+	}
+
+	possible = {
+		species = {
+			OR = {
+				has_trait = trait_mgmagical_girl
+			}
+		}
+	}
+
+	resources = {
+		category = planet_entertainers
+		produces = {
+			sr_dark_magic_crystallization = 5
+		}
+		upkeep = {
+			consumer_goods = 2
+			food = 2
+			sr_magic_crystals = 15
+			sr_zro = 18
+			energy = 60
+			minerals = 25
+			sr_dark_matter = 1
+			volatile_motes = 2
+			exotic_gases = 2
+			rare_crystals = 2
+		}
+	}
+    weight = {
+		weight = 50		
+	}
+}
+
+#魔法研究专家
+mg_research_specialist = {
+	category = specialist
+	condition_string = SPECIALIST_JOB_TRIGGER
+	building_icon = building_capital
+	clothes_texture_index = 1
+
+	possible_pre_triggers = {
+		has_owner = yes
+		is_being_purged = no
+		is_being_assimilated = no
+		is_sapient = yes
+	}
+
+	possible = {
+		species = {
+			OR = {
+				has_trait = trait_mgmagical_girl
+			}
+		}
+	}
+
+	resources = {
+		category = planet_entertainers
+		produces = {
+			physics_research = 30
+			engineering_research = 30
+			society_research = 30
+		}
+		upkeep = {
+			consumer_goods = 4
+			food = 2
+			energy = 5
+		}
+	}
+    weight = {
+		weight = 50		
+	}
+}
+
+#魔法合金转化者
+mg_alloy_specialist = {
+	category = specialist
+	condition_string = SPECIALIST_JOB_TRIGGER
+	building_icon = building_capital
+	clothes_texture_index = 1
+
+	possible_pre_triggers = {
+		has_owner = yes
+		is_being_purged = no
+		is_being_assimilated = no
+		is_sapient = yes
+	}
+
+	possible = {
+		species = {
+			OR = {
+				has_trait = trait_mgmagical_girl
+			}
+		}
+	}
+
+	resources = {
+		category = planet_entertainers
+		produces = {
+			alloys  = 150
+			consumer_goods = 75
+		}
+		upkeep = {
+			consumer_goods = 4
+			minerals = 50
+			food = 2
+			sr_dark_magic_crystallization = 1
+		}
+	}
+    weight = {
+		weight = 50		
+	}
+}
+
+#魔法稀有资源转化者
+mg_rare_specialist = {
+	category = specialist
+	condition_string = SPECIALIST_JOB_TRIGGER
+	building_icon = building_capital
+	clothes_texture_index = 1
+	icon = entertainer
+
+	possible_pre_triggers = {
+		has_owner = yes
+		is_being_purged = no
+		is_being_assimilated = no
+		is_sapient = yes
+	}
+
+	possible = {
+		species = {
+			OR = {
+				has_trait = trait_mgmagical_girl
+			}
+		}
+	}
+
+	resources = {
+		category = planet_entertainers
+		produces = {
+			volatile_motes = 20
+			exotic_gases = 20
+			rare_crystals = 20
+			sr_living_metal = 20
+			sr_zro = 20
+			sr_dark_matter= 20
+		}
+		upkeep = {
+			consumer_goods = 4
+			minerals = 75
+			food = 2
+			sr_dark_magic_crystallization = 1
+		}
+	}
+    weight = {
+		weight = 50	
+	}
+}

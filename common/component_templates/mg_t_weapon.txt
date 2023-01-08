@@ -1,0 +1,248 @@
+weapon_component_template = {
+	key = "MG_weapon_T_T1"
+	size = titanic
+	entity = "invisible_turret_entity"
+	type = instant
+	
+	
+	icon = "GFX_MG_weapon_T_T1"
+	icon_frame = 1
+	
+	min_range = 20.0
+	firing_arc = 30.0
+	static_rotation = yes
+	prio_projectile = yes
+	
+	damage = { min = 1000000 max = 5000000 }
+	windup = { min = 30 max = 75 }
+	total_fire_time = 250
+	range = 500.0
+	accuracy = 1.00
+	shield_penetration = 1.5
+	armor_penetration = 1.5
+	tracking = 1.00
+	power = -8000000
+	
+	prerequisites = { 
+
+	 }
+	component_set = "MG_weapon_T_T1"
+	projectile_gfx = "uf_lance_glory_2"
+	tags = { weapon_type_energy weapon_type_kinetic weapon_type_sr_uf }
+	size_restriction = { uf_dreadnought uf_arsenal }
+	ai_tags = { weapon_role_artillery }
+	ai_tag_weight = 0
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 3000
+			sr_uf = 1000
+		}		
+		upkeep = {
+			energy = 80
+		}
+	}
+
+	ai_weight = {
+		weight = 1000
+	}
+}
+
+weapon_component_template = {
+	key = "MG_weapon_T_dark_T1"
+	size = titanic
+	entity = "invisible_turret_entity"
+	type = instant
+	
+	
+	icon = "GFX_MG_weapon_T_dark_T1"
+	icon_frame = 1
+	
+	min_range = 20.0
+	firing_arc = 30.0
+	static_rotation = yes
+	prio_projectile = yes
+	
+	damage = { min = 1000000 max = 5000000 }
+	windup = { min = 30 max = 75 }
+	total_fire_time = 250
+	range = 500.0
+	accuracy = 1.00
+	shield_penetration = 1.5
+	armor_penetration = 1.5
+	tracking = 1.00
+	power = -8000000
+	
+	prerequisites = { 
+		
+	}
+	component_set = "MG_weapon_T_dark_T1"
+	projectile_gfx = "uf_lance_glory_2"
+	tags = { weapon_type_energy weapon_type_kinetic weapon_type_sr_uf }
+	size_restriction = { uf_dreadnought uf_arsenal }
+	ai_tags = { weapon_role_artillery }
+	ai_tag_weight = 0
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 3000
+			sr_uf = 1000
+		}		
+		upkeep = {
+			energy = 80
+		}
+	}
+
+	ai_weight = {
+		weight = 1000
+	}
+}
+weapon_component_template = {
+	key = "MG_weapon_T_dark_T2"
+	size = titanic
+	entity = "invisible_turret_entity"
+	type = instant
+	
+	
+	icon = "GFX_MG_weapon_T_dark_T2"
+	icon_frame = 1
+	
+	min_range = 20.0
+	firing_arc = 30.0
+	static_rotation = yes
+	prio_projectile = yes
+	
+	damage = { min = 1000000 max = 5000000 }
+	windup = { min = 30 max = 75 }
+	total_fire_time = 250
+	range = 500.0
+	accuracy = 1.00
+	shield_penetration = 1.5
+	armor_penetration = 1.5
+	tracking = 1.00
+	power = -8000000
+	
+	prerequisites = { 
+		
+	}
+	component_set = "MG_weapon_T_dark_T2"
+	projectile_gfx = "uf_lance_glory_2"
+	tags = { weapon_type_energy weapon_type_kinetic weapon_type_sr_uf }
+	size_restriction = { uf_dreadnought uf_arsenal }
+	ai_tags = { weapon_role_artillery }
+	ai_tag_weight = 0
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 3000
+			sr_uf = 1000
+		}		
+		upkeep = {
+			energy = 80
+		}
+	}
+
+	ai_weight = {
+		weight = 1000
+	}
+}
+
+
+weapon_component_template = {
+	key = "MG_weapon_T_light_T1"
+	size = titanic
+	entity = "invisible_turret_entity"
+	type = instant
+	
+	
+	icon = "GFX_MG_weapon_T_light_T1"
+	icon_frame = 1
+	
+	min_range = 20.0
+	firing_arc = 30.0
+	static_rotation = yes
+	prio_projectile = yes
+	
+	damage = { min = 1000000 max = 5000000 }
+	windup = { min = 30 max = 75 }
+	total_fire_time = 250
+	range = 500.0
+	accuracy = 1.00
+	shield_penetration = 1.5
+	armor_penetration = 1.5
+	tracking = 1.00
+	power = -8000000
+	
+	prerequisites = { 
+		
+	}
+	component_set = "MG_weapon_T_light_T1"
+	projectile_gfx = "uf_lance_glory_2"
+	tags = { weapon_type_energy weapon_type_kinetic weapon_type_sr_uf }
+	size_restriction = { uf_dreadnought uf_arsenal }
+	ai_tags = { weapon_role_artillery }
+	ai_tag_weight = 0
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 3000
+			sr_uf = 1000
+		}		
+		upkeep = {
+			energy = 80
+		}
+	}
+
+	ai_weight = {
+		weight = 1000
+	}
+}
+weapon_component_template = {
+	key = "MG_weapon_T_light_T2"
+	size = titanic
+	entity = "invisible_turret_entity"
+	type = instant
+	
+	
+	icon = "GFX_MG_weapon_T_light_T2"
+	icon_frame = 1
+	
+	min_range = 20.0
+	firing_arc = 30.0
+	static_rotation = yes
+	prio_projectile = yes
+	
+	damage = { min = 1000000 max = 5000000 }
+	windup = { min = 30 max = 75 }
+	total_fire_time = 250
+	range = 500.0
+	accuracy = 1.00
+	shield_penetration = 1.5
+	armor_penetration = 1.5
+	tracking = 1.00
+	power = -8000000
+	
+	prerequisites = { 
+		
+	}
+	component_set = "MG_weapon_T_light_T2"
+	projectile_gfx = "uf_lance_glory_2"
+	tags = { weapon_type_energy weapon_type_kinetic weapon_type_sr_uf }
+	size_restriction = { uf_dreadnought uf_arsenal }
+	ai_tags = { weapon_role_artillery }
+	ai_tag_weight = 0
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 3000
+			sr_uf = 1000
+		}		
+		upkeep = {
+			energy = 80
+		}
+	}
+
+	ai_weight = {
+		weight = 1000
+	}
+}

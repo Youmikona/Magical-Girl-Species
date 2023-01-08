@@ -1,0 +1,1251 @@
+#1
+#魔法少女联合
+tech_mg_soc_union_girl = {
+	icon = tech_union
+	cost = 10000
+	weight = 100
+	area = society
+	is_rare = yes
+	category = { statecraft }
+	prerequisites = { "tech_mg_base_society" } #前置科技
+	tier = 1 #科技等级
+	is_reverse_engineerable = no #可以逆向工程
+	modifier = {
+		country_produces_mult = 0.15
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+}
+
+#文学少女
+tech_mg_soc_literary_girl = {
+	icon = tech_literary_girl
+	cost = 10000
+	weight = 100
+	area = society
+	is_rare = yes
+	category = { biology }
+	prerequisites = { "tech_mg_base_society" } #前置科技
+	tier = 3 #科技等级
+	is_reverse_engineerable = no #可以逆向工程
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.25  
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+}
+
+tech_mg_soc_literary_girl_1 = {
+	icon = tech_literary_girl
+	cost = 100000
+	weight = 50
+	area = society
+	is_rare = yes
+	category = { biology }
+	prerequisites = { "tech_mg_soc_literary_girl" "tech_mg_phy_intermediate_theory" } #前置科技
+	tier = 5 #科技等级
+	is_reverse_engineerable = no #可以逆向工程
+	modifier = {
+		planet_jobs_unity_produces_mult = 1
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+}
+
+tech_mg_soc_literary_girl_2 = {
+	icon = tech_literary_girl
+	cost = 500000
+	weight = 30
+	area = society
+	is_dangerous = yes
+	category = { biology }
+	prerequisites = { "tech_mg_soc_literary_girl_1" "tech_mg_phy_advanced_theory" } #前置科技
+	tier = 1 #科技等级
+	is_reverse_engineerable = no #可以逆向工程
+	modifier = {
+		planet_jobs_unity_produces_mult = 1
+		country_government_civic_points_add = 1
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+}
+
+#魔法美食制作中心
+tech_mg_soc_food_magic_circle = { #建筑
+	icon = tech_mg_start_1
+	cost = 10000
+	weight = 100
+	area = society
+	is_rare = yes
+	category = { industry }
+	prerequisites = { "tech_mg_phy_elementary_theory" } #前置科技
+	tier = 1 #科技等级
+	is_reverse_engineerable = no #可以逆向工程
+	modifier = {
+		country_food_produces_mult = 0.25
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+}
+
+#创生真言
+tech_mg_soc_creation_spells = { 
+	icon = tech_creation_spells
+	cost = 10000
+	weight = 100
+	area = society
+	is_rare = yes
+	category = { psionics }
+	prerequisites = { "tech_mg_phy_elementary_theory" } #前置科技
+	tier = 2 #科技等级
+	is_reverse_engineerable = no #可以逆向工程
+	modifier = {
+		pop_growth_speed = 0.2
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+}
+
+#自律法术
+tech_mg_soc_auto_spells = { 
+	icon = tech_auto_spells
+	cost = 10000
+	weight = 100
+	area = society
+	is_rare = yes
+	category = { psionics }
+	prerequisites = { "tech_mg_base_society" } #前置科技
+	tier = 2 #科技等级
+	is_reverse_engineerable = no #可以逆向工程
+	modifier = {
+		
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+}
+
+#时间法术 #飞升
+tech_mg_soc_time_spells = { 
+	icon = tech_time_spells
+	cost = 10000
+	weight = 100
+	area = society
+	is_rare = yes
+	category = { psionics }
+	prerequisites = { "tech_mg_phy_elementary_theory" } #前置科技
+	tier = 2 #科技等级
+	is_reverse_engineerable = no #可以逆向工程
+	modifier = {
+		ship_hull_regen_add_perc = 0.2
+		ship_armor_regen_add_perc = 0.2
+
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+}
+
+#魔法网络
+tech_mg_soc_magiciacl_network = { 
+	icon = tech_magiciacl_network
+	cost = 10000
+	weight = 100
+	area = society
+	is_rare = yes
+	category = { psionics }
+	prerequisites = { "tech_mg_phy_elementary_theory" } #前置科技
+	tier = 2 #科技等级
+	is_reverse_engineerable = no #可以逆向工程
+	modifier = {
+		empire_size_penalty_mult = -0.2
+		ship_sensor_range_add = 1
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+}
+
+#次元通讯网络 #飞升
+tech_mg_soc_dimensions_of_the_communication_network= { 
+	icon = tech_dimensions_of_the_communication_network
+	cost = 10000
+	weight = 100
+	area = society
+	is_rare = yes
+	category = { psionics }
+	prerequisites = { "tech_mg_soc_time_spells" "tech_mg_soc_magiciacl_network" } #前置科技
+	tier = 3 #科技等级
+	is_reverse_engineerable = no #可以逆向工程
+	modifier = {
+		empire_size_penalty_mult = -0.5
+		intel_decryption_add = 4
+		intel_encryption_add = 6
+		ship_hyperlane_range_add = 2
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+}
+
+#魔法少女游戏厅 #建筑
+tech_mg_soc_geme = { 
+	icon = tech_mg_start_1
+	cost = 10000
+	weight = 100
+	area = society
+	is_rare = yes
+	category = { industry }
+	prerequisites = { "tech_mg_phy_elementary_theory"  } #前置科技
+	tier = 2 #科技等级
+	is_reverse_engineerable = no #可以逆向工程
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.1
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_soc_geme_edicts"
+			desc = "tech_mg_soc_geme_desc"
+		}
+	}
+}
+tech_mg_soc_geme_1 = { 
+	icon = tech_mg_start_1
+	cost = 100000
+	weight = 30
+	area = society
+	is_rare = yes
+	category = { industry }
+	prerequisites = { "tech_mg_soc_geme" "tech_mg_phy_intermediate_theory" } #前置科技
+	tier = 2 #科技等级
+	is_reverse_engineerable = no #可以逆向工程
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.2
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_soc_geme_1_edicts"
+			desc = "tech_mg_soc_geme_1_desc"
+		}
+	}
+}
+
+#女皇圣坛 #建筑
+tech_mg_soc_holy_queen_bud= { 
+	icon = tech_mg_start_1
+	cost = 10000
+	weight = 50
+	area = society
+	is_rare = yes
+	category = { statecraft }
+	prerequisites = { "tech_mg_soc_magical_government"  } #前置科技
+	tier = 2 #科技等级
+	is_reverse_engineerable = no #可以逆向工程
+	modifier = {
+	
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_soc_holy_queen_bud_edicts"
+			desc = "tech_mg_soc_holy_queen_bud_desc"
+		}
+	}
+}
+tech_mg_soc_holy_queen_bud_1= { 
+	icon = none
+	cost = 500000
+	weight = 30
+	area = society
+	is_rare = yes
+	category = { statecraft }
+	prerequisites = { "tech_mg_soc_holy_queen_bud" "tech_mg_phy_advanced_theory" } #前置科技
+	tier = 5 #科技等级
+	is_reverse_engineerable = no #可以逆向工程
+	modifier = {
+	
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_soc_holy_queen_bud_1_edicts"
+			desc = "tech_mg_soc_holy_queen_bud_1_desc"
+		}
+	}
+}
+
+#魔法管理中心 #建筑
+tech_mg_soc_magical_government= { 
+	icon = tech_mg_start_1
+	cost = 10000
+	weight = 50
+	area = society
+	is_rare = yes
+	category = { statecraft }
+	prerequisites = { "tech_mg_phy_elementary_theory"  } #前置科技
+	tier = 2 #科技等级
+	is_reverse_engineerable = no #可以逆向工程
+	modifier = {
+	
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_soc_magical_government_edicts"
+			desc = "tech_mg_soc_magical_government_desc"
+		}
+	}
+}
+tech_mg_soc_magical_government_1= { 
+	icon = tech_mg_start_1
+	cost = 500000
+	weight = 30
+	area = society
+	is_rare = yes
+	category = { statecraft }
+	prerequisites = { "tech_mg_phy_advanced_theory" "tech_mg_soc_magical_government"  } #前置科技
+	tier = 5 #科技等级
+	is_reverse_engineerable = no #可以逆向工程
+	modifier = {
+
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_soc_magical_government_1_edicts"
+			desc = "tech_mg_soc_magical_government_1_desc"
+		}
+	}
+}
+
+#理事会改革 #飞升前置
+tech_mg_soc_council_reform= { 
+	icon = tech_council_reform
+	cost = 10000
+	weight = 50
+	area = society
+	is_rare = yes
+	category = { statecraft }
+	prerequisites = { "tech_mg_phy_elementary_theory" "tech_mg_soc_magical_government" } #前置科技
+	tier = 3 #科技等级
+	is_reverse_engineerable = no #可以逆向工程
+	modifier = {
+		country_government_civic_points_add = 1
+		country_base_influence_produces_add = 1
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+}
+
+#魔法农业应用
+tech_mg_soc_magical_agricultural_applications= { 
+	icon = tech_magical_agricultural_applications
+	cost = 10000
+	weight = 50
+	area = society
+	is_rare = yes
+	category = { biology }
+	prerequisites = { "tech_mg_phy_elementary_theory"  } #前置科技
+	tier = 2 #科技等级
+	is_reverse_engineerable = no #可以逆向工程
+	modifier = {
+		country_food_produces_mult = 0.25
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+}
+
+#魔法少女婚姻法
+tech_mg_soc_marriage_law= { 
+	icon = tech_law
+	cost = 10000
+	weight = 50
+	area = society
+	is_rare = yes
+	category = { statecraft }
+	prerequisites = { "tech_mg_soc_council_reform"  } #前置科技
+	tier = 3 #科技等级
+	is_reverse_engineerable = no #可以逆向工程
+	modifier = {
+		pop_growth_speed = 0.25
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+}
+
+#魔法少女公共基础设施建设
+tech_mg_soc_magical_infrastructure= { 
+	icon = tech_infrastructure
+	cost = 10000
+	weight = 50
+	area = society
+	is_rare = yes
+	category = { statecraft }
+	prerequisites = { "tech_mg_soc_council_reform"  } #前置科技
+	tier = 3 #科技等级
+	is_reverse_engineerable = no #可以逆向工程
+	modifier = {
+		country_government_civic_points_add = 1
+		country_base_influence_produces_add = 1
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+}
+
+#魔法科研部门
+tech_mg_soc_magical_research_department = { 
+	icon = tech_research_department
+	cost = 10000
+	weight = 50
+	area = society
+	is_rare = yes
+	category = { statecraft }
+	prerequisites = { "tech_mg_soc_council_reform"  } #前置科技
+	tier = 3 #科技等级
+	is_reverse_engineerable = no #可以逆向工程
+	modifier = {
+		num_tech_alternatives_add = 3
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+}
+
+#魔法少女殖民地快速发展协议
+tech_mg_soc_magical_development = { 
+	icon = tech_magical_development
+	cost = 10000
+	weight = 50
+	area = society
+	is_rare = yes
+	category = { new_worlds }
+	prerequisites = { "tech_mg_soc_council_reform" "tech_mg_soc_auto_spells"  } #前置科技
+	tier = 3 #科技等级
+	is_reverse_engineerable = no #可以逆向工程
+	modifier = {
+		planet_colony_development_speed_mult = 1
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+}
+tech_mg_soc_magical_development_1= { 
+	icon = tech_magical_development
+	cost = 100000
+	weight = 50
+	area = society
+	is_rare = yes
+	category = { new_worlds }
+	prerequisites = { "tech_mg_soc_magical_development" "tech_mg_phy_intermediate_theory" } #前置科技
+	tier = 4 #科技等级
+	is_reverse_engineerable = no #可以逆向工程
+	modifier = {
+		planet_colony_development_speed_mult = 1
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+}
+tech_mg_soc_magical_development_2= { 
+	icon = tech_magical_development
+	cost = 500000
+	weight = 30
+	area = society
+	is_rare = yes
+	category = { new_worlds }
+	prerequisites = { "tech_mg_soc_magical_development_1" "tech_mg_phy_advanced_theory" } #前置科技
+	tier = 5 #科技等级
+	is_reverse_engineerable = no #可以逆向工程
+	modifier = {
+		planet_colony_development_speed_mult = 2
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+}
+
+#魔法少女机动部队 
+tech_mg_soc_motorized_troops = { 
+	icon = tech_motorized_troops
+	cost = 10000
+	weight = 100
+	area = society
+	is_rare = yes
+	category = { military_theory }
+	prerequisites = { "tech_mg_soc_magical_development_1"  } #前置科技
+	tier = 3 #科技等级
+	is_reverse_engineerable = no #可以逆向工程
+	modifier = {
+		
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_soc_motorized_troops_edicts"
+			desc = "tech_mg_soc_motorized_troops_desc"
+		}
+	}
+}
+
+#2
+#心灵法术
+tech_mg_soc_psychological_spells = { 
+	icon = 	tech_psychological_spells
+	cost = 100000
+	weight = 50
+	area = society
+	is_rare = yes
+	category = { psionics }
+	prerequisites = { "tech_mg_phy_intermediate_theory_of_magic_transformation"  } #前置科技
+	tier = 4 #科技等级
+	is_reverse_engineerable = no #可以逆向工程
+	modifier = {
+		crime_wave = -0.5
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+}
+
+#魔法城堡 #建筑
+tech_mg_soc_magic_castle = { 
+	icon = 	none
+	cost = 100000
+	weight = 50
+	area = society
+	is_rare = yes
+	category = { statecraft }
+	prerequisites = { "tech_mg_phy_intermediate_theory"  } #前置科技
+	tier = 4 #科技等级
+	is_reverse_engineerable = no #可以逆向工程
+	modifier = {
+		
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_soc_magic_castle_edicts"
+			desc = "tech_mg_soc_magic_castle_desc"
+		}
+	}
+}
+tech_mg_soc_magic_castle_1 = { 
+	icon = 	none
+	cost = 500000
+	weight = 30
+	area = society
+	is_rare = yes
+	category = { statecraft }
+	prerequisites = { "tech_mg_soc_magic_castle" "tech_mg_phy_advanced_theory"  } #前置科技
+	tier = 5 #科技等级
+	is_reverse_engineerable = no #可以逆向工程
+	modifier = {
+		
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_soc_magic_castle_1_edicts"
+			desc = "tech_mg_soc_magic_castle_1_desc"
+		}
+	}
+}
+
+#魔法少女游乐场 #建筑
+tech_mg_soc_playground= { 
+	icon = 	none
+	cost = 100000
+	weight = 50
+	area = society
+	is_rare = yes
+	category = { statecraft }
+	prerequisites = { "tech_mg_phy_intermediate_theory"  } #前置科技
+	tier = 4 #科技等级
+	is_reverse_engineerable = no #可以逆向工程
+	modifier = {
+		
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_soc_playground_edicts"
+			desc = "tech_mg_soc_playground_desc"
+		}
+	}
+}
+
+#魔法少女商业区 #建筑
+tech_mg_soc_downtown= { 
+	icon = 	none
+	cost = 100000
+	weight = 50
+	area = society
+	is_rare = yes
+	category = { statecraft }
+	prerequisites = { "tech_mg_phy_intermediate_theory"  } #前置科技
+	tier = 4 #科技等级
+	is_reverse_engineerable = no #可以逆向工程
+	modifier = {
+		
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_soc_downtown_edicts"
+			desc = "tech_mg_soc_downtown_desc"
+		}
+	}
+}
+tech_mg_soc_downtown_1= { 
+	icon = 	none
+	cost = 500000
+	weight = 30
+	area = society
+	is_rare = yes
+	category = { statecraft }
+	prerequisites = { "tech_mg_phy_advanced_theory" "tech_mg_soc_downtown" } #前置科技
+	tier = 5 #科技等级
+	is_reverse_engineerable = no #可以逆向工程
+	modifier = {
+		
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_soc_downtown_1_edicts"
+			desc = "tech_mg_soc_downtown_1_desc"
+		}
+	}
+}
+
+#魔法堡垒 #建筑
+tech_mg_soc_fortress = { 
+	icon = 	none
+	cost = 100000
+	weight = 50
+	area = society
+	is_rare = yes
+	category = { statecraft }
+	prerequisites = { "tech_mg_phy_intermediate_theory"  } #前置科技
+	tier = 5 #科技等级
+	is_reverse_engineerable = no #可以逆向工程
+	modifier = {
+		
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_soc_fortress_edicts"
+			desc = "tech_mg_soc_fortress_desc"
+		}
+	}
+}
+tech_mg_soc_fortress_1 = { 
+	icon = 	none
+	cost = 500000
+	weight = 30
+	area = society
+	is_rare = yes
+	category = { statecraft }
+	prerequisites = { "tech_mg_phy_advanced_theory" "tech_mg_soc_fortress" } #前置科技
+	tier = 5 #科技等级
+	is_reverse_engineerable = no #可以逆向工程
+	modifier = {
+		
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_soc_fortress_1_edicts"
+			desc = "tech_mg_soc_fortress_1_desc"
+		}
+	}
+}
+
+#召唤法术
+tech_mg_soc_summon_spells = { 
+	icon = 	tech_summon_spells
+	cost = 2000
+	weight = 50
+	area = society
+	is_rare = yes
+	category = { psionics }
+	prerequisites = { "tech_mg_phy_intermediate_theory"  } #前置科技
+	tier = 4 #科技等级
+	is_reverse_engineerable = no #可以逆向工程
+	modifier = {
+		
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_soc_summon_spells_edicts"
+			desc = "tech_mg_soc_summon_spells_desc"
+		}
+	}
+}
+
+#治愈法术
+tech_mg_soc_heal_spells = { 
+	icon = 	tech_heal_spells
+	cost = 100000
+	weight = 50
+	area = society
+	is_rare = yes
+	category = { psionics }
+	prerequisites = { "tech_mg_phy_intermediate_theory"  } #前置科技
+	tier = 4 #科技等级
+	is_reverse_engineerable = no #可以逆向工程
+	modifier = {
+		army_health = 2
+		station_self_repair = 0.5
+		ship_orbit_repair = 0.5
+		ship_hull_regen_add_perc = 0.5
+		ship_armor_regen_add_perc = 0.5
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+}
+
+#魔法森林科研魔法使
+tech_mg_soc_forest_devil = { 
+	icon = 	tech_forest_devil
+	cost = 100000
+	weight = 50
+	area = society
+	is_rare = yes
+	category = { statecraft }
+	prerequisites = { "tech_mg_phy_intermediate_theory"  } #前置科技
+	tier = 4 #科技等级
+	is_reverse_engineerable = no #可以逆向工程
+	modifier = {
+		
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+}
+
+#红魔馆
+tech_mg_soc_red= { 
+	icon = 	tech_red
+	cost = 100000
+	weight = 50
+	area = society
+	is_rare = yes
+	category = { statecraft }
+	prerequisites = { "tech_mg_phy_intermediate_theory"  } #前置科技
+	tier = 4 #科技等级
+	is_reverse_engineerable = no #可以逆向工程
+	modifier = {
+		army_health = 0.5
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+}
+
+#魔法少女外交团队
+tech_mg_soc_diplomatic_team= { 
+	icon = 	tech_diplomatic_team
+	cost = 100000
+	weight = 50
+	area = society
+	is_rare = yes
+	category = { statecraft }
+	prerequisites = { "tech_mg_phy_intermediate_theory"  } #前置科技
+	tier = 4 #科技等级
+	is_reverse_engineerable = no #可以逆向工程
+	modifier = {
+		diplomacy_upkeep_mult = -0.25
+		diplo_weight_mult = 0.5
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+}
+
+#魔法少女基本法
+tech_mg_soc_base_law = { 
+	icon = 	tech_base_law
+	cost = 100000
+	weight = 50
+	area = society
+	is_rare = yes
+	category = { statecraft }
+	prerequisites = { "tech_mg_phy_intermediate_theory"  } #前置科技
+	tier = 4 #科技等级
+	is_reverse_engineerable = no #可以逆向工程
+	modifier = {
+		
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+}
+
+#3
+#魔法学院 #建筑
+tech_mg_soc_magic_school= { 
+	icon = 	none
+	cost = 500000
+	weight = 30
+	area = society
+	is_rare = yes
+	category = { statecraft }
+	prerequisites = { "tech_mg_phy_advanced_theory"  } #前置科技
+	tier = 5 #科技等级
+	is_reverse_engineerable = no #可以逆向工程
+	modifier = {
+		country_physics_research_produces_add = 0.2
+		country_society_research_produces_add = 0.2
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_soc_magic_school_edicts"
+			desc = "tech_mg_soc_magic_school_desc"
+		}
+	}
+}
+
+#魔法少女研究中心 #建筑
+tech_mg_soc_research_center= { 
+	icon = 	none
+	cost = 500000
+	weight = 30
+	area = society
+	is_rare = yes
+	category = { new_worlds }
+	prerequisites = { "tech_mg_phy_advanced_theory"  } #前置科技
+	tier = 5 #科技等级
+	is_reverse_engineerable = no #可以逆向工程
+	modifier = {
+		
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_soc_research_center_edicts"
+			desc = "tech_mg_soc_research_center_desc"
+		}
+	}
+}
+
+#光明面魔法
+tech_mg_soc_light_magic = { 
+	icon = 	tech_light_magic
+	cost = 500000
+	weight = 30
+	area = society
+	is_rare = yes
+	category = { psionics }
+	#prerequisites = { "tech_mg_soc_magical_development_1"  } #前置科技
+	tier = 5 #科技等级
+	is_reverse_engineerable = no #可以逆向工程
+	modifier = {
+		
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_soc_light_magic_edicts"
+			desc = "tech_mg_soc_light_magic_desc"
+		}
+	}
+}
+
+#黑暗面魔法
+tech_mg_soc_dark_magic = { 
+	icon = 	tech_dark_magic
+	cost = 500000
+	weight = 30
+	area = society
+	is_rare = yes
+	category = { psionics }
+	#prerequisites = { "tech_mg_soc_magical_development_1"  } #前置科技
+	tier = 5 #科技等级
+	is_reverse_engineerable = no #可以逆向工程
+	modifier = {
+		
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_soc_dark_magic_edicts"
+			desc = "tech_mg_soc_dark_magic_desc"
+		}
+	}
+}
+
+#魔法少女工业生产部
+tech_mg_soc_production_department = { 
+	icon = 	none
+	cost = 500000
+	weight = 30
+	area = society
+	is_rare = yes
+	category = { statecraft }
+	prerequisites = { "tech_mg_phy_advanced_theory"  } #前置科技
+	tier = 5 #科技等级
+	is_reverse_engineerable = no #可以逆向工程
+	modifier = {
+		planet_jobs_sr_zro_produces_mult = 0.2
+		planet_jobs_sr_magic_crystals_produces_mult = 0.2
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_soc_production_department_edicts"
+			desc = "tech_mg_soc_production_department_desc"
+		}
+	}
+}
+
+#魔法少女魔力中枢
+tech_mg_soc_magic_center = { 
+	icon = 	none
+	cost = 500000
+	weight = 30
+	area = society
+	is_rare = yes
+	category = { psionics }
+	prerequisites = { "tech_mg_phy_advanced_theory"  } #前置科技
+	tier = 5 #科技等级
+	is_reverse_engineerable = no #可以逆向工程
+	modifier = {
+		country_produces_mult = 0.1
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+}
+
+#魔法少女政府改革
+tech_mg_soc_government_reform = { 
+	icon = 	tech_government_reform
+	cost = 500000
+	weight = 30
+	area = society
+	is_rare = yes
+	category = { statecraft }
+	prerequisites = { "tech_mg_phy_advanced_theory"  } #前置科技
+	tier = 5 #科技等级
+	is_reverse_engineerable = no #可以逆向工程
+	modifier = {
+		
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_soc_government_reform_edicts"
+			desc = "tech_mg_soc_government_reform_desc"
+		}
+	}
+}
+
+#魔法少女重装部队
+tech_mg_soc_heavy_troops= { 
+	icon = 	tech_heavy_troops
+	cost = 500000
+	weight = 30
+	area = society
+	is_rare = yes
+	category = { military_theory }
+	prerequisites = { "tech_mg_soc_light_magic"  } #前置科技
+	tier = 5 #科技等级
+	is_reverse_engineerable = no #可以逆向工程
+	modifier = {
+		
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_soc_heavy_troops_edicts"
+			desc = "tech_mg_soc_heavy_troops_desc"
+		}
+	}
+}
+
+#魔法少女咒怨打击团
+tech_mg_soc_dark_spells_troops= { 
+	icon = 	tech_dark_spells_troops
+	cost = 500000
+	weight = 30
+	area = society
+	is_rare = yes
+	category = { military_theory }
+	prerequisites = { "tech_mg_soc_dark_magic"  } #前置科技
+	tier = 5 #科技等级
+	is_reverse_engineerable = no #可以逆向工程
+	modifier = {
+		
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_soc_dark_spells_troops_edicts"
+			desc = "tech_mg_soc_dark_spells_troops_desc"
+		}
+	}
+}
+
+#二阶舰船配件
+#第一真言
+tech_mg_soc_light_first_spells = { 
+	icon = 	none
+	cost = 1000000
+	weight = 20
+	area = society
+	is_rare = yes
+	category = { military_theory }
+	prerequisites = { "tech_mg_soc_light_magic"  } #前置科技
+	tier = 5 #科技等级
+	is_reverse_engineerable = no #可以逆向工程
+	modifier = {
+		
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_soc_light_first_spells_edicts"
+			desc = "tech_mg_soc_light_first_spells_desc"
+		}
+	}
+}
+
+#常暗真言
+tech_mg_soc_dark_first_spells = { 
+	icon = 	none
+	cost = 1000000
+	weight = 20
+	area = society
+	is_rare = yes
+	category = { military_theory }
+	prerequisites = { "tech_mg_soc_dark_magic"  } #前置科技
+	tier = 5 #科技等级
+	is_reverse_engineerable = no #可以逆向工程
+	modifier = {
+		
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_soc_dark_first_spells_edicts"
+			desc = "tech_mg_soc_dark_first_spells_desc"
+		}
+	}
+}
+
+#光辉真言
+tech_mg_soc_light_shine_spells = { 
+	icon = 	none
+	cost = 1000000
+	weight = 20
+	area = society
+	is_rare = yes
+	category = { military_theory }
+	prerequisites = { "tech_mg_soc_light_magic"  } #前置科技
+	tier = 5 #科技等级
+	is_reverse_engineerable = no #可以逆向工程
+	modifier = {
+		
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_soc_light_shine_spells_edicts"
+			desc = "tech_mg_soc_light_shine_spells_desc"
+		}
+	}
+}
+
+#禁忌真言
+tech_mg_soc_dark_ban_spells = { 
+	icon = 	none
+	cost = 1000000
+	weight = 20
+	area = society
+	is_rare = yes
+	category = { military_theory }
+	prerequisites = { "tech_mg_soc_dark_magic"  } #前置科技
+	tier = 5 #科技等级
+	is_reverse_engineerable = no #可以逆向工程
+	modifier = {
+		
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_soc_dark_ban_spells_edicts"
+			desc = "tech_mg_soc_dark_ban_spells_desc"
+		}
+	}
+}
+
+#咒怨真言
+tech_mg_soc_dark_bitter_spells = { 
+	icon = 	none
+	cost = 1000000
+	weight = 20
+	area = society
+	is_rare = yes
+	category = { military_theory }
+	prerequisites = { "tech_mg_soc_dark_magic"  } #前置科技
+	tier = 5 #科技等级
+	is_reverse_engineerable = no #可以逆向工程
+	modifier = {
+		
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_soc_dark_bitter_spells_edicts"
+			desc = "tech_mg_soc_dark_bitter_spells_desc"
+		}
+	}
+}
+
+#普世真言
+tech_mg_soc_light_all_spells = { 
+	icon = 	none
+	cost = 1000000
+	weight = 20
+	area = society
+	is_rare = yes
+	category = { military_theory }
+	prerequisites = { "tech_mg_soc_light_magic"  } #前置科技
+	tier = 5 #科技等级
+	is_reverse_engineerable = no #可以逆向工程
+	modifier = {
+		
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_soc_light_all_spells_edicts"
+			desc = "tech_mg_soc_light_all_spells_desc"
+		}
+	}
+}
+
+#光明之盾
+tech_mg_soc_light_shield = { 
+	icon = 	none
+	cost = 1000000
+	weight = 20
+	area = society
+	is_rare = yes
+	category = { military_theory }
+	prerequisites = { "tech_mg_soc_light_magic"  } #前置科技
+	tier = 5 #科技等级
+	is_reverse_engineerable = no #可以逆向工程
+	modifier = {
+		
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_soc_light_shield_edicts"
+			desc = "tech_mg_soc_light_shield_desc"
+		}
+	}
+}
+
+#无尽漩涡
+tech_mg_soc_dark_shield = { 
+	icon = 	none
+	cost = 1000000
+	weight = 20
+	area = society
+	is_rare = yes
+	category = { military_theory }
+	prerequisites = { "tech_mg_soc_dark_magic"  } #前置科技
+	tier = 5 #科技等级
+	is_reverse_engineerable = no #可以逆向工程
+	modifier = {
+		
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_soc_dark_shield_edicts"
+			desc = "tech_mg_soc_dark_shield_desc"
+		}
+	}
+}

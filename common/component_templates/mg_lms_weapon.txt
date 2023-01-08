@@ -1,0 +1,746 @@
+weapon_component_template = {
+	key = "MG_weapon_L_T1"
+	size = large
+	type = instant
+	
+	icon = "GFX_MG_weapon_L_T1"
+	icon_frame = 1
+	
+	static_rotation = yes
+	use_ship_kill_target = no
+	
+	damage = { min = 3000 max = 6000 }
+	windup = { min = 3 max = 10 }
+	total_fire_time = 60
+	range = 400
+	accuracy = 1.0
+	shield_penetration = 1.0
+	armor_penetration = 1.0
+	tracking = 1.0
+	power = -300
+	
+	resources = {
+		category = ship_components
+		cost = {
+			sr_uf = 60
+			alloys = 80
+		}
+		upkeep = {
+			energy = 2
+			alloys = 1.0
+		}
+	}
+	prerequisites = {
+		
+	}
+	component_set = "MG_weapon_L_T1"
+	projectile_gfx = "wsg_heavy_turbo_l_y"
+	tags = { weapon_type_energy weapon_type_kinetic weapon_type_sr_uf }
+	ai_tags = { weapon_role_artillery }
+	ai_tag_weight = 0
+	ai_weight = {
+		weight = 100
+		modifier = {
+			factor = 0.0
+			has_monthly_income = { resource = sr_uf value <= 0 }
+		}
+	}
+}
+
+weapon_component_template = {
+	key = "MG_weapon_M_T1"
+	size = medium
+	type = instant
+	
+	icon = "GFX_MG_weapon_M_T1"
+	icon_frame = 1
+	
+	static_rotation = yes
+	use_ship_kill_target = no
+	
+	damage = { min = 4000 max = 6000 }
+	windup = { min = 3 max = 10 }
+	total_fire_time = 60
+	range = 200.0
+	accuracy = 1.0
+	shield_penetration = 1.0
+	armor_penetration = 1.0
+	tracking = 0.5
+	power = -200
+	
+	resources = {
+		category = ship_components
+		cost = {
+			sr_uf = 60
+			alloys = 80
+		}
+		upkeep = {
+			energy = 2
+			alloys = 1.0
+		}
+	}
+	prerequisites = {
+		
+	}
+	component_set = "MG_weapon_M_T1"
+	projectile_gfx = "wsg_heavy_turbo_l_y"
+	tags = { weapon_type_energy weapon_type_kinetic weapon_type_sr_uf }
+	ai_tags = { weapon_role_artillery }
+	ai_tag_weight = 0
+	ai_weight = {
+		weight = 100
+		modifier = {
+			factor = 0.0
+			has_monthly_income = { resource = sr_uf value <= 0 }
+		}
+	}
+}
+
+weapon_component_template = {
+	key = "MG_weapon_S_T1"
+	size = small
+	type = instant
+	
+	icon = "GFX_MG_weapon_S_T1"
+	icon_frame = 1
+	
+	static_rotation = yes
+	use_ship_kill_target = no
+	
+	damage = { min = 3000 max = 5000 }
+	windup = { min = 3 max = 10 }
+	total_fire_time = 60
+	range = 200.0
+	accuracy = 1.0
+	shield_penetration = 1.0
+	armor_penetration = 1.0
+	tracking = 0.5
+	power = -100
+	
+	resources = {
+		category = ship_components
+		cost = {
+			sr_uf = 60
+			alloys = 80
+		}
+		upkeep = {
+			energy = 2
+			alloys = 1.0
+		}
+	}
+	prerequisites = {
+		
+	}
+	component_set = "MG_weapon_S_T1"
+	projectile_gfx = "wsg_heavy_turbo_l_y"
+	tags = { weapon_type_energy weapon_type_kinetic weapon_type_sr_uf }
+	ai_tags = { weapon_role_artillery }
+	ai_tag_weight = 0
+	ai_weight = {
+		weight = 100
+		modifier = {
+			factor = 0.0
+			has_monthly_income = { resource = sr_uf value <= 0 }
+		}
+	}
+}
+
+
+
+
+
+weapon_component_template = {
+	key = "MG_weapon_L_dark_T1"
+	size = large
+	type = instant
+	
+	icon = "GFX_MG_weapon_L_dark_T1"
+	icon_frame = 1
+	
+	static_rotation = yes
+	use_ship_kill_target = no
+	
+	damage = { min = 3000 max = 6000 }
+	windup = { min = 3 max = 10 }
+	total_fire_time = 60
+	range = 400
+	accuracy = 1.0
+	shield_penetration = 1.0
+	armor_penetration = 1.0
+	tracking = 1.0
+	power = -300
+	
+	resources = {
+		category = ship_components
+		cost = {
+			sr_uf = 60
+			alloys = 80
+		}
+		upkeep = {
+			energy = 2
+			alloys = 1.0
+		}
+	}
+	prerequisites = {
+		
+	}
+	component_set = "MG_weapon_L_dark_T1"
+	projectile_gfx = "wsg_heavy_turbo_l_y"
+	tags = { weapon_type_energy weapon_type_kinetic weapon_type_sr_uf }
+	ai_tags = { weapon_role_artillery }
+	ai_tag_weight = 0
+	ai_weight = {
+		weight = 100
+		modifier = {
+			factor = 0.0
+			has_monthly_income = { resource = sr_uf value <= 0 }
+		}
+	}
+}
+
+weapon_component_template = {
+	key = "MG_weapon_M_dark_T1"
+	size = medium
+	type = instant
+	
+	icon = "GFX_MG_weapon_M_dark_T1"
+	icon_frame = 1
+	
+	static_rotation = yes
+	use_ship_kill_target = no
+	
+	damage = { min = 4000 max = 6000 }
+	windup = { min = 3 max = 10 }
+	total_fire_time = 60
+	range = 200.0
+	accuracy = 1.0
+	shield_penetration = 1.0
+	armor_penetration = 1.0
+	tracking = 0.5
+	power = -200
+	
+	resources = {
+		category = ship_components
+		cost = {
+			sr_uf = 60
+			alloys = 80
+		}
+		upkeep = {
+			energy = 2
+			alloys = 1.0
+		}
+	}
+	prerequisites = {
+		
+	}
+	component_set = "MG_weapon_M_dark_T1"
+	projectile_gfx = "wsg_heavy_turbo_l_y"
+	tags = { weapon_type_energy weapon_type_kinetic weapon_type_sr_uf }
+	ai_tags = { weapon_role_artillery }
+	ai_tag_weight = 0
+	ai_weight = {
+		weight = 100
+		modifier = {
+			factor = 0.0
+			has_monthly_income = { resource = sr_uf value <= 0 }
+		}
+	}
+}
+
+weapon_component_template = {
+	key = "MG_weapon_S_dark_T1"
+	size = small
+	type = instant
+	
+	icon = "GFX_MG_weapon_S_dark_T1"
+	icon_frame = 1
+	
+	static_rotation = yes
+	use_ship_kill_target = no
+	
+	damage = { min = 3000 max = 5000 }
+	windup = { min = 3 max = 10 }
+	total_fire_time = 60
+	range = 200.0
+	accuracy = 1.0
+	shield_penetration = 1.0
+	armor_penetration = 1.0
+	tracking = 0.5
+	power = -100
+	
+	resources = {
+		category = ship_components
+		cost = {
+			sr_uf = 60
+			alloys = 80
+		}
+		upkeep = {
+			energy = 2
+			alloys = 1.0
+		}
+	}
+	prerequisites = {
+		
+	}
+	component_set = "MG_weapon_S_dark_T1"
+	projectile_gfx = "wsg_heavy_turbo_l_y"
+	tags = { weapon_type_energy weapon_type_kinetic weapon_type_sr_uf }
+	ai_tags = { weapon_role_artillery }
+	ai_tag_weight = 0
+	ai_weight = {
+		weight = 100
+		modifier = {
+			factor = 0.0
+			has_monthly_income = { resource = sr_uf value <= 0 }
+		}
+	}
+}
+
+
+
+
+weapon_component_template = {
+	key = "MG_weapon_L_dark_T2"
+	size = large
+	type = instant
+	
+	icon = "GFX_MG_weapon_L_dark_T2"
+	icon_frame = 1
+	
+	static_rotation = yes
+	use_ship_kill_target = no
+	
+	damage = { min = 3000 max = 6000 }
+	windup = { min = 3 max = 10 }
+	total_fire_time = 60
+	range = 400
+	accuracy = 1.0
+	shield_penetration = 1.0
+	armor_penetration = 1.0
+	tracking = 1.0
+	power = -300
+	
+	resources = {
+		category = ship_components
+		cost = {
+			sr_uf = 60
+			alloys = 80
+		}
+		upkeep = {
+			energy = 2
+			alloys = 1.0
+		}
+	}
+	prerequisites = {
+		
+	}
+	component_set = "MG_weapon_L_dark_T2"
+	projectile_gfx = "wsg_heavy_turbo_l_y"
+	tags = { weapon_type_energy weapon_type_kinetic weapon_type_sr_uf }
+	ai_tags = { weapon_role_artillery }
+	ai_tag_weight = 0
+	ai_weight = {
+		weight = 100
+		modifier = {
+			factor = 0.0
+			has_monthly_income = { resource = sr_uf value <= 0 }
+		}
+	}
+}
+
+weapon_component_template = {
+	key = "MG_weapon_M_dark_T2"
+	size = medium
+	type = instant
+	
+	icon = "GFX_MG_weapon_M_dark_T2"
+	icon_frame = 1
+	
+	static_rotation = yes
+	use_ship_kill_target = no
+	
+	damage = { min = 4000 max = 6000 }
+	windup = { min = 3 max = 10 }
+	total_fire_time = 60
+	range = 200.0
+	accuracy = 1.0
+	shield_penetration = 1.0
+	armor_penetration = 1.0
+	tracking = 0.5
+	power = -200
+	
+	resources = {
+		category = ship_components
+		cost = {
+			sr_uf = 60
+			alloys = 80
+		}
+		upkeep = {
+			energy = 2
+			alloys = 1.0
+		}
+	}
+	prerequisites = {
+		
+	}
+	component_set = "MG_weapon_M_dark_T2"
+	projectile_gfx = "wsg_heavy_turbo_l_y"
+	tags = { weapon_type_energy weapon_type_kinetic weapon_type_sr_uf }
+	ai_tags = { weapon_role_artillery }
+	ai_tag_weight = 0
+	ai_weight = {
+		weight = 100
+		modifier = {
+			factor = 0.0
+			has_monthly_income = { resource = sr_uf value <= 0 }
+		}
+	}
+}
+
+weapon_component_template = {
+	key = "MG_weapon_S_dark_T2"
+	size = small
+	type = instant
+	
+	icon = "GFX_MG_weapon_S_dark_T2"
+	icon_frame = 1
+	
+	static_rotation = yes
+	use_ship_kill_target = no
+	
+	damage = { min = 3000 max = 5000 }
+	windup = { min = 3 max = 10 }
+	total_fire_time = 60
+	range = 200.0
+	accuracy = 1.0
+	shield_penetration = 1.0
+	armor_penetration = 1.0
+	tracking = 0.5
+	power = -100
+	
+	resources = {
+		category = ship_components
+		cost = {
+			sr_uf = 60
+			alloys = 80
+		}
+		upkeep = {
+			energy = 2
+			alloys = 1.0
+		}
+	}
+	prerequisites = {
+		
+	}
+	component_set = "MG_weapon_S_dark_T2"
+	projectile_gfx = "wsg_heavy_turbo_l_y"
+	tags = { weapon_type_energy weapon_type_kinetic weapon_type_sr_uf }
+	ai_tags = { weapon_role_artillery }
+	ai_tag_weight = 0
+	ai_weight = {
+		weight = 100
+		modifier = {
+			factor = 0.0
+			has_monthly_income = { resource = sr_uf value <= 0 }
+		}
+	}
+}
+
+
+
+
+
+weapon_component_template = {
+	key = "MG_weapon_L_light_T1"
+	size = large
+	type = instant
+	
+	icon = "GFX_MG_weapon_L_light_T1"
+	icon_frame = 1
+	
+	static_rotation = yes
+	use_ship_kill_target = no
+	
+	damage = { min = 3000 max = 6000 }
+	windup = { min = 3 max = 10 }
+	total_fire_time = 60
+	range = 400
+	accuracy = 1.0
+	shield_penetration = 1.0
+	armor_penetration = 1.0
+	tracking = 1.0
+	power = -300
+	
+	resources = {
+		category = ship_components
+		cost = {
+			sr_uf = 60
+			alloys = 80
+		}
+		upkeep = {
+			energy = 2
+			alloys = 1.0
+		}
+	}
+	prerequisites = {
+		
+	}
+	component_set = "MG_weapon_L_light_T1"
+	projectile_gfx = "wsg_heavy_turbo_l_y"
+	tags = { weapon_type_energy weapon_type_kinetic weapon_type_sr_uf }
+	ai_tags = { weapon_role_artillery }
+	ai_tag_weight = 0
+	ai_weight = {
+		weight = 100
+		modifier = {
+			factor = 0.0
+			has_monthly_income = { resource = sr_uf value <= 0 }
+		}
+	}
+}
+
+weapon_component_template = {
+	key = "MG_weapon_M_light_T1"
+	size = medium
+	type = instant
+	
+	icon = "GFX_MG_weapon_M_light_T1"
+	icon_frame = 1
+	
+	static_rotation = yes
+	use_ship_kill_target = no
+	
+	damage = { min = 4000 max = 6000 }
+	windup = { min = 3 max = 10 }
+	total_fire_time = 60
+	range = 200.0
+	accuracy = 1.0
+	shield_penetration = 1.0
+	armor_penetration = 1.0
+	tracking = 0.5
+	power = -200
+	
+	resources = {
+		category = ship_components
+		cost = {
+			sr_uf = 60
+			alloys = 80
+		}
+		upkeep = {
+			energy = 2
+			alloys = 1.0
+		}
+	}
+	prerequisites = {
+		
+	}
+	component_set = "MG_weapon_M_light_T1"
+	projectile_gfx = "wsg_heavy_turbo_l_y"
+	tags = { weapon_type_energy weapon_type_kinetic weapon_type_sr_uf }
+	ai_tags = { weapon_role_artillery }
+	ai_tag_weight = 0
+	ai_weight = {
+		weight = 100
+		modifier = {
+			factor = 0.0
+			has_monthly_income = { resource = sr_uf value <= 0 }
+		}
+	}
+}
+
+weapon_component_template = {
+	key = "MG_weapon_S_light_T1"
+	size = small
+	type = instant
+	
+	icon = "GFX_MG_weapon_S_light_T1"
+	icon_frame = 1
+	
+	static_rotation = yes
+	use_ship_kill_target = no
+	
+	damage = { min = 3000 max = 5000 }
+	windup = { min = 3 max = 10 }
+	total_fire_time = 60
+	range = 200.0
+	accuracy = 1.0
+	shield_penetration = 1.0
+	armor_penetration = 1.0
+	tracking = 0.5
+	power = -100
+	
+	resources = {
+		category = ship_components
+		cost = {
+			sr_uf = 60
+			alloys = 80
+		}
+		upkeep = {
+			energy = 2
+			alloys = 1.0
+		}
+	}
+	prerequisites = {
+		
+	}
+	component_set = "MG_weapon_S_light_T1"
+	projectile_gfx = "wsg_heavy_turbo_l_y"
+	tags = { weapon_type_energy weapon_type_kinetic weapon_type_sr_uf }
+	ai_tags = { weapon_role_artillery }
+	ai_tag_weight = 0
+	ai_weight = {
+		weight = 100
+		modifier = {
+			factor = 0.0
+			has_monthly_income = { resource = sr_uf value <= 0 }
+		}
+	}
+}
+
+
+weapon_component_template = {
+	key = "MG_weapon_L_light_T2"
+	size = large
+	type = instant
+	
+	icon = "GFX_MG_weapon_L_light_T2"
+	icon_frame = 1
+	
+	static_rotation = yes
+	use_ship_kill_target = no
+	
+	damage = { min = 3000 max = 6000 }
+	windup = { min = 3 max = 10 }
+	total_fire_time = 60
+	range = 400
+	accuracy = 1.0
+	shield_penetration = 1.0
+	armor_penetration = 1.0
+	tracking = 1.0
+	power = -300
+	
+	resources = {
+		category = ship_components
+		cost = {
+			sr_uf = 60
+			alloys = 80
+		}
+		upkeep = {
+			energy = 2
+			alloys = 1.0
+		}
+	}
+	prerequisites = {
+		
+	}
+	component_set = "MG_weapon_L_light_T2"
+	projectile_gfx = "wsg_heavy_turbo_l_y"
+	tags = { weapon_type_energy weapon_type_kinetic weapon_type_sr_uf }
+	ai_tags = { weapon_role_artillery }
+	ai_tag_weight = 0
+	ai_weight = {
+		weight = 100
+		modifier = {
+			factor = 0.0
+			has_monthly_income = { resource = sr_uf value <= 0 }
+		}
+	}
+}
+
+weapon_component_template = {
+	key = "MG_weapon_M_light_T2"
+	size = medium
+	type = instant
+	
+	icon = "GFX_MG_weapon_M_light_T2"
+	icon_frame = 1
+	
+	static_rotation = yes
+	use_ship_kill_target = no
+	
+	damage = { min = 4000 max = 6000 }
+	windup = { min = 3 max = 10 }
+	total_fire_time = 60
+	range = 200.0
+	accuracy = 1.0
+	shield_penetration = 1.0
+	armor_penetration = 1.0
+	tracking = 0.5
+	power = -200
+	
+	resources = {
+		category = ship_components
+		cost = {
+			sr_uf = 60
+			alloys = 80
+		}
+		upkeep = {
+			energy = 2
+			alloys = 1.0
+		}
+	}
+	prerequisites = {
+		
+	}
+	component_set = "MG_weapon_M_light_T2"
+	projectile_gfx = "wsg_heavy_turbo_l_y"
+	tags = { weapon_type_energy weapon_type_kinetic weapon_type_sr_uf }
+	ai_tags = { weapon_role_artillery }
+	ai_tag_weight = 0
+	ai_weight = {
+		weight = 100
+		modifier = {
+			factor = 0.0
+			has_monthly_income = { resource = sr_uf value <= 0 }
+		}
+	}
+}
+
+weapon_component_template = {
+	key = "MG_weapon_S_light_T2"
+	size = small
+	type = instant
+	
+	icon = "GFX_MG_weapon_S_light_T2"
+	icon_frame = 1
+	
+	static_rotation = yes
+	use_ship_kill_target = no
+	
+	damage = { min = 3000 max = 5000 }
+	windup = { min = 3 max = 10 }
+	total_fire_time = 60
+	range = 200.0
+	accuracy = 1.0
+	shield_penetration = 1.0
+	armor_penetration = 1.0
+	tracking = 0.5
+	power = -100
+	
+	resources = {
+		category = ship_components
+		cost = {
+			sr_uf = 60
+			alloys = 80
+		}
+		upkeep = {
+			energy = 2
+			alloys = 1.0
+		}
+	}
+	prerequisites = {
+		
+	}
+	component_set = "MG_weapon_S_light_T2"
+	projectile_gfx = "wsg_heavy_turbo_l_y"
+	tags = { weapon_type_energy weapon_type_kinetic weapon_type_sr_uf }
+	ai_tags = { weapon_role_artillery }
+	ai_tag_weight = 0
+	ai_weight = {
+		weight = 100
+		modifier = {
+			factor = 0.0
+			has_monthly_income = { resource = sr_uf value <= 0 }
+		}
+	}
+}

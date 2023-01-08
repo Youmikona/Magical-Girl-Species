@@ -1,0 +1,209 @@
+civic_mg_1 ={
+	icon="gfx/interface/icons/governments/civics/civic_mg_1.dds"
+	potential={
+		authority={
+			value=auth_magical_girl}
+	}
+	possible={
+	
+	}
+	
+	random_weight={
+		base=0
+	}
+	
+	modifier={
+		starbase_shipyard_build_speed_mult = 1
+		megastructure_build_speed_mult = 5
+		country_megastructure_build_cap_add = 5
+	}
+	description = "civic_mg_1_effects"
+}
+
+civic_mg_2 ={
+	icon="gfx/interface/icons/governments/civics/civic_mg_2.dds"
+	potential={
+		authority={value=auth_magical_girl}
+	}
+	possible={
+	}
+	
+	random_weight={
+		base=0
+	}
+	
+	modifier = { 
+		envoys_add = 5
+		country_trade_attractiveness = 0.25
+		diplo_weight_mult = 0.5
+		country_trust_growth = 0.5
+	}
+	description = "civic_mg_2_effects"
+}
+
+civic_mg_3 ={
+	icon="gfx/interface/icons/governments/civics/civic_mg_3.dds"
+	potential={
+		authority={value=auth_magical_girl}
+	}
+	possible={
+	}
+	
+	random_weight={
+		base=0
+	}
+	
+	modifier = { 
+		edicts_cost_mult = -0.5
+		edict_length_mult = 1
+	}
+	description = "civic_mg_3_effects"
+}
+
+civic_mg_4 ={
+	icon="gfx/interface/icons/governments/civics/civic_mg_4.dds"
+	modification = no
+	potential={
+		authority={value=auth_magical_girl}
+	}
+	possible={
+	
+	}
+	
+	random_weight={
+		base=0
+	}
+	
+	modifier={
+	}
+	description = "civic_mg_4_effects"
+}
+
+civic_mg_5 ={
+	icon="gfx/interface/icons/governments/civics/civic_mg_5.dds"
+	modification = yes
+	potential={authority={value=auth_magical_girl}}
+	possible={
+	}
+	
+	random_weight={
+		base=0
+	}
+	
+	modifier={
+		species_leader_exp_gain = 1
+		leaders_cost_mult = 0.5
+		leaders_upkeep_mult = 1.5
+		country_leader_pool_size = 4
+		leader_skill_levels = 5
+	}
+	description = "civic_mg_5_effects"
+}
+civic_mg_magical_society = {#魔法社会
+    icon="gfx/interface/icons/governments/civics/civic_mg_society.dds"
+    potential = {
+		authority = { value = auth_magical_girl } }
+
+	random_weight = { base = 5 }
+
+	modifier = {
+		country_produces_mult = 0.15
+		pop_growth_speed = 0.05
+        pop_happiness = 0.15
+	}
+}
+
+civic_mg_magical_record = {#魔法记录
+    icon="gfx/interface/icons/governments/civics/civic_mg_record.dds"
+    potential = {
+		authority = { value = auth_magical_girl } }
+	
+	random_weight = { base = 5 }
+
+	modifier = {
+		country_unity_produces_mult = 0.15
+	}
+}
+
+civic_mg_magician_association = {#魔法师协会
+    icon="gfx/interface/icons/governments/civics/civic_mg_magician_association.dds"
+    potential = {
+		authority = { value = auth_magical_girl } }
+	
+	random_weight = { base = 5 }
+
+	modifier = {
+		country_physics_research_produces_mult = 0.2
+		country_society_research_produces_mult = 0.2
+		country_engineering_research_produces_mult = 0.2
+	}
+}
+
+civic_mg_foreign_ministry = {#少女们的外交部
+    icon="gfx/interface/icons/governments/civics/civic_mg_foreign_ministry.dds"
+    potential = {
+		authority = { value = auth_magical_girl } }
+
+	random_weight = { base = 5 }
+
+	modifier = {
+		max_embassies = 2
+	}
+	description = "civic_mg_foreign_ministry_effects" #效果特殊描述，评价+30,特殊效果未写
+
+}
+civic_mg_power_group = {#魔法动力集团
+    icon="gfx/interface/icons/governments/civics/civic_mg_motive_industry.dds"
+    potential = {
+        authority = { value = auth_magical_girl } }
+	
+	random_weight = { base = 5 }
+
+	modifier = {
+		megastructure_build_speed_mult = 0.2
+		country_megastructure_build_cap_add = 1
+	}
+}
+
+civic_mg_military_group = {#魔法军工集团
+    icon="gfx/interface/icons/governments/civics/civic_mg_military_industry.dds"
+    potential = {
+		authority = { value = auth_magical_girl } }
+
+	random_weight = { base = 5 }
+
+	modifier = {
+		army_speed_boost = 0.2 #陆军招募速度
+		ships__upkeep_mult = -0.15 #舰队维护费
+		ships__cost_mult = -0.25 #造舰成本
+	}
+}
+
+civic_mg_military_of_construction = {#魔法建设规划署
+    icon="gfx/interface/icons/governments/civics/civic_mg_programming_department.dds"
+    potential = {
+		authority = { value = auth_magical_girl } }
+
+	random_weight = { base = 5 }
+
+	modifier = {
+		planet_building_build_speed_mult = 0.3
+		planet_max_buildings_add = 5
+		planet_max_districts_add = 3
+	}
+}
+
+civic_mg_arhivist = {#档案管理员
+    icon="gfx/interface/icons/governments/civics/civic_mg_document_manager.dds"
+    potential = {
+		authority = { value = auth_magical_girl } }
+
+	random_weight = { base = 5 }
+
+	modifier = {
+		edicts_upkeep_mult = -0.15
+		country_edict_fund_add = 250
+		empire_size_mult = -0.2
+		country_naval_cap_mult = 0.15
+	}
+}

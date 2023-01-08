@@ -1,0 +1,9 @@
+﻿l_simp_chinese:
+sr_magic:0 "魔力"
+sr_magic_desc:0 "魔力是一切魔法的基石,任何魔法的使用都要魔力进行供能"
+sr_magic_crystals:0 "魔力源晶"
+sr_magic_crystals_desc:0 "魔力源晶是一种高能魔法结晶,可以快速释放出大量的魔力,对魔法自动化生产机械进行供能，让大规模魔法工业成为可能"
+sr_light_magic_crystallization:0 "光魔法结晶"
+sr_light_magic_crystallization_desc:0 "光魔法结晶是富含白魔法能量的一种合成物质，可以短时间内释放出大量的白魔法的能量,给施法者提供更强大的力量"
+sr_dark_magic_crystallization:0 "暗魔法结晶"
+sr_dark_magic_crystallization_desc:0 "光黑魔法结晶是富含黑魔法能量的一种合成物质，可以短时间内释放出大量的白魔法的能量，给施法者提供更强大的力量"

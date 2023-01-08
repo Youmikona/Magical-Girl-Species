@@ -1,0 +1,42 @@
+has_mg_authority = {
+	custom_tooltip = {
+		fail_text = "has_mg_authority_fail"
+		OR = {
+			has_authority = auth_magical_girl
+		}
+	}
+}
+
+has_mg_traits = {
+	custom_tooltip = {
+		fail_text = "has_mg_traits_fail"
+		OR = {
+			has_trait = trait_mgmagical_girl
+		}
+	}
+}
+
+is_mg_special_leader = {
+	OR = { 
+		
+	}
+}
+
+is_mg_normal_leader = {
+	species = { 
+		has_mg_traits = yes
+	}
+	is_mg_special_leader = no
+}
+
+is_magic_girl_empire = {
+	OR = {
+		owner_species = { 
+			is_species_class = Magical_Girl
+		}
+		has_authority = auth_magical_girl
+	}
+}
+has_civic_mg_foreign_ministry = {
+    has_civic = civic_mg_foreign_ministry
+}

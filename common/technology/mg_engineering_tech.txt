@@ -1,0 +1,959 @@
+#base
+
+#魔法建筑初级理论
+tech_mg_eng_magical_bud_theory = {
+	icon = tech_magical_bud_theory
+	cost = 10000
+	weight = 100
+	area = engineering
+	is_rare  = yes
+	category = { industry }
+	prerequisites = { "tech_mg_phy_elementary_theory" } #前置科技
+	tier = 1 #科技等级
+	is_reverse_engineerable = no #可以逆向工程
+	modifier = {
+		building_time_mult = -0.25
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+}
+
+#魔导工业理论
+tech_mg_eng_magical_production_theory = {
+	icon = tech_magical_production_theory
+	cost = 10000
+	weight = 100
+	area = engineering
+	is_rare  = yes
+	category = { industry }
+	prerequisites = { "tech_mg_soc_auto_spells" "tech_mg_phy_elementary_theory" "tech_mg_eng_magical_bud_theory" } #前置科技
+	tier = 2 #科技等级
+	is_reverse_engineerable = no #可以逆向工程
+	modifier = {
+		country_produces_mult = 0.05
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+}
+
+
+#泽洛收集厂
+tech_mg_eng_zro_factory = {
+	icon = tech_mg_start_1
+	cost = 10000
+	weight = 100
+	area = engineering
+	is_rare  = yes
+	category = { industry }
+	prerequisites = { "tech_mg_phy_zro_collective_theory" "tech_mg_eng_magical_production_theory"  } #前置科技
+	tier = 2 #科技等级
+	is_reverse_engineerable = no #可以逆向工程
+	modifier = {
+		
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_eng_zro_factory_edicts"
+			desc = "tech_mg_eng_zro_factory_desc"
+		}
+	}
+}
+tech_mg_eng_zro_factory_1 = {
+	icon = 100000
+	cost = 50
+	weight = @tier1weight1
+	area = engineering
+	is_rare  = yes
+	category = { industry }
+	prerequisites = { "tech_mg_phy_intermediate_theory" "tech_mg_eng_zro_factory" } #前置科技
+	tier = 4 #科技等级
+	is_reverse_engineerable = no #可以逆向工程
+	modifier = {
+		
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_eng_zro_factory_1_edicts"
+			desc = "tech_mg_eng_zro_factory_1_desc"
+		}
+	}
+}
+tech_mg_eng_zro_factory_2 = {
+	icon = tech_mg_start_1
+	cost = 500000
+	weight = 30
+	area = engineering
+	is_rare  = yes
+	category = { industry }
+	prerequisites = { "tech_mg_phy_advanced_theory" "tech_mg_eng_zro_factory_1" } #前置科技
+	tier = 5 #科技等级
+	is_reverse_engineerable = no #可以逆向工程
+	modifier = {
+		
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_eng_zro_factory_2_edicts"
+			desc = "tech_mg_eng_zro_factory_2_desc"
+		}
+	}
+}
+
+#魔法源晶合成厂
+tech_mg_eng_magic_crystals_factory = {
+	icon = tech_mg_start_1
+	cost = 10000
+	weight = 100
+	area = engineering
+	is_rare  = yes
+	category = { industry }
+	prerequisites = { "tech_mg_phy_elementary_theory_of_magic_synthesis" "tech_mg_eng_magical_production_theory"  } #前置科技
+	tier = 2 #科技等级
+	is_reverse_engineerable = no #可以逆向工程
+	modifier = {
+		
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_eng_magic_crystals_factory_edicts"
+			desc = "tech_mg_eng_magic_crystals_factory_desc"
+		}
+	}
+}
+tech_mg_eng_magic_crystals_factory_1 = {
+	icon = tech_mg_start_1
+	cost = 100000
+	weight = 50
+	area = engineering
+	is_rare  = yes
+	category = { industry }
+	prerequisites = { "tech_mg_phy_intermediate_theory_of_magic_synthesis" "tech_mg_eng_magic_crystals_factory"  } #前置科技
+	tier = 4 #科技等级
+	is_reverse_engineerable = no #可以逆向工程
+	modifier = {
+		
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_eng_magic_crystals_factory_1_edicts"
+			desc = "tech_mg_eng_magic_crystals_factory_1_desc"
+		}
+	}
+}
+tech_mg_eng_magic_crystals_factory_2 = {
+	icon = tech_mg_start_1
+	cost = 500000
+	weight = 30
+	area = engineering
+	is_rare  = yes
+	category = { industry }
+	prerequisites = { "tech_mg_phy_advanced_theory_of_magic_synthesis" "tech_mg_eng_magic_crystals_factory_1" } #前置科技
+	tier = 5 #科技等级
+	is_reverse_engineerable = no #可以逆向工程
+	modifier = {
+		
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_eng_magic_crystals_factory_2_edicts"
+			desc = "tech_mg_eng_magic_crystals_factory_2_desc"
+		}
+	}
+}
+
+#魔法自律工程设施
+tech_mg_eng_magic_auto_factory = {
+	icon = tech_mg_start_1
+	cost = 10000
+	weight = 100
+	area = engineering
+	is_rare  = yes
+	category = { industry }
+	prerequisites = { "tech_mg_soc_auto_spells" "tech_mg_eng_magical_production_theory" } #前置科技
+	tier = 2 #科技等级
+	is_reverse_engineerable = no #可以逆向工程
+	modifier = {
+		building_time_mult = -0.5
+		ms_build_speed_mult = 1
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_eng_magic_auto_factory_edicts"
+			desc = "tech_mg_eng_magic_auto_factory_desc"
+		}
+	}
+}
+
+#魔法异世界少女召唤中心
+tech_mg_eng_magic_girl_factory = {
+	cost = 10000
+	weight = 100
+	weight = @tier1weight1
+	area = engineering
+	is_rare  = yes
+	category = { industry }
+	prerequisites = { "tech_mg_soc_creation_spells" "tech_mg_eng_magical_production_theory" } #前置科技
+	tier = 2 #科技等级
+	is_reverse_engineerable = no #可以逆向工程
+	modifier = {
+		
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_eng_magic_girl_factory_edicts"
+			desc = "tech_mg_eng_magic_girl_factory_desc"
+		}
+	}
+}
+tech_mg_eng_magic_girl_factory_1 = {
+	icon = 100000
+	cost = 50
+	weight = @tier1weight1
+	area = engineering
+	is_rare  = yes
+	category = { industry }
+	prerequisites = { "tech_mg_phy_advanced_theory" "tech_mg_eng_magic_girl_factory" } #前置科技
+	tier = 2 #科技等级
+	is_reverse_engineerable = no #可以逆向工程
+	modifier = {
+		
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_eng_magic_girl_factory_1_edicts"
+			desc = "tech_mg_eng_magic_girl_factory_1_desc"
+		}
+	}
+}
+tech_mg_eng_magic_girl_factory_2 = {
+	icon = tech_mg_start_1
+	cost = 500000
+	weight = 30
+	area = engineering
+	is_rare  = yes
+	category = { industry }
+	prerequisites = { "tech_mg_phy_advanced_theory" "tech_mg_eng_magic_girl_factory_1" } #前置科技
+	tier = 2 #科技等级
+	is_reverse_engineerable = no #可以逆向工程
+	modifier = {
+		
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_eng_magic_girl_factory_2_edicts"
+			desc = "tech_mg_eng_magic_girl_factory2_desc"
+		}
+	}
+}
+
+#魔法发电中心
+tech_mg_eng_magical_cash = {
+	icon = tech_mg_start_1
+	cost = 10000
+	weight = 100
+	area = engineering
+	is_rare  = yes
+	category = { industry }
+	prerequisites = { "tech_mg_eng_magical_production_theory" } #前置科技
+	tier = 2 #科技等级
+	is_reverse_engineerable = no #可以逆向工程
+	modifier = {
+		
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+}
+
+#魔法矿物开采井
+tech_mg_eng_magical_mine = {
+	icon = tech_mg_start_1
+	cost = 10000
+	weight = 100
+	area = engineering
+	is_rare  = yes
+	category = { industry }
+	prerequisites = { "tech_mg_eng_magical_production_theory" } #前置科技
+	tier = 2 #科技等级
+	is_reverse_engineerable = no #可以逆向工程
+	modifier = {
+		
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+}
+
+#2
+#光魔法结晶合成厂
+tech_mg_eng_light_crystallization_factory = {
+	icon = none
+	cost = 100000
+	weight = 50
+	area = engineering
+	is_rare  = yes
+	category = { industry }
+	prerequisites = { "tech_mg_phy_intermediate_theory_of_magic_synthesis" } #前置科技
+	tier = 4 #科技等级
+	is_reverse_engineerable = no #可以逆向工程
+	modifier = {
+		
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_eng_light_crystallization_factory_edicts"
+			desc = "tech_mg_eng_light_crystallization_factory_desc"
+		}
+	}
+}
+tech_mg_eng_light_crystallization_factory_1 = {
+	icon = tech_mg_start_1
+	cost = 500000
+	weight = 30
+	area = engineering
+	is_rare  = yes
+	category = { industry }
+	prerequisites = { "tech_mg_phy_advanced_theory_of_magic_synthesis" "tech_mg_eng_light_crystallization_factory" } #前置科技
+	tier = 5 #科技等级
+	is_reverse_engineerable = no #可以逆向工程
+	modifier = {
+		
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_eng_light_crystallization_factory_1_edicts"
+			desc = "tech_mg_eng_light_crystallization_factory_1_desc"
+		}
+	}
+}
+
+#暗魔法结晶合成厂
+tech_mg_eng_dark_crystallization_factory = {
+	icon = tech_mg_start_1
+	cost = 100000
+	weight = 50
+	area = engineering
+	is_rare  = yes
+	category = { industry }
+	prerequisites = { "tech_mg_phy_intermediate_theory_of_magic_synthesis" } #前置科技
+	tier = 4 #科技等级
+	is_reverse_engineerable = no #可以逆向工程
+	modifier = {
+		
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_eng_dark_crystallization_factory_edicts"
+			desc = "tech_mg_eng_dark_crystallization_factory_desc"
+		}
+	}
+}
+tech_mg_eng_dark_crystallization_factory_1 = {
+	icon = tech_mg_start_1
+	cost = 500000
+	weight = 30
+	area = engineering
+	is_rare  = yes
+	category = { industry }
+	prerequisites = { "tech_mg_phy_advanced_theory_of_magic_synthesis" "tech_mg_eng_dark_crystallization_factory" } #前置科技
+	tier = 5 #科技等级
+	is_reverse_engineerable = no #可以逆向工程
+	modifier = {
+		
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_eng_dark_crystallization_factory_1_edicts"
+			desc = "tech_mg_eng_dark_crystallization_factory_1_desc"
+		}
+	}
+}
+
+
+#魔法战舰理论
+tech_mg_eng_warship_theory = {
+	icon = tech_mg_start_1
+	cost = 100000
+	weight = 50
+	area = engineering
+	is_rare  = yes
+	category = { industry }
+	prerequisites = { "tech_mg_eng_warship_theory" } #前置科技
+	tier = 4 #科技等级
+	is_reverse_engineerable = no #可以逆向工程
+	modifier = {
+		
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+}
+
+#魔法少女战列舰
+tech_mg_eng_battleship = {
+	icon = tech_mg_start_1
+	cost = 100000
+	weight = 50
+	area = engineering
+	is_rare  = yes
+	category = { industry }
+	prerequisites = { "tech_mg_eng_warship_theory" } #前置科技
+	tier = 4 #科技等级
+	is_reverse_engineerable = no #可以逆向工程
+	modifier = {
+		
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_eng_battleship_edicts"
+			desc = "tech_mg_eng_battleship_desc"
+		}
+	}
+}
+
+#魔法少女巡洋舰
+tech_mg_eng_cruiser = {
+	icon = tech_mg_start_1
+	cost = 100000
+	weight = 50
+	area = engineering
+	is_rare  = yes
+	category = { industry }
+	prerequisites = { "tech_mg_eng_warship_theory" } #前置科技
+	tier = 4 #科技等级
+	is_reverse_engineerable = no #可以逆向工程
+	modifier = {
+		
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_eng_cruiser_edicts"
+			desc = "tech_mg_eng_cruiser_desc"
+		}
+	}
+}
+
+#魔法少女驱逐舰
+tech_mg_eng_destroyer = {
+	icon = tech_mg_start_1
+	cost = 100000
+	weight = 50
+	area = engineering
+	is_rare  = yes
+	category = { industry }
+	prerequisites = { "tech_mg_eng_warship_theory" } #前置科技
+	tier = 4 #科技等级
+	is_reverse_engineerable = no #可以逆向工程
+	modifier = {
+		
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_eng_destroyer_edicts"
+			desc = "tech_mg_eng_destroyer_desc"
+		}
+	}
+}
+
+#魔法少女无畏舰
+tech_mg_eng_dreadnought = {
+	icon = tech_mg_start_1
+	cost = 100000
+	weight = 50
+	area = engineering
+	is_rare  = yes
+	category = { industry }
+	prerequisites = { "tech_mg_eng_warship_theory" } #前置科技
+	tier = 4 #科技等级
+	is_reverse_engineerable = no #可以逆向工程
+	modifier = {
+		
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_eng_dreadnought_edicts"
+			desc = "tech_mg_eng_dreadnought_desc"
+		}
+	}
+}
+
+#魔法少女武库舰
+tech_mg_eng_arsenal_ship = {
+	icon = tech_mg_start_1
+	cost = 100000
+	weight = 50
+	area = engineering
+	is_rare  = yes
+	category = { industry }
+	prerequisites = { "tech_mg_eng_warship_theory" } #前置科技
+	tier = 4 #科技等级
+	is_reverse_engineerable = no #可以逆向工程
+	modifier = {
+		
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_eng_arsenal_ship_edicts"
+			desc = "tech_mg_eng_arsenal_ship_desc"
+		}
+	}
+}
+
+#魔法少女星际航空母舰
+tech_mg_eng_aircraft_carrier = {
+	icon = tech_mg_start_1
+	cost = 100000
+	weight = 50
+	area = engineering
+	is_rare  = yes
+	category = { industry }
+	prerequisites = { "tech_mg_eng_warship_theory" } #前置科技
+	tier = 4 #科技等级
+	is_reverse_engineerable = no #可以逆向工程
+	modifier = {
+		
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_eng_aircraft_carrier_edicts"
+			desc = "tech_mg_eng_aircraft_carrier_desc"
+		}
+	}
+}
+
+#魔法少女歼星舰
+tech_mg_eng_star_destroyer = {
+	icon = tech_mg_start_1
+	cost = 100000
+	weight = 50
+	area = engineering
+	is_rare  = yes
+	category = { industry }
+	prerequisites = { "tech_mg_eng_warship_theory" } #前置科技
+	tier = 4 #科技等级
+	is_reverse_engineerable = no #可以逆向工程
+	modifier = {
+		
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_eng_star_destroyer_edicts"
+			desc = "tech_mg_eng_star_destroyer_desc"
+		}
+	}
+}
+
+#魔法少女咒怨舰
+tech_mg_eng_zy_ship = {
+	icon = tech_mg_start_1
+	cost = 100000
+	weight = 50
+	area = engineering
+	is_rare  = yes
+	category = { industry }
+	prerequisites = { "tech_mg_eng_warship_theory" } #前置科技
+	tier = 4 #科技等级
+	is_reverse_engineerable = no #可以逆向工程
+	modifier = {
+		
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_eng_zy_ship_edicts"
+			desc = "tech_mg_eng_zy_ship_desc"
+		}
+	}
+}
+
+#魔法动力集团
+tech_mg_eng_magic_company = {
+	icon = tech_mg_start_1
+	cost = 100000
+	weight = 50
+	area = engineering
+	is_rare  = yes
+	category = { industry }
+	prerequisites = { "tech_mg_eng_magical_production_theory" } #前置科技
+	tier = 4 #科技等级
+	is_reverse_engineerable = no #可以逆向工程
+	modifier = {
+		megastructure_build_speed_mult = 5
+		country_megastructure_build_cap_add = 5
+		country_produces_mult = 0.15
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+}
+
+#魔法工业部门
+tech_mg_eng_magic_company = {
+	icon = tech_mg_start_1
+	cost = 100000
+	weight = 50
+	area = engineering
+	is_rare  = yes
+	category = { industry }
+	prerequisites = { "tech_mg_eng_magical_production_theory" } #前置科技
+	tier = 4 #科技等级
+	is_reverse_engineerable = no #可以逆向工程
+	modifier = {
+		planet_jobs_produces_mult = 0.25
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+}
+
+#手办生产
+tech_mg_eng_kit = {
+	icon = tech_mg_start_1
+	cost = 100000
+	weight = 50
+	area = engineering
+	is_rare  = yes
+	category = { industry }
+	prerequisites = { "tech_mg_eng_magical_production_theory" } #前置科技
+	tier = 4 #科技等级
+	is_reverse_engineerable = no #可以逆向工程
+	modifier = {
+		pop_happiness = 0.25
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+}
+
+#3
+#魔法合金转化中心
+tech_mg_eng_magic_alloy = {
+	icon = tech_mg_start_1
+	cost = 500000
+	weight = 30
+	area = engineering
+	is_rare  = yes
+	category = { industry }
+	prerequisites = { "tech_mg_phy_advanced_theory_of_magic_transformation" } #前置科技
+	tier = 5 #科技等级
+	is_reverse_engineerable = no #可以逆向工程
+	modifier = {
+		
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_eng_magic_alloy_edicts"
+			desc = "tech_mg_eng_magic_alloy_desc"
+		}
+	}
+}
+tech_mg_eng_magic_alloy_1 = {
+	icon = tech_mg_start_1
+	cost = 500000
+	weight = 30
+	area = engineering
+	is_rare  = yes
+	category = { industry }
+	prerequisites = { "tech_mg_phy_advanced_theory_of_magic_transformation" "tech_mg_eng_magic_alloy" } #前置科技
+	tier = 5 #科技等级
+	is_reverse_engineerable = no #可以逆向工程
+	modifier = {
+		
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_eng_magic_alloy_1_edicts"
+			desc = "tech_mg_eng_magic_alloy_1_desc"
+		}
+	}
+}
+
+#魔法稀有资源转化中心
+tech_mg_eng_magic_rare_resources = {
+	icon = tech_mg_start_1
+	cost = 500000
+	weight = 30
+	area = engineering
+	is_rare  = yes
+	category = { industry }
+	prerequisites = { "tech_mg_phy_advanced_theory_of_magic_transformation" } #前置科技
+	tier = 5 #科技等级
+	is_reverse_engineerable = no #可以逆向工程
+	modifier = {
+		
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_eng_magic_rare_resources_edicts"
+			desc = "tech_mg_eng_magic_rare_resources_desc"
+		}
+	}
+}
+tech_mg_eng_magic_rare_resources_1 = {
+	icon = tech_mg_start_1
+	cost = 500000
+	weight = 30
+	area = engineering
+	is_rare  = yes
+	category = { industry }
+	prerequisites = { "tech_mg_phy_advanced_theory_of_magic_transformation"  "tech_mg_eng_magic_rare_resources" } #前置科技
+	tier = 5 #科技等级
+	is_reverse_engineerable = no #可以逆向工程
+	modifier = {
+		
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_eng_magic_rare_resources_1_edicts"
+			desc = "tech_mg_eng_magic_rare_resources_1_desc"
+		}
+	}
+}
+
+#魔法矿物转化中心
+tech_mg_eng_magic_mineral = {
+	icon = tech_mg_start_1
+	cost = 500000
+	weight = 30
+	area = engineering
+	is_rare  = yes
+	category = { industry }
+	prerequisites = { "tech_mg_phy_advanced_theory_of_magic_transformation" } #前置科技
+	tier = 5 #科技等级
+	is_reverse_engineerable = no #可以逆向工程
+	modifier = {
+		
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_eng_magic_mineral_edicts"
+			desc = "tech_mg_eng_magic_mineral_desc"
+		}
+	}
+}
+tech_mg_eng_magic_mineral_1 = {
+	icon = tech_mg_start_1
+	cost = 500000
+	weight = 30
+	area = engineering
+	is_rare  = yes
+	category = { industry }
+	prerequisites = { "tech_mg_phy_advanced_theory_of_magic_transformation" "tech_mg_eng_magic_mineral" } #前置科技
+	tier = 5 #科技等级
+	is_reverse_engineerable = no #可以逆向工程
+	modifier = {
+		
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_eng_magic_mineral_1_edicts"
+			desc = "tech_mg_eng_magic_mineral_1_desc"
+		}
+	}
+}
+
+#魔法食物转化中心
+tech_mg_eng_magic_food = {
+	icon = tech_mg_start_1
+	cost = 500000
+	weight = 30
+	area = engineering
+	is_rare  = yes
+	category = { industry }
+	prerequisites = { "tech_mg_phy_advanced_theory_of_magic_transformation" } #前置科技
+	tier = 5 #科技等级
+	is_reverse_engineerable = no #可以逆向工程
+	modifier = {
+		
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_eng_magic_food_edicts"
+			desc = "tech_mg_eng_magic_food_desc"
+		}
+	}
+}
+tech_mg_eng_magic_food_1 = {
+	icon = tech_mg_start_1
+	cost = 500000
+	weight = 30
+	area = engineering
+	is_rare  = yes
+	category = { industry }
+	prerequisites = { "tech_mg_phy_advanced_theory_of_magic_transformation" "tech_mg_eng_magic_food" } #前置科技
+	tier = 5 #科技等级
+	is_reverse_engineerable = no #可以逆向工程
+	modifier = {
+		
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_eng_magic_food_1_edicts"
+			desc = "tech_mg_eng_magic_food_1_desc"
+		}
+	}
+}
+
+#魔法能量转化中心
+tech_mg_eng_magic_energy = {
+	icon = tech_mg_start_1
+	cost = 500000
+	weight = 30
+	area = engineering
+	is_rare  = yes
+	category = { industry }
+	prerequisites = { "tech_mg_phy_advanced_theory_of_magic_transformation" } #前置科技
+	tier = 5 #科技等级
+	is_reverse_engineerable = no #可以逆向工程
+	modifier = {
+		
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_eng_magic_energy_edicts"
+			desc = "tech_mg_eng_magic_energy_desc"
+		}
+	}
+}
+tech_mg_eng_magic_energy_1 = {
+	icon = tech_mg_start_1
+	cost = 500000
+	weight = 30
+	area = engineering
+	is_rare  = yes
+	category = { industry }
+	prerequisites = { "tech_mg_phy_advanced_theory_of_magic_transformation" "tech_mg_eng_magic_energy" } #前置科技
+	tier = 5 #科技等级
+	is_reverse_engineerable = no #可以逆向工程
+	modifier = {
+		
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_eng_magic_energy_1_edicts"
+			desc = "tech_mg_eng_magic_energy_1_desc"
+		}
+	}
+}
+
+#魔法考古中心
+tech_mg_eng_magic_archaeology = {
+	icon = tech_mg_start_1
+	cost = 500000
+	weight = 30
+	area = engineering
+	is_rare  = yes
+	category = { industry }
+	prerequisites = { "tech_mg_phy_advanced_theory" } #前置科技
+	tier = 2 #科技等级
+	is_reverse_engineerable = no #可以逆向工程
+	modifier = {
+		
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_eng_magic_archaeology_edicts"
+			desc = "tech_mg_eng_magic_archaeology_desc"
+		}
+	}
+}

@@ -1,0 +1,53 @@
+﻿l_simp_chinese:
+###############################
+ name_list_MG:0 "战舰少女-罗马正统"
+ 
+ Magical_Girl_insult_01:0 "毒爆虫"
+ Magical_Girl_insult_plural_01:0 "毒爆虫"
+ Magical_Girl_insult_02:0 "舰女人"
+ Magical_Girl_insult_plural_02:0 "舰女人"
+ Magical_Girl_insult_03:0 "平胸女人"
+ Magical_Girl_insult_plural_03:0 "平胸女人"
+ Magical_Girl_insult_04:0 "女海盗"
+ Magical_Girl_insult_plural_04:0 "女海盗"
+ Magical_Girl_insult_05:0 "憨批舰娘"
+ Magical_Girl_insult_plural_05:0 "憨批舰娘"
+ Magical_Girl_insult_06:0 "憨憨舰娘"
+ Magical_Girl_insult_plural_06:0 "憨憨舰娘"
+ Magical_Girl_insult_07:0 "狡猾人"
+ Magical_Girl_insult_plural_07:0 "狡猾人"
+ Magical_Girl_compliment_01:0 "世界的本质"
+ Magical_Girl_compliment_plural_01:0 "世界的本质"
+ Magical_Girl_compliment_02:0 "巨乳女人"
+ Magical_Girl_compliment_plural_02:0 "巨乳女人"
+ Magical_Girl_compliment_03:0 "高贵的舰娘"
+ Magical_Girl_compliment_plural_03:0 "高贵的舰娘"
+ Magical_Girl_compliment_04:0 "善良人"
+ Magical_Girl_compliment_plural_04:0 "善良人"
+ Magical_Girl_sound_01:0 "鸣笛"
+
+
+ FLAG_CATEGORY_warshipgirls:0 "战舰少女R旗帜"
+
+ bombardment_Galo:0 "掠食型GALO"
+ bombardment_Galo_name:0 "掠食型GALO轨道轰炸" 
+ bombardment_Galo_desc:0 "$bombardment_Galo$轰炸将大量掠食型GALO投放到星球上，以最快的速度消灭一切。\n-对§Y军团§!造成§Y难以置信的§!伤害\n-对§Y星球§!造成§Y难以置信的§!伤害\n-对§Y人口§!造成§Y难以置信的§!伤害\n-将会轰炸不设防的星球\n-不会改变星球类型"
+ 
+ orbital_bombardment_Galo:0 "掠食型GALO"
+ orbital_bombardment_Galo_name:0 "掠食型GALO轨道轰炸"
+ orbital_bombardment_Galo_desc:0 "将大量掠食型GALO投放到星球上，以最快的速度消灭一切。\n\n§E轨道轰炸的级别设置为“掠食型GALO”§!"
+ 
+ overwhelming_fire_power:0 "优势火力"
+ overwhelming_fire_power_name:0 "优势火力学说"
+ overwhelming_fire_power_desc:0 "通过合理配置火力然后压制住敌人的火力能使我方获得巨大的优势。\n\n"
+ circuitous_warfare:0 "迂回作战"
+ circuitous_warfare_name:0 "迂回作战学说"
+ circuitous_warfare_desc:0 "通过提高舰队航速，跃迁范围等手段来达到包抄奇袭的目的。\n\n"
+ mastery_of_the_space:0 "确保制海权"
+ mastery_of_the_space_name:0 "确保制海权学说"
+ mastery_of_the_space_desc:0 "我们必须拥有远超敌军数量的舰船，才能达到控制星海的战略目标。\n\n"
+ ETHIC_ALLOW_OVERWHELMING_FIRE_POWER:0 "§E可以使用§H特殊§!战争学说§!"
+ MEGAMAGICAL_GIRL:0 "§E可以在其他帝国开设分部§!"
+ 
+ 
+ START_SCREEN_WSG:0 "击破了深海的最后一道防线后，剩余的深海舰队完全地从我们的母星消失了。在深海的中枢计算机中，我们破译得知剩余的深海舰队通过超空间引擎飞向了未知的宇宙深空之中。如今的我们也拥有了超空间技术，是时候去终结我们曾经的敌人了。"

@@ -1,0 +1,219 @@
+overlord_mg_tax_collector = { #国税征收者
+	category = specialist
+
+	can_set_priority = no
+	is_capped_by_modifier = yes
+	building_icon = holding_satellite_campus #应该是图标
+	clothes_texture_index = 1
+
+	possible_pre_triggers = {
+		has_owner = yes
+		is_enslaved = no
+		is_being_purged = no
+		is_being_assimilated = no
+		is_sapient = yes
+	}
+
+	possible_precalc = can_fill_specialist_job
+	possible = {
+		complex_specialist_job_check_trigger = yes
+	}
+
+	resources = {
+		category = planet_overlord_academics #分类不确定是否改
+		produces = {
+			physics_research = -15
+			engineering_research = -15
+			society_research = -15
+			energy = -3
+			minerals = -3
+			food = -3
+			rare_crystals = -2
+			exotic_gases = -2
+			volatile_motes = -2 
+		}
+		upkeep = {
+			consumer_goods = 5
+		}
+	}
+
+	overlord_resources = {
+		category = planet_overlord_academics
+		produces = {
+			physics_research = 30
+			engineering_research = 30
+			society_research = 30
+			energy = 10
+			minerals = 10
+			food = 10
+			rare_crystals = 8
+			exotic_gases = 8
+			volatile_motes = 8 
+		}
+	}
+
+	weight = {
+		weight = @overlord_job_weight #官方默认权重值
+	}
+}
+
+overlord_mg_professor = { #教授
+	category = specialist
+
+	can_set_priority = no
+	is_capped_by_modifier = yes
+	building_icon = holding_satellite_campus #应该是图标
+	clothes_texture_index = 1
+
+	possible_pre_triggers = {
+		has_owner = yes
+		is_enslaved = no
+		is_being_purged = no
+		is_being_assimilated = no
+		is_sapient = yes
+	}
+
+	possible_precalc = can_fill_specialist_job
+	possible = {
+		complex_specialist_job_check_trigger = yes
+	}
+
+	resources = {
+		category = planet_overlord_academics #分类不确定是否改
+		produces = {
+			physics_research = 30
+			engineering_research = 30
+			society_research = 30
+		}
+		upkeep = {
+			consumer_goods = 2
+		}
+	}
+
+	overlord_resources = {
+		category = planet_overlord_academics
+		produces = {
+			physics_research = 30
+			engineering_research = 30
+			society_research = 30
+		}
+	}
+
+	weight = {
+		weight = @overlord_job_weight #官方默认权重值
+	}
+}
+       #附属资源统合署
+
+
+#封邑特殊建筑
+overlord_mg_culture_worker = { #宗主纪念碑工作者
+	category = specialist
+
+	can_set_priority = no
+	is_capped_by_modifier = yes
+	building_icon = holding_satellite_campus 
+	clothes_texture_index = 1
+
+	possible_pre_triggers = {
+		has_owner = yes
+		is_enslaved = no
+		is_being_purged = no
+		is_being_assimilated = no
+		is_sapient = yes
+	}
+
+	possible_precalc = can_fill_specialist_job
+	possible = {
+		complex_specialist_job_check_trigger = yes
+	}
+
+	resources = {
+		category = planet_overlord_academics
+		produces = {
+			unity = 100
+		}
+		upkeep = {
+			consumer_goods = 5
+		}
+	}
+
+	weight = {
+		weight = @overlord_job_weight #官方默认权重值
+	}
+}
+
+overlord_mg_alloy_transfer = { #宗主合金生产者
+	category = specialist
+
+	can_set_priority = no
+	is_capped_by_modifier = yes
+	building_icon = holding_satellite_campus 
+	clothes_texture_index = 1
+
+	possible_pre_triggers = {
+		has_owner = yes
+		is_enslaved = no
+		is_being_purged = no
+		is_being_assimilated = no
+		is_sapient = yes
+	}
+
+	possible_precalc = can_fill_specialist_job
+	possible = {
+		complex_specialist_job_check_trigger = yes
+	}
+
+	resources = {
+		category = planet_overlord_academics
+		produces = {
+			alloys = 50
+			rare_crystals = 1
+			volatile_motes = 1
+			exotic_gases = 1
+		}
+		upkeep = {
+			minerals = 5
+		}
+	}
+
+	weight = {
+		weight = 1000 #原版附庸建筑港味权重好像是200
+	}
+}
+
+overlord_mg_consumer_goods_transfer = { #宗主消费品生产者
+	category = specialist
+
+	can_set_priority = no
+	is_capped_by_modifier = yes
+	building_icon = holding_satellite_campus 
+	clothes_texture_index = 1
+
+	possible_pre_triggers = {
+		has_owner = yes
+		is_enslaved = no
+		is_being_purged = no
+		is_being_assimilated = no
+		is_sapient = yes
+	}
+
+	possible_precalc = can_fill_specialist_job
+	possible = {
+		complex_specialist_job_check_trigger = yes
+	}
+
+	resources = {
+		category = planet_overlord_academics
+		produces = {
+			consumer_goods = 50
+		}
+		upkeep = {
+			minerals = 5
+		}
+	}
+
+	weight = {
+		weight = 1000 #原版附庸建筑港味权重好像是200
+	}
+}

@@ -1,0 +1,2664 @@
+###########
+#魔法操控 magical_control
+###########
+tech_mg_magic_storage_theory = { #魔力储存理论
+	icon = tech_mg_magic_storage_theory
+	area = physics
+	tier = 0 #科技等级
+	category = { magical_control }
+	start_tech = yes
+	modifier = {
+		country_resource_max_magic_add = 1000000
+		country__magic_produces_mult = 0.1
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magical_energy_martix = { #魔力能源矩阵
+	icon = tech_mg_magical_energy_martix
+	area = physics
+	category = { magical_control }
+	tier = 0 #科技等级
+	start_tech = yes
+	modifier = {
+		planet_jobs_energy_produces_mult = 0.5
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_field_of_magical_force = { #魔法力场
+	icon = tech_mg_field_of_magical_force
+	area = physics
+	category = { magical_control }
+	tier = 0 #科技等级
+	start_tech = yes
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.05
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_rare_substance_stabilize_theory = { #稀有物质稳定理论
+	icon = tech_mg_rare_substance_stabilize_theory
+	cost = 1000
+	area = physics
+	category = { magical_control }
+	tier = 1 #科技等级
+	weight = 100
+	modifier = {
+		country_rare_crystals_produces_mult = 0.1
+        country_volatile_motes_produces_mult = 0.1
+        country_exotic_gases_produces_mult = 0.1
+		
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magic_tier1_1 = { #魔力生产理论
+	icon = tech_mg_magic_tier1_1
+	cost = 1000
+	area = physics
+	category = { magical_control }
+    prerequisites = { "tech_mg_magic_storage_theory" }
+	tier = 1 #科技等级
+	weight = 100
+	modifier = {
+		country__magic_produces_mult = 0.1
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magic_tier1_2 = { #高维储存
+	icon = tech_mg_magic_tier1_2
+	cost = 1000
+	area = physics
+	category = { magical_control }
+    prerequisites = { "tech_mg_magical_energy_martix" }
+	tier = 1
+	weight = 100
+	modifier = {
+	    country_resource_max_add = 400000
+		country_energy_produces_mult = 0.05
+		country_magic_produces_mult = 0.05
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magic_tier1_3 = { #力场调制
+	icon = tech_mg_magic_tier1_3
+	cost = 1000
+	area = physics
+	category = { magical_control }
+    prerequisites = { "tech_mg_magical_energy_martix" }
+	tier = 1
+	weight = 100
+	modifier = {
+		starbase_energy_produce_mult = 0.2 #所有类型能量产出？
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+
+tech_mg_magic_tier1_4 = { #远程魔力传输
+	icon = tech_mg_magic_tier1_4
+	cost = 1000
+	area = physics
+	category = { magical_control }
+    prerequisites = { "tech_mg_magical_energy_martix" }
+	tier = 1
+	weight = 100
+	modifier = {
+		planet_jobs_produces_mult = 0.05
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magic_tier1_5 = { #魔法防护理论
+	icon = tech_mg_magic_tier1_5
+	cost = 1000
+	area = physics
+	category = { magical_control }
+    prerequisites = { "tech_mg_field_of_magical_force" }
+	tier = 1
+	weight = 1000
+	modifier = {
+		ship_shield_mult = 0.2
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magic_tier1_6 = { #魔法行星结界
+	icon = tech_mg_magic_tier1_6
+	cost = 1000
+	area = physics
+	category = { magical_control }
+    prerequisites = { "tech_mg_field_of_magical_force" }
+	tier = 1
+	weight = 100
+	modifier = {
+		planet_orbital_bombardment_damage = -0.5
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magic_tier2_1 = { #高级魔力生产理论
+	icon = tech_mg_magic_tier2_1
+	cost = 5000
+	area = physics
+	category = { magical_control }
+    prerequisites = { "tech_mg_field_of_magical_force" }
+	tier = 2 
+	weight = 70
+	modifier = {
+		planet_jobs_magic_produces_mult = 0.1
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magic_tier2_2 = { #全球能源管理
+	icon = tech_mg_magic_tier2_2
+	cost = 5000
+	area = physics
+	category = { magical_control }
+    prerequisites = { "tech_mg_field_of_magical_force" }
+	tier = 2 
+	weight = 70
+	modifier = {
+		planet_jobs_energy_produces_mult = 0.2
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magic_tier2_3 = { #量子能态
+	icon = tech_mg_magic_tier2_3
+	cost = 5000
+	area = physics
+	category = { magical_control }
+    prerequisites = { "tech_mg_field_of_magical_force" }
+	tier = 2 
+	weight = 70
+	modifier = {
+		starbase_energy_produce_mult = 0.2
+		country_energy_produces_mult = 0.1
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magic_tier2_4 = { #行星级魔力矩阵
+	icon = tech_mg_magic_tier2_4
+	cost = 5000
+	area = physics
+	category = { magical_control }
+    prerequisites = { "tech_mg_field_of_magical_force" }
+	tier = 2 
+	weight = 70
+	modifier = {
+		planet_jobs_produces_mult = 0.05
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magic_tier2_5 = { #能量偏转理论
+	icon = tech_mg_magic_tier2_5
+	cost = 5000
+	area = physics
+	category = { magical_control }
+    prerequisites = { "tech_mg_field_of_magical_force" }
+	tier = 2 
+	weight = 70
+	modifier = {
+		ship_shield_mult = 0.2
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magic_tier2_6 = { #魔法星系结界
+	icon = tech_mg_magic_tier2_6
+	cost = 5000
+	area = physics
+	category = { magical_control }
+    prerequisites = { "tech_mg_field_of_magical_force" }
+	tier = 2 
+	weight = 70
+	modifier = {
+		#解锁空间站部件？
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magic_tier2_7 = { #魔法异次元抽取理论
+	icon = tech_mg_magic_tier2_7
+	cost = 5000
+	area = physics
+	category = { magical_control }
+    prerequisites = { "tech_mg_field_of_magical_force" }
+	tier = 2 
+	weight = 70
+	modifier = {
+		country_rare_crystals_produces_mult = 0.15
+        country_volatile_motes_produces_mult = 0.15
+        country_exotic_gases_produces_mult = 0.15
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magic_tier3_1 = { #星系能源管理
+	icon = tech_mg_magic_tier3_1
+	cost = 10000
+	area = physics
+	category = { magical_control }
+    prerequisites = { "tech_mg_field_of_magical_force" }
+	tier = 3 
+	weight = 50
+	modifier = {
+		country_energy_produces_mult = 0.2
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magic_tier3_2 = { #量子场操控
+	icon = tech_mg_magic_tier3_2
+	cost = 10000
+	area = physics
+	category = { magical_control }
+    prerequisites = { "tech_mg_field_of_magical_force" }
+	tier = 3 
+	weight = 50
+	modifier = {
+		starbase_energy_produce_mult = 0.25
+		country_energy_produces_mult = 0.1
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magic_tier3_3 = { #星系级魔力矩阵
+	icon = tech_mg_magic_tier3_3
+	cost = 10000
+	area = physics
+	category = { magical_control }
+    prerequisites = { "tech_mg_field_of_magical_force" }
+	tier = 3 
+	weight = 50
+	modifier = {
+		planet_jobs_produces_mult = 0.05
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magic_tier3_4 = { #能量湮灭理论
+	icon = tech_mg_magic_tier3_4
+	cost = 10000
+	area = physics
+	category = { magical_control }
+    prerequisites = { "tech_mg_field_of_magical_force" }
+	tier = 3 
+	weight = 50
+	modifier = {
+		ship_shield_mult = 0.2
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magic_tier3_5 = { #魔法国土结界
+	icon = tech_mg_magic_tier3_5
+	cost = 10000
+	area = physics
+	category = { magical_control }
+    prerequisites = { "tech_mg_field_of_magical_force" }
+	tier = 3 
+	weight = 50
+	modifier = {
+		#巨构
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magic_tier3_6 = { #魔法抽取效率优化
+	icon = tech_mg_magic_tier3_6
+	cost = 10000
+	area = physics
+	category = { magical_control }
+    prerequisites = { "tech_mg_field_of_magical_force" }
+	tier = 3 
+	weight = 50
+	modifier = {
+		country_rare_crystals_produces_mult = 0.2
+        country_volatile_motes_produces_mult = 0.2
+        country_exotic_gases_produces_mult = 0.2
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magic_tier4_1 = { #能量时空理论
+	icon = tech_mg_magic_tier4_1
+	cost = 25000
+	area = physics
+	category = { magical_control }
+    prerequisites = { "tech_mg_field_of_magical_force" }
+	tier = 4
+	weight = 35
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.05
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magic_tier4_2 = { #装甲护盾一体化
+	icon = tech_mg_magic_tier4_2
+	cost = 25000
+	area = physics
+	category = { magical_control }
+    prerequisites = { "tech_mg_field_of_magical_force" }
+	tier = 4
+	weight = 35
+	modifier = {
+		shipsize_hull_mult = 0.2 
+		ship_armor_mult = 0.2
+		ship_shield_mult = 0.2
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+
+tech_mg_magic_tier4_3 = { #魔法结界小型化
+	icon = tech_mg_magic_tier4_3
+	cost = 25000
+	area = physics
+	category = { magical_control }
+    prerequisites = { "tech_mg_field_of_magical_force" }
+	tier = 4
+	weight = 20
+	modifier = {
+		ship_armor_mult = 0.3
+		ship_shield_mult = 0.3
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+
+tech_mg_magic_tier4_4 = { #星辰魔法抽取理论
+	icon = tech_mg_magic_tier4_4
+	cost = 25000
+	area = physics
+	category = { magical_control }
+    prerequisites = { "tech_mg_field_of_magical_force" }
+	tier = 4
+	weight = 35
+	modifier = {
+		country_rare_crystals_produces_mult = 0.2
+        country_volatile_motes_produces_mult = 0.2
+        country_exotic_gases_produces_mult = 0.2
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+##########
+ #魔力运算 magical_arithmetic
+##########
+tech_mg_magical_science = { #魔法科学
+	icon = tech_mg_magical_science
+	area = physics
+	category = { magical_arithmetic }
+	tier = 0 #科技等级
+	start_tech = yes
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.05
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magical_communication = { #魔法通信
+	icon = tech_mg_magical_communication
+	area = physics
+	category = { magical_arithmetic }
+	tier = 0 #科技等级
+	start_tech = yes
+	modifier = {
+		intel_decryption_add = 3 #初始情报加成
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magical_active_defence = { #主动防御
+	icon = tech_mg_magical_active_defence
+	area = physics
+	category = { magical_arithmetic }
+	tier = 0 #科技等级
+	start_tech = yes
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.05
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magic_tier1_7 = { #魔法宇宙理论
+	icon = tech_mg_magic_tier1_7
+	cost = 1000
+	area = physics
+	category = { magical_arithmetic }
+    prerequisites = { "tech_mg_magical_science" }
+	tier = 1 #科技等级
+	weight = 100
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.05
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magic_tier1_8 = { #空间实验室
+	icon = tech_mg_magic_tier1_8
+	cost = 1000
+	area = physics
+	category = { magical_arithmetic }
+    prerequisites = { "tech_mg_magical_science" }
+	tier = 1 #科技等级
+	weight = 100
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.05
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magic_tier1_9 = { #初阶魔法研究
+	icon = tech_mg_magic_tier1_9
+	cost = 1000
+	area = physics
+	category = { magical_arithmetic }
+    prerequisites = { "tech_mg_magical_science" }
+	tier = 1 #科技等级
+	weight = 100
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.05
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magic_tier1_10 = { #量子骇客
+	icon = tech_mg_magic_tier1_10
+	cost = 1000
+	area = physics
+	category = { magical_arithmetic }
+    prerequisites = { "tech_mg_magical_science" }
+	tier = 1 #科技等级
+	weight = 100
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.05
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magic_tier1_11 = { #量子防火墙
+	icon = tech_mg_magic_tier1_11
+	cost = 1000
+	area = physics
+	category = { magical_arithmetic }
+    prerequisites = { "tech_mg_magical_science" }
+	tier = 1 #科技等级
+	weight = 100
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.05
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magic_tier1_12 = { #互联防御理论
+	icon = tech_mg_magic_tier1_12
+	cost = 1000
+	area = physics
+	category = { magical_arithmetic }
+    prerequisites = { "tech_mg_magical_science" }
+	tier = 1
+	weight = 100
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.05
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magic_tier2_8 = { #线性时空理论
+	icon = tech_mg_magic_tier2_8
+	cost = 5000
+	area = physics
+	category = { magical_arithmetic }
+    prerequisites = { "tech_mg_magical_science" }
+	tier = 2
+	weight = 70
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.05
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magic_tier2_9 = { #魔力湮灭理论
+	icon = tech_mg_magic_tier2_9
+	cost = 5000
+	area = physics
+	category = { magical_arithmetic }
+    prerequisites = { "tech_mg_magical_science" }
+	tier = 2
+	weight = 70
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.05
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magic_tier2_10 = { #空间实验室I
+	icon = tech_mg_magic_tier2_10
+	cost = 5000
+	area = physics
+	category = { magical_arithmetic }
+    prerequisites = { "tech_mg_magical_science" }
+	tier = 2
+	weight = 70
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.05
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magic_tier2_36 = { #空间实验室II
+	icon = tech_mg_magic_tier2_36
+	cost = 5000
+	area = physics
+	category = { magical_arithmetic }
+    prerequisites = { "tech_mg_magical_science" }
+	tier = 2
+	weight = 60
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.05
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magic_tier2_11 = { #中阶魔法研究
+	icon = tech_mg_magic_tier2_11
+	cost = 5000
+	area = physics
+	category = { magical_arithmetic }
+    prerequisites = { "tech_mg_magical_science" }
+	tier = 2
+	weight = 70
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.05
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magic_tier2_12 = { #魔法科研协会
+	icon = tech_mg_magic_tier2_12
+	cost = 5000
+	area = physics
+	category = { magical_arithmetic }
+    prerequisites = { "tech_mg_magical_science" }
+	tier = 2
+	weight = 70
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.05
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magic_tier2_13 = { #魔法普及教育
+	icon = tech_mg_magic_tier2_13
+	cost = 5000
+	area = physics
+	category = { magical_arithmetic }
+    prerequisites = { "tech_mg_magical_science" }
+	tier = 2
+	weight = 70
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.05
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magical_tier2_14 = { #模拟社会工程
+	icon = tech_mg_magical_tier2_14
+	cost = 5000
+	area = physics
+	category = { magical_arithmetic }
+	tier = 2
+	weight = 70
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.05
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magical_tier2_15 = { #同时崩塌存储
+	icon = tech_mg_magical_tier2_15
+	cost = 5000
+	area = physics
+	category = { magical_arithmetic }
+	tier = 2
+	weight = 70
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.05
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magical_tier2_16 = { #预测防御理论
+	icon = tech_mg_magical_tier2_16
+	cost = 5000
+	area = physics
+	category = { magical_arithmetic }
+	tier = 2
+	weight = 70
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.05
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magic_tier3_7 = { #非线性时空理论
+	icon = tech_mg_magic_tier3_7
+	cost = 10000
+	area = physics
+	category = { magical_arithmetic }
+    prerequisites = { "tech_mg_field_of_magical_force" }
+	tier = 3 
+	weight = 50
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.05
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magic_tier3_8 = { #魔力释放理论
+	icon = tech_mg_magic_tier3_8
+	cost = 10000
+	area = physics
+	category = { magical_arithmetic }
+    prerequisites = { "tech_mg_field_of_magical_force" }
+	tier = 3 
+	weight = 50
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.05
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magic_tier3_9 = { #空间实验室III
+	icon = tech_mg_magic_tier3_9
+	cost = 10000
+	area = physics
+	category = { magical_arithmetic }
+    prerequisites = { "tech_mg_field_of_magical_force" }
+	tier = 3 
+	weight = 50
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.05
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magic_tier3_10 = { #空间实验室IV
+	icon = tech_mg_magic_tier3_10
+	cost = 10000
+	area = physics
+	category = { magical_arithmetic }
+    prerequisites = { "tech_mg_field_of_magical_force" }
+	tier = 3 
+	weight = 50
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.05
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magic_tier3_11 = { #高阶魔法研究
+	icon = tech_mg_magic_tier3_11
+	cost = 10000
+	area = physics
+	category = { magical_arithmetic }
+    prerequisites = { "tech_mg_field_of_magical_force" }
+	tier = 3 
+	weight = 50
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.05
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magic_tier3_12 = { #魔法科研部
+	icon = tech_mg_magic_tier3_12
+	cost = 10000
+	area = physics
+	category = { magical_arithmetic }
+    prerequisites = { "tech_mg_field_of_magical_force" }
+	tier = 3 
+	weight = 50
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.05
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magic_tier3_13 = { #魔法高等教育
+	icon = tech_mg_magic_tier3_13
+	cost = 10000
+	area = physics
+	category = { magical_arithmetic }
+    prerequisites = { "tech_mg_field_of_magical_force" }
+	tier = 3 
+	weight = 50
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.05
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magic_tier3_14 = { #准维映射
+	icon = tech_mg_magic_tier3_14
+	cost = 10000
+	area = physics
+	category = { magical_arithmetic }
+    prerequisites = { "tech_mg_field_of_magical_force" }
+	tier = 3 
+	weight = 50
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.05
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magic_tier3_15 = { #负时间秘钥
+	icon = tech_mg_magic_tier3_15
+	cost = 10000
+	area = physics
+	category = { magical_arithmetic }
+    prerequisites = { "tech_mg_field_of_magical_force" }
+	tier = 3 
+	weight = 50
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.05
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magic_tier3_16 = { #时空防御理论
+	icon = tech_mg_magic_tier3_16
+	cost = 10000
+	area = physics
+	category = { magical_arithmetic }
+    prerequisites = { "tech_mg_field_of_magical_force" }
+	tier = 3 
+	weight = 50
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.05
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+
+tech_mg_magic_tier4_5 = { #大一统理论
+	icon = tech_mg_magic_tier4_5
+	cost = 25000
+	area = physics
+	category = { magical_arithmetic }
+    prerequisites = { "tech_mg_field_of_magical_force" }
+	tier = 4
+	weight = 35
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.05
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magic_tier4_6 = { #空间实验室V
+	icon = tech_mg_magic_tier4_6
+	cost = 25000
+	area = physics
+	category = { magical_arithmetic }
+    prerequisites = { "tech_mg_field_of_magical_force" }
+	tier = 4
+	weight = 35
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.05
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magic_tier4_7 = { #非线性时空定位
+	icon = tech_mg_magic_tier4_7
+	cost = 25000
+	area = physics
+	category = { magical_arithmetic }
+    prerequisites = { "tech_mg_field_of_magical_force" }
+	tier = 4
+	weight = 35
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.05
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magic_tier4_8 = { #非线性时空存储
+	icon = tech_mg_magic_tier4_8
+	cost = 25000
+	area = physics
+	category = { magical_arithmetic }
+    prerequisites = { "tech_mg_field_of_magical_force" }
+	tier = 4
+	weight = 35
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.05
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+
+
+#########
+#魔法粒子 magical_particles
+#########
+tech_mg_subspace_removal = { #超空间移动
+	icon = tech_mg_subspace_removal
+	area = physics
+	category = { magical_particles }
+	tier = 0 #科技等级
+	start_tech = yes
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.05
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magical_fission_energy = { #裂变能源
+	icon = tech_mg_magical_fission_energy
+	area = physics
+	category = { magical_particles }
+	tier = 0 #科技等级
+	start_tech = yes
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.05
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magical_tier1_13 = { #超空间航道突破
+	icon = tech_mg_magical_tier1_13
+	cost = 1000
+	area = physics
+	category = { magical_particles }
+	tier = 1
+	weight = 100
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.05
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magical_tier1_14 = { #魔法能源
+	icon = tech_mg_magical_tier1_14
+	cost = 1000
+	area = physics
+	category = { magical_particles }
+	tier = 1
+	weight = 100
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.05
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magical_tier2_17 = { #超空间时空无序化
+	icon = tech_mg_magical_tier2_17
+	cost = 5000
+	area = physics
+	category = { magical_particles }
+	tier = 2
+	weight = 70
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.05
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magical_tier2_18 = { #超空间中继器
+	icon = tech_mg_magical_tier2_18
+	cost = 5000
+	area = physics
+	category = { magical_particles }
+	tier = 2
+	weight = 70
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.05
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magical_tier2_19 = { #高级魔法能源
+	icon = tech_mg_magical_tier2_19
+	cost = 5000
+	area = physics
+	category = { magical_particles }
+	tier = 2
+	weight = 70
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.05
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magic_tier3_17 = { #魔法跃迁引擎
+	icon = tech_mg_magic_tier3_17
+	cost = 10000
+	area = physics
+	category = { magical_particles }
+    prerequisites = { "tech_mg_field_of_magical_force" }
+	tier = 3 
+	weight = 50
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.05
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magic_tier3_18 = { #魔法传送矩阵建造
+	icon = tech_mg_magic_tier3_18
+	cost = 10000
+	area = physics
+	category = { magical_particles }
+    prerequisites = { "tech_mg_field_of_magical_force" }
+	tier = 3 
+	weight = 50
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.05
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magic_tier3_19 = { #魔法跃迁引擎
+	icon = tech_mg_magic_tier3_19
+	cost = 10000
+	area = physics
+	category = { magical_particles }
+    prerequisites = { "tech_mg_field_of_magical_force" }
+	tier = 3 
+	weight = 50
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.05
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magic_tier3_20 = { #星辰魔法能源
+	icon = tech_mg_magic_tier3_20
+	cost = 10000
+	area = physics
+	category = { magical_particles }
+    prerequisites = { "tech_mg_field_of_magical_force" }
+	tier = 3 
+	weight = 50
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.05
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magic_tier4_9 = { #星辰跃迁引擎
+	icon = tech_mg_magic_tier4_9
+	cost = 25000
+	area = physics
+	category = { magical_particles }
+    prerequisites = { "tech_mg_field_of_magical_force" }
+	tier = 4
+	weight = 35
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.05
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magic_tier4_10 = { #暗魔法能源
+	icon = tech_mg_magic_tier4_10
+	cost = 25000
+	area = physics
+	category = { magical_particles }
+    prerequisites = { "tech_mg_field_of_magical_force" }
+	tier = 4
+	weight = 35
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.05
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magic_tier4_11 = { #光魔法能源
+	icon = tech_mg_magic_tier4_11
+	cost = 25000
+	area = physics
+	category = { magical_particles }
+    prerequisites = { "tech_mg_field_of_magical_force" }
+	tier = 4
+	weight = 35
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.05
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+
+##########
+#魔法智能 magical_intelligence
+##########
+tech_mg_magical_weak_artifical_intelligence = { #弱人工智能
+	icon = tech_mg_magical_weak_artifical_intelligence
+	area = physics
+	category = { magical_intelligence }
+	tier = 0 #科技等级
+	start_tech = yes
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.05
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magical_tier1_15 = { #自主演化逻辑
+	icon = tech_mg_magical_tier1_15
+	cost = 1000
+	area = physics
+	category = { magical_intelligence }
+	tier = 1
+	weight = 100
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.05
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magical_tier1_16 = { #魔力情感模块
+	icon = tech_mg_magical_tier1_16
+	cost = 1000
+	area = physics
+	category = { magical_intelligence }
+	tier = 1
+	weight = 100
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.05
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magical_tier1_17 = { #魔力运动模块
+	icon = tech_mg_magical_tier1_17
+	cost = 1000
+	area = physics
+	category = { magical_intelligence }
+	tier = 1
+	weight = 100
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.05
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magical_tier1_18 = { #市场趋势分析
+	icon = tech_mg_magical_tier1_18
+	cost = 1000
+	area = physics
+	category = { magical_intelligence }
+	tier = 1
+	weight = 100
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.05
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magical_tier2_20 = { #知性人工智能
+	icon = tech_mg_magical_tier2_20
+	cost = 5000
+	area = physics
+	category = { magical_intelligence }
+	tier = 2
+	weight = 70
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.05
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magical_tier2_21 = { #魔力肉体躯壳
+	icon = tech_mg_magical_tier2_21
+	cost = 5000
+	area = physics
+	category = { magical_intelligence }
+	tier = 2
+	weight = 70
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.05
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magical_tier2_22 = { #魔力自我意识
+	icon = tech_mg_magical_tier2_22
+	cost = 5000
+	area = physics
+	category = { magical_intelligence }
+	tier = 2
+	weight = 70
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.05
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magical_tier2_23 = { #市场趋势预测
+	icon = tech_mg_magical_tier2_23
+	cost = 5000
+	area = physics
+	category = { magical_intelligence }
+	tier = 2
+	weight = 70
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.05
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magic_tier2_37 = { #情绪感知强化
+	icon = tech_mg_magic_tier2_37
+	cost = 5000
+	area = physics
+	category = { magical_intelligence }
+    prerequisites = { "tech_mg_magical_science" }
+	tier = 2
+	weight = 60
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.05
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magic_tier2_38 = { #运动能力强化
+	icon = tech_mg_magic_tier2_38
+	cost = 5000
+	area = physics
+	category = { magical_intelligence }
+    prerequisites = { "tech_mg_magical_science" }
+	tier = 2
+	weight = 60
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.05
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magic_tier3_21 = { #魔法人偶
+	icon = tech_mg_magic_tier3_21
+	cost = 10000
+	area = physics
+	category = { magical_intelligence }
+    prerequisites = { "tech_mg_field_of_magical_force" }
+	tier = 3 
+	weight = 50
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.05
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magic_tier3_22 = { #模块化躯壳
+	icon = tech_mg_magic_tier3_22
+	cost = 10000
+	area = physics
+	category = { magical_intelligence }
+    prerequisites = { "tech_mg_field_of_magical_force" }
+	tier = 3 
+	weight = 50
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.05
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magic_tier3_23 = { #魔法独立人格
+	icon = tech_mg_magic_tier3_23
+	cost = 10000
+	area = physics
+	category = { magical_intelligence }
+    prerequisites = { "tech_mg_field_of_magical_force" }
+	tier = 3 
+	weight = 50
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.05
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magic_tier3_24 = { #情绪深度学习
+	icon = tech_mg_magic_tier3_24
+	cost = 10000
+	area = physics
+	category = { magical_intelligence }
+    prerequisites = { "tech_mg_field_of_magical_force" }
+	tier = 3 
+	weight = 50
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.05
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magic_tier3_25 = { #市场计划经济
+	icon = tech_mg_magic_tier3_25
+	cost = 10000
+	area = physics
+	category = { magical_intelligence }
+    prerequisites = { "tech_mg_field_of_magical_force" }
+	tier = 3 
+	weight = 50
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.05
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+
+########
+#魔法战斗 magical_combat
+########
+tech_mg_magical_ship_accessory = { #魔法舰船配件
+	icon = tech_mg_magical_ship_accessory
+	area = physics
+	category = { magical_combat }
+	tier = 0 #科技等级
+	start_tech = yes
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.05
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_common_laser = { #普通激光
+	icon = tech_mg_common_laser
+	area = physics
+	category = { magical_combat }
+	tier = 0 #科技等级
+	start_tech = yes
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.05
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magical_tier1_19 = { #魔法战斗力场
+	icon = tech_mg_magical_tier1_19
+	cost = 1000
+	area = physics
+	category = { magical_combat }
+	tier = 1
+	weight = 100
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.05
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magical_tier1_20 = { #魔法辅助模块
+	icon = tech_mg_magical_tier1_20
+	cost = 1000
+	area = physics
+	category = { magical_combat }
+	tier = 1
+	weight = 100
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.05
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magical_tier1_21 = { #魔法传感器
+	icon = tech_mg_magical_tier1_21
+	cost = 1000
+	area = physics
+	category = { magical_combat }
+	tier = 1
+	weight = 100
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.05
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magical_tier1_22 = { #魔法核心模块
+	icon = tech_mg_magical_tier1_22
+	cost = 1000
+	area = physics
+	category = { magical_combat }
+	tier = 1
+	weight = 100
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.05
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magical_tier1_23 = { #魔法推进器
+	icon = tech_mg_magical_tier1_23
+	cost = 1000
+	area = physics
+	category = { magical_combat }
+	tier = 1
+	weight = 100
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.05
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magical_tier1_23 = { #魔法激光
+	icon = tech_mg_magical_tier1_23
+	cost = 1000
+	area = physics
+	category = { magical_combat }
+	tier = 1 #科技等级
+	weight = 100
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.05
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magical_tier2_24 = { #魔法紊乱发生器
+	icon = tech_mg_magical_tier2_24
+	cost = 5000
+	area = physics
+	category = { magical_combat }
+	tier = 2
+	weight = 70
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.05
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magical_tier2_25 = { #魔法领域发生器
+	icon = tech_mg_magical_tier2_25
+	cost = 5000
+	area = physics
+	category = { magical_combat }
+	tier = 2
+	weight = 70
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.05
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magical_tier2_26 = { #魔法护盾矩阵
+	icon = tech_mg_magical_tier2_26
+	cost = 5000
+	area = physics
+	category = { magical_combat }
+	tier = 2
+	weight = 70
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.05
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magical_tier2_27 = { #魔法火控系统
+    icon = tech_mg_magical_tier2_27
+    cost = 5000
+	area = physics
+	category = { magical_combat }
+	tier = 2
+	weight = 70
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.05
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magical_tier2_28 = { #魔法反应堆辅助系统
+	icon = tech_mg_magical_tier2_28
+	cost = 5000
+	area = physics
+	category = { magical_combat }
+	tier = 2
+	weight = 70
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.05
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magical_tier2_29 = { #魔法时空倒流器
+	icon = tech_mg_magical_tier2_29
+	cost = 5000
+	area = physics
+	category = { magical_combat }
+	tier = 2
+	weight = 70
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.05
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magical_tier2_30 = { #魔法辅助推进系统
+	icon = tech_mg_magical_tier2_30
+	cost = 5000
+	area = physics
+	category = { magical_combat }
+	tier = 2
+	weight = 70
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.05
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magical_tier2_31 = { #高级魔法传感器
+	icon = tech_mg_magical_tier2_31
+	cost = 5000
+	area = physics
+	category = { magical_combat }
+	tier = 2
+	weight = 70
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.05
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magical_tier2_32 = { #基础作战电脑
+	icon = tech_mg_magical_tier2_32
+	cost = 5000
+	area = physics
+	category = { magical_combat }
+	tier = 2
+	weight = 70
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.05
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magical_tier2_33 = { #高级魔法推进器
+	icon = tech_mg_magical_tier2_33
+	cost = 5000
+	area = physics
+	category = { magical_combat }
+	tier = 2
+	weight = 70
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.05
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magical_tier2_34 = { #高级魔法激光
+	icon = tech_mg_magical_tier2_34
+	cost = 5000
+	area = physics
+	category = { magical_combat }
+	tier = 2
+	weight = 70
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.05
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magical_tier2_35 = { #魔法光矛
+	icon = tech_mg_magical_tier2_35
+	cost = 5000
+	area = physics
+	category = { magical_combat }
+	tier = 2
+	weight = 70
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.05
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magic_tier3_26 = { #先进魔法护盾矩阵
+	icon = tech_mg_magic_tier3_26
+	cost = 10000
+	area = physics
+	category = { magical_combat }
+    prerequisites = { "tech_mg_field_of_magical_force" }
+	tier = 3 
+	weight = 50
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.05
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magic_tier3_27 = { #先进魔法火控系统
+	icon = tech_mg_magic_tier3_27
+	cost = 10000
+	area = physics
+	category = { magical_combat }
+    prerequisites = { "tech_mg_field_of_magical_force" }
+	tier = 3 
+	weight = 50
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.05
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magic_tier3_28 = { #先进魔法反应堆辅助系统
+	icon = tech_mg_magic_tier3_28
+	cost = 10000
+	area = physics
+	category = { magical_combat }
+    prerequisites = { "tech_mg_field_of_magical_force" }
+	tier = 3 
+	weight = 50
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.05
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magic_tier3_29 = { #先进魔法时空倒流器
+	icon = tech_mg_magic_tier3_29
+	cost = 10000
+	area = physics
+	category = { magical_combat }
+    prerequisites = { "tech_mg_field_of_magical_force" }
+	tier = 3 
+	weight = 50
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.05
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magic_tier3_30 = { #先进魔法辅助推进系统
+	icon = tech_mg_magic_tier3_30
+	cost = 10000
+	area = physics
+	category = { magical_combat }
+    prerequisites = { "tech_mg_field_of_magical_force" }
+	tier = 3 
+	weight = 50
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.05
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magic_tier3_31 = { #星辰魔法传感器
+	icon = tech_mg_magic_tier3_31
+	cost = 10000
+	area = physics
+	category = { magical_combat }
+    prerequisites = { "tech_mg_field_of_magical_force" }
+	tier = 3 
+	weight = 50
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.05
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magic_tier3_32 = { #中级作战电脑
+	icon = tech_mg_magic_tier3_32
+	cost = 10000
+	area = physics
+	category = { magical_combat }
+    prerequisites = { "tech_mg_field_of_magical_force" }
+	tier = 3 
+	weight = 50
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.05
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magic_tier3_33 = { #星辰魔法推进器
+	icon = tech_mg_magic_tier3_33
+	cost = 10000
+	area = physics
+	category = { magical_combat }
+    prerequisites = { "tech_mg_field_of_magical_force" }
+	tier = 3 
+	weight = 50
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.05
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magic_tier3_34 = { #星辰魔法激光
+	icon = tech_mg_magic_tier3_34
+	cost = 10000
+	area = physics
+	category = { magical_combat }
+    prerequisites = { "tech_mg_field_of_magical_force" }
+	tier = 3 
+	weight = 50
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.05
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magic_tier3_35 = { #高级魔法光矛
+	icon = tech_mg_magic_tier3_35
+	cost = 10000
+	area = physics
+	category = { magical_combat }
+    prerequisites = { "tech_mg_field_of_magical_force" }
+	tier = 3 
+	weight = 50
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.05
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magic_tier4_12 = { #先进作战电脑
+	icon = tech_mg_magic_tier4_12
+	cost = 25000
+	area = physics
+	category = { magical_combat }
+    prerequisites = { "tech_mg_field_of_magical_force" }
+	tier = 4
+	weight = 35
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.05
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}
+
+tech_mg_magic_tier4_13 = { #星辰魔法光矛
+	icon = tech_mg_magic_tier4_13
+	cost = 25000
+	area = physics
+	category = { magical_combat }
+    prerequisites = { "tech_mg_field_of_magical_force" }
+	tier = 4
+	weight = 35
+	modifier = {
+		planet_jobs_unity_produces_mult = 0.05
+	}
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	prereqfor_desc = {
+		diplo_action = {
+			title = "tech_mg_phy_elementary_theory_edicts"
+			desc = "tech_mg_phy_elementary_theory_desc"
+		}
+	}
+}

@@ -1,0 +1,12 @@
+Magical_Girl = { #魔法少女
+	archetype = MAGICAL_GIRL
+	randomized = no #随机生成
+	gender = no #无法
+	portraits = { #贴图
+		"magical_girl"
+	}
+	leader_age_min = 15
+	leader_age_max = 25
+	graphical_culture = humanoid_01
+	move_pop_sound_effect = "moving_pop_confirmation"
+}

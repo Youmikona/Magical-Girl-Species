@@ -1,0 +1,11 @@
+﻿l_simp_chinese:
+purge_necrophage2:0 "创生"
+purge_necrophage2_tooltip:0 "这些人在政府机关面前排队等待手术以成为魔物娘,他们每个人都为此感到无比兴奋"
+purge_necrophage2_tooltip_delayed:0 "为了获得一个提前名额，他们甚至会试图用 £energy£ 买通政府官员"
+#job
+job_purge2:0 "魔物娘"
+job_purge2_plural:0 "魔物娘"
+job_purge2_desc:0 "呐呐呐，和我一起去美好的二次元当魔法少女吧"
+#opinion
+opinion_creation_spell:0 "我也想要变成魔法少女"
+opinion_creat_our_species:0 "创生我们的物种"

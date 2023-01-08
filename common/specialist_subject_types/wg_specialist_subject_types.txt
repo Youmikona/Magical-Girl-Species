@@ -1,0 +1,89 @@
+specialist_mg_feudatory_jurisdiction = {
+	icon = "GFX_diplomacy_specialist_subject_wsg_jurisdiction"
+	icon_large = "GFX_diplomacy_specialist_subject_wsg_jurisdiction_large"
+	preferred_ethic = ethic_materialist
+	base_conversion_time = 5
+
+	on_progress_complete = {
+	}
+
+	levels = {
+		# Level 1
+		{
+			experience_needed_for_next_level = 1200
+			perks = {
+				wsg_jurisdiction_1_modifier
+				wsg_jurisdiction_1_modifier_1
+				wsg_jurisdiction_1_modifier_2
+				wsg_jurisdiction_1_modifier_3
+				wsg_jurisdiction_1_modifier_4
+			}
+		}
+		# Level 2
+		{
+			experience_needed_for_next_level = 2400
+			perks = {
+				wsg_jurisdiction_2_modifier
+				wsg_jurisdiction_2_modifier_1
+				wsg_jurisdiction_2_modifier_2
+				wsg_jurisdiction_2_modifier_3
+			}
+		}
+		# Level 3
+		{
+			perks = {
+				wsg_jurisdiction_3_modifier
+				wsg_jurisdiction_3_modifier_1
+				wsg_jurisdiction_3_modifier_2
+				wsg_jurisdiction_3_modifier_3
+			}
+		}
+	}
+}
+
+specialist_mg_satellite_state_jurisdiction = {
+	icon = "GFX_diplomacy_specialist_subject_sh_jurisdiction"
+	icon_large = "GFX_diplomacy_specialist_subject_sh_jurisdiction_large"
+	preferred_ethic = ethic_materialist
+	base_conversion_time = 5
+
+	on_progress_complete = {
+	}
+
+	levels = {
+		# Level 1
+		{
+			experience_needed_for_next_level = 1200
+			perks = {
+				sh_jurisdiction_1_modifier
+				sh_jurisdiction_1_modifier_debuff
+				sh_jurisdiction_1_modifier_1
+				sh_jurisdiction_1_modifier_2
+				sh_jurisdiction_1_modifier_3
+				sh_jurisdiction_1_modifier_4
+			}
+		}
+		# Level 2
+		{
+			experience_needed_for_next_level = 2400
+			perks = {
+				sh_jurisdiction_2_modifier
+				sh_jurisdiction_2_modifier_debuff
+				sh_jurisdiction_2_modifier_1
+				sh_jurisdiction_2_modifier_2
+				sh_jurisdiction_2_modifier_3
+				sh_jurisdiction_2_modifier_4
+			}
+		}
+		# Level 3
+		{
+			perks = {
+				sh_jurisdiction_3_modifier
+				sh_jurisdiction_3_modifier_debuff
+				sh_jurisdiction_3_modifier_1
+				sh_jurisdiction_3_modifier_2
+				sh_jurisdiction_3_modifier_3
+			}
+		}
+	}
+}

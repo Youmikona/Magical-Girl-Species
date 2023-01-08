@@ -1,0 +1,38 @@
+#
+mg_casus_belli_1_attack = {
+	show_in_diplomacy = yes
+	show_notification = yes
+	potential = {
+		has_country_flag = play_mg_country
+	}
+	is_valid = {
+		NOT = { is_overlord_to = FROM }
+		OR = {
+			is_subject = no
+			overlord = { NOT = { is_same_value = from } }
+		}
+	}
+}
+mg_casus_belli_attack_1_defense = {
+	show_in_diplomacy = yes
+	show_notification = yes
+	potential = {
+		is_country_type = default
+		NOT = { is_in_federation_with = from }
+	}
+	is_valid = {
+		from = { is_country_type = default }
+		NOT = { is_overlord_to = FROM }
+		OR = {
+			is_subject = no
+			overlord = { NOT = { is_same_value = from } }
+		}
+		from = {
+			has_authority = auth_magical_girl
+		}
+		NOT = {
+			has_authority = auth_magical_girl
+		}
+	}
+}
+

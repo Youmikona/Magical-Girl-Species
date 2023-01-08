@@ -1,0 +1,152 @@
+#封邑
+preset_mg_feudatory_jurisdiction_subject = {
+	icon = "GFX_mg_feudatory_jurisdiction_subject"
+	specialist_type = specialist_mg_feudatory_jurisdiction
+	term_data = {
+		discrete_terms = {
+			{
+				key = specialist_type
+				value = specialist_mg_feudatory_jurisdiction
+			}
+			{
+				key = subject_integration
+				value = subject_can_be_integrated_mg
+			}
+			{
+				key = subject_diplomacy
+				value = subject_can_do_diplomacy_but_not_vote
+			}
+			{
+				key = subject_expand
+				value = subject_can_expand_with_tithe
+			}
+			{
+				key = joins_overlord_wars
+				value = joins_overlord_wars_all_mg
+			}
+			{
+				key = joins_subject_wars
+				value = joins_subject_wars_all
+			}
+			{
+				key = subject_holdings_limit
+				value = subject_holdings_limit_feudatory
+			}
+			{
+				key = subject_sensors
+				value = subject_gets_sensors
+			}
+			{
+				key = subject_loyalty
+				value = subject_loyalty_effects
+			}
+		}
+		resource_terms = {
+			{
+				key = resource_subsidies_basic
+				value = 0.45
+			}
+			{
+				key = resource_subsidies_advanced
+				value = 0.45
+			}
+			{
+				key = resource_subsidies_research
+				value = 0.45
+			}
+			{
+				key = resource_subsidies_strategic
+				value = 0.45
+			}
+		}
+	}
+
+	potential = {
+		from = {
+			has_authority = auth_magical_girl 
+		}	
+	}
+
+	overlord_weight = {
+		base = 200
+	}
+	subject_weight = {
+		base = 100
+	}
+}
+
+preset_mg_satellite_state_jurisdiction_subject = {
+	icon = "GFX_mg_feudatory_jurisdiction_subject"
+	specialist_type = specialist_mg_satellite_state_jurisdiction
+	term_data = {
+		discrete_terms = {
+			{
+				key = specialist_type
+				value = specialist_mg_satellite_state_jurisdiction
+			}
+			{
+				key = subject_integration
+				value = subject_can_not_be_integrated
+			}
+			{
+				key = subject_diplomacy
+				value = subject_can_do_diplomacy_but_not_vote
+			}
+			{
+				key = subject_expand
+				value = subject_can_expand
+			}
+			{
+				key = joins_overlord_wars
+				value = joins_overlord_wars_all_mg
+			}
+			{
+				key = joins_subject_wars
+				value = joins_subject_wars_defensive
+			}
+			{
+				key = subject_holdings_limit
+				value = subject_holdings_limit_satellite_state
+			}
+			{
+				key = subject_sensors
+				value = subject_gets_sensors
+			}
+			{
+				key = subject_loyalty
+				value = subject_loyalty_effects
+			}
+		}
+		resource_terms = {
+			{
+				key = resource_subsidies_basic
+				value = 0.30
+			}
+			{
+				key = resource_subsidies_advanced
+				value = 0.30
+			}
+			{
+				key = resource_subsidies_research
+				value = 0.30
+			}
+			{
+				key = resource_subsidies_strategic
+				value = 0.30
+			}
+		}
+	}
+
+	potential = {
+		from = {
+			has_authority = auth_magical_girl 
+		}	
+	}
+
+	overlord_weight = {
+		base = 200
+	}
+	subject_weight = {
+		base = 100
+	}
+}

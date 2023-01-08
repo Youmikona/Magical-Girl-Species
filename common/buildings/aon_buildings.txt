@@ -1,0 +1,1553 @@
+#魔法美食制作中心
+building_mg_food = {
+	base_buildtime = 360
+	base_cap_amount = 1
+
+	capital = no
+	can_build = yes
+	can_demolish = yes
+	can_be_ruined = yes
+	can_be_disabled = yes
+
+	category = resource
+
+	position_priority = 20 #位置优先级
+
+	potential = {
+		exists = owner
+		owner = {
+			has_authority = auth_magical_girl
+			has_technology = tech_mg_soc_geme
+		}
+	}
+
+	planet_modifier = {
+		planet_jobs_food_produces_mult = 0.01
+		job_mg_food_writer_add = 2
+		job_mg_food_worker_add = 6
+	}
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 500
+		}
+		upkeep = {
+			energy = 10
+		}
+	}
+
+	triggered_desc = {
+		text = job_mg_food_writer_effect_desc
+	}
+	triggered_desc = {
+		text = job_mg_food_worker_effect_desc
+	}
+}
+
+#魔法少女游戏厅
+building_mg_game = {
+	base_buildtime = 360
+	base_cap_amount = 1
+
+	capital = no
+	can_build = yes
+	can_demolish = yes
+	can_be_ruined = yes
+	can_be_disabled = yes
+
+	category = unity
+
+	position_priority = 25 #位置优先级
+
+	potential = {
+		exists = owner
+		owner = {
+			has_authority = auth_magical_girl
+			has_technology = tech_mg_soc_geme
+		}
+	}
+
+	planet_modifier = {
+		planet_jobs_unity_produces_mult = 0.01
+		job_mg_esports_manager_add = 2
+		job_mg_esports_player_add = 4
+	}
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 800
+			alloys = 200
+		}
+		upkeep = {
+			energy = 10
+		}
+	}
+
+	upgrades = {    #升级到什么建筑
+        "building_mg_game_1"
+	}
+
+	triggered_desc = {
+		text = job_mg_esports_manager_effect_desc
+	}
+	triggered_desc = {
+		text = job_mg_esports_player_effect_desc
+	}
+}
+building_mg_game_1 = {
+	base_buildtime = 720
+	base_cap_amount = 1
+
+	capital = no
+	can_build = yes
+	can_demolish = yes
+	can_be_ruined = yes
+	can_be_disabled = yes
+
+	category = unity
+
+	position_priority = 25 #位置优先级
+
+	potential = {
+		exists = owner
+		owner = {
+			has_authority = auth_magical_girl
+			has_technology = tech_mg_soc_geme_1
+		}
+	}
+
+	planet_modifier = {
+		planet_jobs_unity_produces_mult = 0.01
+		job_mg_esports_manager_add = 2
+		job_mg_esports_player_add = 8
+	}
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 1000
+			alloys = 400
+		}
+		upkeep = {
+			energy = 15
+
+		}
+	}
+
+	triggered_desc = {
+		text = job_mg_esports_manager_effect_desc
+	}
+	triggered_desc = {
+		text = job_mg_esports_player_effect_desc
+	}
+}
+
+#女皇圣坛
+building_mg_holy = {
+	base_buildtime = 360
+	base_cap_amount = 1
+
+	capital = no
+	can_build = yes
+	can_demolish = yes
+	can_be_ruined = yes
+	can_be_disabled = yes
+
+	category = government
+
+	position_priority = 25 #位置优先级
+
+	potential = {
+		exists = owner
+		owner = {
+			has_authority = auth_magical_girl
+			has_technology = tech_mg_soc_holy_queen_bud
+		}
+	}
+
+	planet_modifier = {
+		planet_jobs_unity_produces_mult = 0.1
+		job_mg_girl_grand_duke_add = 2
+		job_mg_priest_add = 4
+	}
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 500
+		}
+		upkeep = {
+			energy = 5
+
+		}
+	}
+
+	upgrades = {    #升级到什么建筑
+	"building_mg_holy_1"
+	}
+
+	triggered_desc = {
+		text = job_mg_girl_grand_duke_effect_desc
+	}
+	triggered_desc = {
+		text = job_mg_priest_effect_desc
+	}
+}
+building_mg_holy_1 = {
+	base_buildtime = 720
+	base_cap_amount = 1
+
+	capital = no
+	can_build = yes
+	can_demolish = yes
+	can_be_ruined = yes
+	can_be_disabled = yes
+
+	category = government
+
+	position_priority = 25 #位置优先级
+
+	potential = {
+		exists = owner
+		owner = {
+			has_authority = auth_magical_girl
+			has_technology = tech_mg_soc_holy_queen_bud_1
+		}
+	}
+
+	planet_modifier = {
+		planet_jobs_unity_produces_mult = 0.25
+		job_mg_girl_grand_duke_add = 2
+		job_mg_priest_add = 6
+	}
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 1000
+		}
+		upkeep = {
+			energy = 8
+
+		}
+	}
+
+	triggered_desc = {
+		text = job_mg_girl_grand_duke_effect_desc
+	}
+	triggered_desc = {
+		text = job_mg_priest_effect_desc
+	}
+}
+
+#魔法管理中心
+building_mg_gov = {
+	base_buildtime = 360
+	base_cap_amount = 1
+
+	capital = no
+	can_build = yes
+	can_demolish = yes
+	can_be_ruined = yes
+	can_be_disabled = yes
+
+	category = government
+
+	position_priority = 25 #位置优先级
+
+	potential = {
+		exists = owner
+		owner = {
+			has_authority = auth_magical_girl
+			has_technology = tech_mg_soc_magical_government
+		}
+	}
+
+	planet_modifier = {
+		job_mg_logistics_specialist_add = 4
+	}
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 1000
+		}
+		upkeep = {
+			energy = 8
+
+		}
+	}
+
+	upgrades = {    #升级到什么建筑
+	"building_mg_gov_1"
+	}
+
+	triggered_desc = {
+		text = job_mg_logistics_specialist_effect_desc
+	}
+}
+building_mg_gov_1 = {
+	base_buildtime = 360
+	base_cap_amount = 1
+
+	capital = no
+	can_build = yes
+	can_demolish = yes
+	can_be_ruined = yes
+	can_be_disabled = yes
+
+	category = government
+
+	position_priority = 25 #位置优先级
+
+	potential = {
+		exists = owner
+		owner = {
+			has_authority = auth_magical_girl
+			has_technology = tech_mg_soc_magical_government_1
+		}
+	}
+
+	planet_modifier = {
+		job_mg_logistics_specialist_add = 8
+	}
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 1000
+		}
+		upkeep = {
+			energy = 8
+
+		}
+	}
+
+	triggered_desc = {
+		text = job_mg_logistics_specialist_effect_desc
+	}
+}
+
+#泽洛收集厂
+building_mg_zro_factory = {
+	base_buildtime = 360
+	base_cap_amount = 1
+
+	capital = no
+	can_build = yes
+	can_demolish = yes
+	can_be_ruined = yes
+	can_be_disabled = yes
+
+	category = manufacturing
+
+	position_priority = 25 #位置优先级
+
+	potential = {
+		exists = owner
+		owner = {
+			has_authority = auth_magical_girl
+			has_technology = tech_mg_eng_zro_factory
+		}
+	}
+
+	planet_modifier = {
+		job_mg_zro_specialist_add = 4
+	}
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 1000
+		}
+		upkeep = {
+			energy = 8
+
+		}
+	}
+
+	upgrades = {    #升级到什么建筑
+	"building_mg_zro_factory_1"
+	}
+
+	triggered_desc = {
+		text = job_mg_zro_specialist_effect_desc
+	}
+}
+building_mg_zro_factory_1 = {
+	base_buildtime = 720
+	base_cap_amount = 1
+
+	capital = no
+	can_build = yes
+	can_demolish = yes
+	can_be_ruined = yes
+	can_be_disabled = yes
+
+	category = manufacturing
+
+	position_priority = 25 #位置优先级
+
+	potential = {
+		exists = owner
+		owner = {
+			has_authority = auth_magical_girl
+			has_technology = tech_mg_eng_zro_factory_1
+		}
+	}
+
+	planet_modifier = {
+		job_mg_zro_specialist_add = 6
+	}
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 1000
+		}
+		upkeep = {
+			energy = 8
+
+		}
+	}
+
+	upgrades = {    #升级到什么建筑
+	"building_mg_zro_factory_2"
+	}
+
+	triggered_desc = {
+		text = job_mg_zro_specialist_effect_desc
+	}
+}
+building_mg_zro_factory_2 = {
+	base_buildtime = 1000
+	base_cap_amount = 1
+
+	capital = no
+	can_build = yes
+	can_demolish = yes
+	can_be_ruined = yes
+	can_be_disabled = yes
+
+	category = manufacturing
+
+	position_priority = 25 #位置优先级
+
+	potential = {
+		exists = owner
+		owner = {
+			has_authority = auth_magical_girl
+			has_technology = tech_mg_eng_zro_factory_2
+		}
+	}
+
+	planet_modifier = {
+		job_mg_zro_specialist_add = 10
+	}
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 1000
+		}
+		upkeep = {
+			energy = 8
+
+		}
+	}
+
+	triggered_desc = {
+		text = job_mg_zro_specialist_effect_desc
+	}
+}
+
+#魔法源晶合成厂
+building_mg_magic_crystals_factory = {
+	base_buildtime = 360
+	base_cap_amount = 1
+
+	capital = no
+	can_build = yes
+	can_demolish = yes
+	can_be_ruined = yes
+	can_be_disabled = yes
+
+	category = manufacturing
+
+	position_priority = 25 #位置优先级
+
+	potential = {
+		exists = owner
+		owner = {
+			has_authority = auth_magical_girl
+			has_technology = tech_mg_eng_magic_crystals_factory
+		}
+	}
+
+	planet_modifier = {
+		job_mg_magic_crystals_specialist_add = 4
+	}
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 1000
+		}
+		upkeep = {
+			energy = 8
+
+		}
+	}
+
+	upgrades = {    #升级到什么建筑
+	"building_mg_magic_crystals_factory_1"
+	}
+
+	triggered_desc = {
+		text = job_mg_magic_crystals_specialist_effect_desc
+	}
+}
+building_mg_magic_crystals_factory_1 = {
+	base_buildtime = 720
+	base_cap_amount = 1
+
+	capital = no
+	can_build = yes
+	can_demolish = yes
+	can_be_ruined = yes
+	can_be_disabled = yes
+
+	category = manufacturing
+
+	position_priority = 25 #位置优先级
+
+	potential = {
+		exists = owner
+		owner = {
+			has_authority = auth_magical_girl
+			has_technology = tech_mg_eng_magic_crystals_factory_1
+		}
+	}
+
+	planet_modifier = {
+		job_mg_magic_crystals_specialist_add = 6
+	}
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 1000
+		}
+		upkeep = {
+			energy = 8
+
+		}
+	}
+
+	upgrades = {    #升级到什么建筑
+	"building_mg_magic_crystals_factory_2"
+	}
+
+	triggered_desc = {
+		text = job_mg_magic_crystals_specialist_effect_desc
+	}
+}
+building_mg_magic_crystals_factory_2 = {
+	base_buildtime = 1000
+	base_cap_amount = 1
+
+	capital = no
+	can_build = yes
+	can_demolish = yes
+	can_be_ruined = yes
+	can_be_disabled = yes
+
+	category = manufacturing
+
+	position_priority = 25 #位置优先级
+
+	potential = {
+		exists = owner
+		owner = {
+			has_authority = auth_magical_girl
+			has_technology = tech_mg_eng_magic_crystals_factory_2
+		}
+	}
+
+	planet_modifier = {
+		job_mg_magic_crystals_specialist_add = 10
+	}
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 1000
+		}
+		upkeep = {
+			energy = 8
+
+		}
+	}
+
+	triggered_desc = {
+		text = job_mg_magic_crystals_specialist_effect_desc
+	}
+}
+
+#魔法自律工程设施
+building_mg_magic_auto = {
+	base_buildtime = 720
+	base_cap_amount = 1
+
+	capital = no
+	can_build = yes
+	can_demolish = yes
+	can_be_ruined = yes
+	can_be_disabled = yes
+
+	category = government
+
+	position_priority = 25 #位置优先级
+
+	potential = {
+		exists = owner
+		owner = {
+			has_authority = auth_magical_girl
+			has_technology = tech_mg_eng_magic_auto_factory
+		}
+	}
+
+	planet_modifier = {
+		planet_building_build_speed_mult = 1
+		planet_buildings_time_cost_mult = -0.5
+	}
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 1000
+		}
+		upkeep = {
+			energy = 8
+
+		}
+	}
+}
+
+#魔法少女召唤中心
+building_mg_magic_girl_factory = {
+	base_buildtime = 360
+	base_cap_amount = 1
+
+	capital = no
+	can_build = yes
+	can_demolish = yes
+	can_be_ruined = yes
+	can_be_disabled = yes
+
+	category = pop_assembly
+
+	position_priority = 25 #位置优先级
+
+	potential = {
+		exists = owner
+		owner = {
+			has_authority = auth_magical_girl
+			has_technology = tech_mg_eng_magic_crystals_factory
+		}
+	}
+
+	planet_modifier = {
+		planet_pop_assembly_organic_add = 3
+	}
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 1000
+		}
+		upkeep = {
+			energy = 8
+
+		}
+	}
+
+	upgrades = {    #升级到什么建筑
+	"building_mg_magic_girl_factory_1"
+	}
+}
+building_mg_magic_girl_factory_1 = {
+	base_buildtime = 720
+	base_cap_amount = 1
+
+	capital = no
+	can_build = yes
+	can_demolish = yes
+	can_be_ruined = yes
+	can_be_disabled = yes
+
+	category = pop_assembly
+
+	position_priority = 25 #位置优先级
+
+	potential = {
+		exists = owner
+		owner = {
+			has_authority = auth_magical_girl
+			has_technology = tech_mg_eng_magic_crystals_factory_1
+		}
+	}
+
+	planet_modifier = {
+		planet_pop_assembly_organic_add = 6
+	}
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 1000
+		}
+		upkeep = {
+			energy = 8
+
+		}
+	}
+
+	upgrades = {    #升级到什么建筑
+	"building_mg_magic_girl_factory_2"
+	}
+}
+building_mg_magic_girl_factory_2 = {
+	base_buildtime = 1000
+	base_cap_amount = 1
+
+	capital = no
+	can_build = yes
+	can_demolish = yes
+	can_be_ruined = yes
+	can_be_disabled = yes
+
+	category = pop_assembly
+
+	position_priority = 25 #位置优先级
+
+	potential = {
+		exists = owner
+		owner = {
+			has_authority = auth_magical_girl
+			has_technology = tech_mg_eng_magic_crystals_factory_2
+		}
+	}
+
+	planet_modifier = {
+		planet_pop_assembly_organic_add = 10
+	}
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 1000
+		}
+		upkeep = {
+			energy = 8
+
+		}
+	}
+}
+
+#魔法发电中心
+building_mg_energy = {
+	base_buildtime = 1000
+	base_cap_amount = 1
+
+	capital = no
+	can_build = yes
+	can_demolish = yes
+	can_be_ruined = yes
+	can_be_disabled = yes
+
+	category = resource
+
+	position_priority = 25 #位置优先级
+
+	potential = {
+		exists = owner
+		owner = {
+			has_authority = auth_magical_girl
+			has_technology = tech_mg_eng_magical_cash
+		}
+	}
+
+	planet_modifier = {
+		job_mg_energy_worker_add = 8
+	}
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 1000
+		}
+		upkeep = {
+			energy = 8
+
+		}
+	}
+
+	triggered_desc = {
+		text = job_mg_energy_worker_effect_desc
+	}
+}
+
+#魔法矿物开采井
+building_mg_mineral = {
+	base_buildtime = 1000
+	base_cap_amount = 1
+
+	capital = no
+	can_build = yes
+	can_demolish = yes
+	can_be_ruined = yes
+	can_be_disabled = yes
+
+	category = resource
+
+	position_priority = 25 #位置优先级
+
+	potential = {
+		exists = owner
+		owner = {
+			has_authority = auth_magical_girl
+			has_technology = tech_mg_eng_magical_cash
+		}
+	}
+
+	planet_modifier = {
+		job_mg_minerals_worker_add = 8
+	}
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 1000
+		}
+		upkeep = {
+			energy = 8
+
+		}
+	}
+
+	triggered_desc = {
+		text = job_mg_minerals_worker_effect_desc
+	}
+}
+
+#魔法研究所
+building_mg_magic_institute = {
+	base_buildtime = 360
+
+	capital = no
+	can_build = yes
+	can_demolish = yes
+	can_be_ruined = yes
+	can_be_disabled = yes
+
+	category = research
+
+	position_priority = 25 #位置优先级
+
+	potential = {
+		exists = owner
+		owner = {
+			has_authority = auth_magical_girl
+			has_technology = tech_mg_phy_magical_research_institute
+		}
+	}
+
+	planet_modifier = {
+		job_mg_research_manager_add = 2
+		job_mg_research_specialist_add = 4
+	}
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 1000
+		}
+		upkeep = {
+			energy = 8
+
+		}
+	}
+
+	upgrades = {    #升级到什么建筑
+	"building_mg_magic_institute_1"
+	}
+
+	triggered_desc = {
+		text = job_mg_research_manager_effect_desc
+	}
+	triggered_desc = {
+		text = job_mg_research_specialist_effect_desc
+	}
+}
+building_mg_magic_institute_1 = {
+	base_buildtime = 720
+
+	capital = no
+	can_build = yes
+	can_demolish = yes
+	can_be_ruined = yes
+	can_be_disabled = yes
+
+	category = research
+
+	position_priority = 25 #位置优先级
+
+	potential = {
+		exists = owner
+		owner = {
+			has_authority = auth_magical_girl
+			has_technology = tech_mg_phy_magical_research_institute_1
+		}
+	}
+
+	planet_modifier = {
+		job_mg_research_manager_add = 2
+		job_mg_research_specialist_add = 6
+	}
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 1000
+		}
+		upkeep = {
+			energy = 8
+
+		}
+	}
+
+	upgrades = {    #升级到什么建筑
+	"building_mg_magic_institute_2"
+	}
+
+	triggered_desc = {
+		text = job_mg_research_manager_effect_desc
+	}
+	triggered_desc = {
+		text = job_mg_research_specialist_effect_desc
+	}
+}
+building_mg_magic_institute_2 = {
+	base_buildtime = 1000
+
+	capital = no
+	can_build = yes
+	can_demolish = yes
+	can_be_ruined = yes
+	can_be_disabled = yes
+
+	category = research
+
+	position_priority = 25 #位置优先级
+
+	potential = {
+		exists = owner
+		owner = {
+			has_authority = auth_magical_girl
+			has_technology = tech_mg_phy_magical_research_institute_2
+		}
+	}
+
+	planet_modifier = {
+		job_mg_research_manager_add = 4
+		job_mg_research_specialist_add = 10
+	}
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 1000
+		}
+		upkeep = {
+			energy = 8
+
+		}
+	}
+
+	triggered_desc = {
+		text = job_mg_research_manager_effect_desc
+	}
+	triggered_desc = {
+		text = job_mg_research_specialist_effect_desc
+	}
+}
+
+#魔法城堡
+building_mg_magic_castle = {
+	base_buildtime = 360
+
+	capital = no
+	can_build = yes
+	can_demolish = yes
+	can_be_ruined = yes
+	can_be_disabled = yes
+
+	category = government
+
+	position_priority = 25 #位置优先级
+
+	potential = {
+		exists = owner
+		owner = {
+			has_authority = auth_magical_girl
+			has_technology = tech_mg_soc_magic_castle
+		}
+	}
+
+	planet_modifier = {
+		job_mg_administrator_add = 1
+		job_mg_defend_amry_add = 4
+	}
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 1000
+		}
+		upkeep = {
+			energy = 8
+
+		}
+	}
+
+	upgrades = {    #升级到什么建筑
+	"building_mg_magic_castle_1"
+	}
+
+	triggered_desc = {
+		text = job_mg_administrator_effect_desc
+	}
+	triggered_desc = {
+		text = job_mg_defend_amry_effect_desc
+	}
+}
+building_mg_magic_castle_1 = {
+	base_buildtime = 720
+
+	capital = no
+	can_build = yes
+	can_demolish = yes
+	can_be_ruined = yes
+	can_be_disabled = yes
+
+	category = government
+
+	position_priority = 25 #位置优先级
+
+	potential = {
+		exists = owner
+		owner = {
+			has_authority = auth_magical_girl
+			has_technology = tech_mg_soc_magic_castle_1
+		}
+	}
+
+	planet_modifier = {
+		job_mg_administrator_add = 2
+		job_mg_defend_amry_add = 6
+	}
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 1000
+		}
+		upkeep = {
+			energy = 8
+
+		}
+	}
+
+	triggered_desc = {
+		text = job_mg_administrator_effect_desc
+	}
+	triggered_desc = {
+		text = job_mg_defend_amry_effect_desc
+	}
+}
+
+#魔法堡垒
+building_mg_magic_fortress = {
+	base_buildtime = 360
+
+	capital = no
+	can_build = yes
+	can_demolish = yes
+	can_be_ruined = yes
+	can_be_disabled = yes
+
+	category = army
+
+	position_priority = 25 #位置优先级
+
+	potential = {
+		exists = owner
+		owner = {
+			has_authority = auth_magical_girl
+			has_technology = tech_mg_soc_fortress
+		}
+	}
+
+	planet_modifier = {
+		job_mg_defend_amry_add = 5
+	}
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 1000
+		}
+		upkeep = {
+			energy = 8
+
+		}
+	}
+
+	upgrades = {    #升级到什么建筑
+	"building_mg_magic_fortress_1"
+	}
+	triggered_desc = {
+		text = job_mg_defend_amry_effect_desc
+	}
+}
+building_mg_magic_fortress_1 = {
+	base_buildtime = 720
+
+	capital = no
+	can_build = yes
+	can_demolish = yes
+	can_be_ruined = yes
+	can_be_disabled = yes
+
+	category = army
+
+	position_priority = 25 #位置优先级
+
+	potential = {
+		exists = owner
+		owner = {
+			has_authority = auth_magical_girl
+			has_technology = tech_mg_soc_fortress_1
+		}
+	}
+
+	planet_modifier = {
+		job_mg_defend_amry_add = 10
+	}
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 1000
+		}
+		upkeep = {
+			energy = 8
+
+		}
+	}
+	triggered_desc = {
+		text = job_mg_defend_amry_effect_desc
+	}
+}
+
+#暗魔法结晶合成厂
+building_mg_magic_dark_crystallization_factory = {
+	base_buildtime = 360
+
+	capital = no
+	can_build = yes
+	can_demolish = yes
+	can_be_ruined = yes
+	can_be_disabled = yes
+
+	category = manufacturing
+
+	position_priority = 25 #位置优先级
+
+	potential = {
+		exists = owner
+		owner = {
+			has_authority = auth_magical_girl
+			has_technology = tech_mg_eng_dark_crystallization_factory
+		}
+	}
+
+	planet_modifier = {
+		job_mg_dark_magic_crystallization_specialist_add = 4
+	}
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 1000
+		}
+		upkeep = {
+			energy = 8
+
+		}
+	}
+
+	upgrades = {    #升级到什么建筑
+	"building_mg_magic_dark_crystallization_factory_1"
+	}
+	triggered_desc = {
+		text = job_mg_dark_magic_crystallization_specialist_effect_desc
+	}
+}
+building_mg_magic_dark_crystallization_factory_1 = {
+	base_buildtime = 720
+
+	capital = no
+	can_build = yes
+	can_demolish = yes
+	can_be_ruined = yes
+	can_be_disabled = yes
+
+	category = manufacturing
+
+	position_priority = 25 #位置优先级
+
+	potential = {
+		exists = owner
+		owner = {
+			has_authority = auth_magical_girl
+			has_technology = tech_mg_eng_dark_crystallization_factory_1
+		}
+	}
+
+	planet_modifier = {
+		job_mg_dark_magic_crystallization_specialist_add = 8
+	}
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 1000
+		}
+		upkeep = {
+			energy = 8
+
+		}
+	}
+	triggered_desc = {
+		text = job_mg_dark_magic_crystallization_specialist_effect_desc
+	}
+}
+
+#魔法学院
+building_mg_magic_school = {
+	base_buildtime = 360
+	base_cap_amount = 1
+
+	capital = no
+	can_build = yes
+	can_demolish = yes
+	can_be_ruined = yes
+	can_be_disabled = yes
+
+	category = research
+
+	position_priority = 25 #位置优先级
+
+	potential = {
+		exists = owner
+		owner = {
+			has_authority = auth_magical_girl
+			has_technology = tech_mg_soc_magic_school
+		}
+	}
+
+	planet_modifier = {
+		job_mg_professor_add = 4
+		job_mg_student_add = 4
+		planet_jobs_physics_research_produces_mult = 0.2
+		planet_jobs_engineering_research_produces_mult = 0.2
+		planet_jobs_society_research_produces_mult = 0.2
+	}
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 1000
+		}
+		upkeep = {
+			energy = 8
+
+		}
+	}
+	triggered_desc = {
+		text = job_mg_professor_effect_desc
+	}
+	triggered_desc = {
+		text = job_mg_student_effect_desc
+	}
+}
+
+#魔法研究中心
+building_mg_research_center = {
+	base_buildtime = 360
+	base_cap_amount = 1
+
+	capital = no
+	can_build = yes
+	can_demolish = yes
+	can_be_ruined = yes
+	can_be_disabled = yes
+
+	category = research
+
+	position_priority = 25 #位置优先级
+
+	potential = {
+		exists = owner
+		owner = {
+			has_authority = auth_magical_girl
+			has_technology = tech_mg_soc_research_center
+		}
+	}
+
+	planet_modifier = {
+		job_mg_research_manager_add = 4
+		planet_jobs_physics_research_produces_mult = 0.25
+		planet_jobs_engineering_research_produces_mult = 0.25
+		planet_jobs_society_research_produces_mult = 0.25
+	}
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 1000
+		}
+		upkeep = {
+			energy = 8
+
+		}
+	}
+
+	triggered_desc = {
+		text = job_mg_research_manager_effect_desc
+	}
+}
+
+#魔法工业转化中心
+building_mg_industry = {
+	base_buildtime = 360
+
+	capital = no
+	can_build = yes
+	can_demolish = yes
+	can_be_ruined = yes
+	can_be_disabled = yes
+
+	category = manufacturing
+
+	position_priority = 25 #位置优先级
+
+	potential = {
+		exists = owner
+		owner = {
+			has_authority = auth_magical_girl
+			has_technology = tech_mg_eng_magic_alloy
+		}
+	}
+
+	planet_modifier = {
+		job_mg_alloy_specialist_add = 4
+	}
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 1000
+		}
+		upkeep = {
+			energy = 8
+
+		}
+	}
+	upgrades = {    #升级到什么建筑
+	"building_mg_industry_1"
+	}
+
+	triggered_desc = {
+		text = job_mg_alloy_specialist_effect_desc
+	}
+}
+building_mg_industry_1 = {
+	base_buildtime = 360
+
+	capital = no
+	can_build = yes
+	can_demolish = yes
+	can_be_ruined = yes
+	can_be_disabled = yes
+
+	category = manufacturing
+
+	position_priority = 25 #位置优先级
+
+	potential = {
+		exists = owner
+		owner = {
+			has_authority = auth_magical_girl
+			has_technology = tech_mg_eng_magic_alloy_1
+		}
+	}
+
+	planet_modifier = {
+		job_mg_alloy_specialist_add = 8
+	}
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 1000
+		}
+		upkeep = {
+			energy = 8
+
+		}
+	}
+
+	triggered_desc = {
+		text = job_mg_alloy_specialist_effect_desc
+	}
+}
+
+#魔法稀有资源转化中心
+building_mg_rare = {
+	base_buildtime = 360
+
+	capital = no
+	can_build = yes
+	can_demolish = yes
+	can_be_ruined = yes
+	can_be_disabled = yes
+
+	category = manufacturing
+
+	position_priority = 25 #位置优先级
+
+	potential = {
+		exists = owner
+		owner = {
+			has_authority = auth_magical_girl
+			has_technology = tech_mg_eng_magic_rare_resources
+		}
+	}
+
+	planet_modifier = {
+		job_mg_rare_specialist_add = 4
+	}
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 1000
+		}
+		upkeep = {
+			energy = 8
+
+		}
+	}
+	upgrades = {    #升级到什么建筑
+	"building_mg_rare_1"
+	}
+
+	triggered_desc = {
+		text = job_mg_rare_specialist_effect_desc
+	}
+}
+building_mg_rare_1 = {
+	base_buildtime = 360
+
+	capital = no
+	can_build = yes
+	can_demolish = yes
+	can_be_ruined = yes
+	can_be_disabled = yes
+
+	category = manufacturing
+
+	position_priority = 25 #位置优先级
+
+	potential = {
+		exists = owner
+		owner = {
+			has_authority = auth_magical_girl
+			has_technology = tech_mg_eng_magic_rare_resources_1
+		}
+	}
+
+	planet_modifier = {
+		job_mg_rare_specialist_add = 8
+	}
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 1000
+		}
+		upkeep = {
+			energy = 8
+		}
+	}
+
+	triggered_desc = {
+		text = job_mg_rare_specialist_effect_desc
+	}
+}
+
+#魔法考古中心
+building_mg_archaeology = {
+	base_buildtime = 360
+
+	capital = no
+	can_build = yes
+	can_demolish = yes
+	can_be_ruined = yes
+	can_be_disabled = yes
+
+	category = manufacturing
+
+	position_priority = 25 #位置优先级
+
+	potential = {
+		exists = owner
+		owner = {
+			has_authority = auth_magical_girl
+			has_technology = tech_mg_eng_magic_archaeology
+		}
+	}
+
+	planet_modifier = {
+		job_mg_archaeologist_add = 2
+	}
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 1000
+		}
+		upkeep = {
+			energy = 8
+		}
+	}
+
+	triggered_desc = {
+		text = job_mg_archaeologist_effect_desc
+	}
+}

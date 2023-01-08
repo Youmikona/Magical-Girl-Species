@@ -1,0 +1,193 @@
+portraits = {
+	xiaoyuan    = {texturefile = "gfx/models/portraits/MG/particular/particular_admiral_xiaoyuan.dds"  }
+	#ruler
+	luna    = {texturefile = "gfx/models/portraits/MG/ruler/luna.dds"  }
+	luna1   = {texturefile = "gfx/models/portraits/MG/ruler/luna1.dds"  }
+	luna2   = {texturefile = "gfx/models/portraits/MG/ruler/luna2.dds"  }
+	luna3   = {texturefile = "gfx/models/portraits/MG/ruler/luna3.dds"  }
+	luna4   = {texturefile = "gfx/models/portraits/MG/ruler/luna4.dds"  }
+	kona    = {texturefile = "gfx/models/portraits/MG/ruler/kona.dds"  }
+	kona1    = {texturefile = "gfx/models/portraits/MG/ruler/kona1.dds"  }
+	kona2   = {texturefile = "gfx/models/portraits/MG/ruler/kona2.dds"  }
+	yihui   = {texturefile = "gfx/models/portraits/MG/ruler/yihui.dds"  } 
+	
+	#leader
+	madoka1 = {	texturefile = "gfx/models/portraits/MG/leader/madoka1.dds"  }
+	madoka2 = {	texturefile = "gfx/models/portraits/MG/leader/madoka2.dds"  }
+	madoka3 = {	texturefile = "gfx/models/portraits/MG/leader/madoka3.dds"  }
+	madoka4 = {	texturefile = "gfx/models/portraits/MG/leader/madoka4.dds"  }
+	madoka5 = {	texturefile = "gfx/models/portraits/MG/leader/madoka5.dds"  }
+	
+	homura1 = {	texturefile = "gfx/models/portraits/MG/leader/homura1.dds"  }
+	homura2 = {	texturefile = "gfx/models/portraits/MG/leader/homura2.dds"  }
+	homura3 = {	texturefile = "gfx/models/portraits/MG/leader/homura3.dds"  }
+	homura4 = {	texturefile = "gfx/models/portraits/MG/leader/homura4.dds"  }
+	homura5 = {	texturefile = "gfx/models/portraits/MG/leader/homura5.dds"  }
+	homura6 = {	texturefile = "gfx/models/portraits/MG/leader/homura6.dds"  }
+	homura7 = {	texturefile = "gfx/models/portraits/MG/leader/homura7.dds"  }
+	
+	sayaka1 = {	texturefile = "gfx/models/portraits/MG/leader/sayaka1.dds"  }
+	sayaka2 = {	texturefile = "gfx/models/portraits/MG/leader/sayaka2.dds"  }
+	sayaka3 = {	texturefile = "gfx/models/portraits/MG/leader/sayaka3.dds"  }
+	
+	kyouko1 = {	texturefile = "gfx/models/portraits/MG/leader/kyouko1.dds"  }
+	kyouko2 = {	texturefile = "gfx/models/portraits/MG/leader/kyouko2.dds"  }
+	
+	mami1 = {	texturefile = "gfx/models/portraits/MG/leader/mami1.dds"  }
+	mami2 = {	texturefile = "gfx/models/portraits/MG/leader/mami2.dds"  }
+	mami3 = {	texturefile = "gfx/models/portraits/MG/leader/mami3.dds"  }
+	
+	shoujo1 = {	texturefile = "gfx/models/portraits/MG/leader/shoujo1.dds"  }
+	shoujo2 = {	texturefile = "gfx/models/portraits/MG/leader/shoujo2.dds"  }
+	shoujo3 = {	texturefile = "gfx/models/portraits/MG/leader/shoujo3.dds"  }
+	shoujo4 = {	texturefile = "gfx/models/portraits/MG/leader/shoujo4.dds"  }
+	shoujo5 = {	texturefile = "gfx/models/portraits/MG/leader/shoujo5.dds"  }
+	shoujo6 = {	texturefile = "gfx/models/portraits/MG/leader/shoujo6.dds"  }
+	shoujo7 = {	texturefile = "gfx/models/portraits/MG/leader/shoujo7.dds"  }
+	shoujo8 = {	texturefile = "gfx/models/portraits/MG/leader/shoujo8.dds"  }
+	shoujo9 = {	texturefile = "gfx/models/portraits/MG/leader/shoujo9.dds"  }
+	shoujo10 = { texturefile = "gfx/models/portraits/MG/leader/shoujo10.dds"  }
+	shoujo11 = { texturefile = "gfx/models/portraits/MG/leader/shoujo11.dds"  }
+
+}
+portrait_groups = {
+magical_girl = {
+		default = madoka1
+		game_setup = { 
+			
+			add = {
+				portraits = {
+					#ruler
+					luna
+					luna1
+					luna2
+					luna3
+					luna4
+					kona
+					kona1
+					kona2
+					yihui
+					madoka1
+					madoka2
+					madoka3
+					madoka5
+					homura1
+					homura2
+					homura3
+					homura4
+					homura5
+					sayaka1
+					sayaka3
+					kyouko1
+					mami1
+					mami2
+					shoujo1
+					shoujo3
+					shoujo4
+					shoujo5
+					shoujo6
+					shoujo7
+					shoujo8
+					shoujo9
+					shoujo10
+					shoujo11
+				}
+			}
+
+		}
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+				yihui 
+				madoka1
+				homura1
+				sayaka1
+				kyouko1
+				mami1
+				shoujo1
+				}
+			}
+
+
+		}
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					yihui 
+					madoka1
+					homura1
+					sayaka1
+					kyouko1
+					mami1
+					shoujo1
+				}
+			}
+
+		}
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				portraits = {
+					yihui
+					madoka1
+					madoka2
+					madoka3
+					madoka5
+					
+					homura1
+					homura2
+					homura3
+					homura4
+					homura5
+					
+					sayaka1
+					sayaka3
+					
+					kyouko1
+					
+					mami1
+					mami2
+					
+					shoujo1
+					shoujo3
+					shoujo4
+					shoujo5
+					shoujo6
+					shoujo7
+					shoujo8
+					shoujo9
+					shoujo10
+					shoujo11
+				}
+			}
+
+		}	
+		#leader scope 
+		ruler = {
+			add = {
+				portraits = {
+					#私货
+					luna
+					luna1
+					luna2
+					luna3
+					luna4
+					kona
+					kona1
+					kona2
+					#魔法
+					yihui
+					madoka1
+					homura1
+					sayaka1
+					kyouko1
+					mami1
+					shoujo1
+				}	
+			}
+		}
+	}
+}
+	

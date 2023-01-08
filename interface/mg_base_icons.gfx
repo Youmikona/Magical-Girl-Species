@@ -1,0 +1,127 @@
+#政体
+spriteTypes = {	
+    spriteType = {
+		name = "auth_magical_girl"
+		textureFile = "gfx/interface/icons/governments/authorities/auth_magical_girl.dds"
+	}
+}
+
+#军队
+spriteTypes = {	
+    spriteType = {
+		name = "heavy_troops"
+		textureFile = "gfx/interface/icons/army/heavy_troops.dds"
+	}
+}
+spriteTypes = {	
+    spriteType = {
+		name = "dark_spells_troops"
+		textureFile = "gfx/interface/icons/army/dark_spells_troops.dds"
+	}
+}
+spriteTypes = {	
+    spriteType = {
+		name = "motorized_troops"
+		textureFile = "gfx/interface/icons/army/motorized_troops.dds"
+	}
+}
+spriteTypes = {	
+    spriteType = {
+		name = "summon_spells"
+		textureFile = "gfx/interface/icons/army/summon_spells.dds"
+	}
+}
+spriteTypes = {	
+    spriteType = {
+		name = "battle_troops"
+		textureFile = "gfx/interface/icons/army/battle_troops.dds"
+	}
+}
+
+#飞升
+spriteTypes = {	
+    spriteType = {
+		name = "GFX_ap_magic_galactic_idol"
+		textureFile = "gfx/interface/icons/ascension_perks/ap_magic_galactic_idol.dds"
+	}
+}
+spriteTypes = {	
+    spriteType = {
+		name = "GFX_ap_magic_reform"
+		textureFile = "gfx/interface/icons/ascension_perks/ap_magic_reform.dds"
+	}
+}
+spriteTypes = {	
+    spriteType = {
+		name = "GFX_ap_magic_world"
+		textureFile = "gfx/interface/icons/ascension_perks/ap_magic_world.dds"
+	}
+}
+spriteTypes = {	
+    spriteType = {
+		name = "GFX_ap_magic_arousal"
+		textureFile = "gfx/interface/icons/ascension_perks/ap_magic_arousal.dds"
+	}
+}
+spriteTypes = {	
+    spriteType = {
+		name = "GFX_ap_magic_industrial_reform"
+		textureFile = "gfx/interface/icons/ascension_perks/ap_magic_industrial_reform.dds"
+	}
+}
+spriteTypes = {	
+    spriteType = {
+		name = "GFX_ap_magic_galactic_fleet"
+		textureFile = "gfx/interface/icons/ascension_perks/ap_magic_galactic_fleet.dds"
+	}
+}
+spriteTypes = {	
+    spriteType = {
+		name = "GFX_ap_magic_miracle_engineering"
+		textureFile = "gfx/interface/icons/ascension_perks/ap_magic_miracle_engineering.dds"
+	}
+}
+spriteTypes = {	
+    spriteType = {
+		name = "GFX_ap_magic_political_reform"
+		textureFile = "gfx/interface/icons/ascension_perks/ap_magic_political_reform.dds"
+	}
+}
+spriteTypes = {	
+    spriteType = {
+		name = "GFX_ap_magic_empire"
+		textureFile = "gfx/interface/icons/ascension_perks/ap_magic_empire.dds"
+	}
+}
+spriteTypes = {	
+    spriteType = {
+		name = "GFX_ap_magic_empire_deterrence"
+		textureFile = "gfx/interface/icons/ascension_perks/ap_magic_empire_deterrence.dds"
+	}
+}
+spriteTypes = {	
+    spriteType = {
+		name = "GFX_ap_magic_republic"
+		textureFile = "gfx/interface/icons/ascension_perks/ap_magic_republic.dds"
+	}
+}
+spriteTypes = {	
+    spriteType = {
+		name = "GFX_ap_magic_union"
+		textureFile = "gfx/interface/icons/ascension_perks/ap_magic_union.dds"
+	}
+}
+spriteTypes = {	
+    spriteType = {
+		name = "GFX_ap_magic_federation"
+		textureFile = "gfx/interface/icons/ascension_perks/ap_magic_federation.dds"
+	}
+}
+
+#联邦
+spriteTypes = {	
+    spriteType = {
+		name = "GFX_magic_girls_federation"
+		textureFile = "gfx/interface/icons/federation/federation_types/magic_girls_federation.dds"
+	}
+}

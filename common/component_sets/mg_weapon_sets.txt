@@ -1,0 +1,241 @@
+#P
+component_set = {
+	key = "MG_weapon_P_T1"
+	
+	icon = "GFX_MG_weapon_P_T1"
+	icon_frame = 1	
+}
+component_set = {
+	key = "MG_weapon_P_dark_T1"
+	
+	icon = "GFX_MG_weapon_P_dark_T1"
+	icon_frame = 1	
+}
+component_set = {
+	key = "MG_weapon_P_dark_T2"
+	
+	icon = "GFX_MG_weapon_P_dark_T2"
+	icon_frame = 1	
+}
+component_set = {
+	key = "MG_weapon_P_light_T1"
+	
+	icon = "GFX_MG_weapon_P_light_T1"
+	icon_frame = 1	
+}
+component_set = {
+	key = "MG_weapon_P_light_T2"
+	
+	icon = "GFX_MG_weapon_P_light_T2"
+	icon_frame = 1	
+}
+
+
+
+
+#LMS
+component_set = {
+	key = "MG_weapon_L_T1"
+	
+	icon = "GFX_MG_weapon_L_T1"
+	icon_frame = 1	
+}
+component_set = {
+	key = "MG_weapon_M_T1"
+	
+	icon = "GFX_MG_weapon_M_T1"
+	icon_frame = 1	
+}
+component_set = {
+	key = "MG_weapon_S_T1"
+	
+	icon = "GFX_MG_weapon_S_T1"
+	icon_frame = 1	
+}
+
+
+component_set = {
+	key = "MG_weapon_L_dark_T1"
+	
+	icon = "GFX_MG_weapon_L_dark_T1"
+	icon_frame = 1	
+}
+component_set = {
+	key = "MG_weapon_M_dark_T1"
+	
+	icon = "GFX_MG_weapon_M_dark_T1"
+	icon_frame = 1	
+}
+component_set = {
+	key = "MG_weapon_S_dark_T1"
+	
+	icon = "GFX_MG_weapon_S_dark_T1"
+	icon_frame = 1	
+}
+component_set = {
+	key = "MG_weapon_L_dark_T2"
+	
+	icon = "GFX_MG_weapon_L_dark_T2"
+	icon_frame = 1	
+}
+component_set = {
+	key = "MG_weapon_M_dark_T2"
+	
+	icon = "GFX_MG_weapon_M_dark_T2"
+	icon_frame = 1	
+}
+component_set = {
+	key = "MG_weapon_S_dark_T2"
+	
+	icon = "GFX_MG_weapon_S_dark_T2"
+	icon_frame = 1	
+}
+
+
+component_set = {
+	key = "MG_weapon_L_light_T1"
+	
+	icon = "GFX_MG_weapon_L_light_T1"
+	icon_frame = 1	
+}
+component_set = {
+	key = "MG_weapon_M_light_T1"
+	
+	icon = "GFX_MG_weapon_M_light_T1"
+	icon_frame = 1	
+}
+component_set = {
+	key = "MG_weapon_S_light_T1"
+	
+	icon = "GFX_MG_weapon_S_light_T1"
+	icon_frame = 1	
+}
+component_set = {
+	key = "MG_weapon_L_light_T2"
+	
+	icon = "GFX_MG_weapon_L_light_T2"
+	icon_frame = 1	
+}
+component_set = {
+	key = "MG_weapon_M_light_T2"
+	
+	icon = "GFX_MG_weapon_M_light_T2"
+	icon_frame = 1	
+}
+component_set = {
+	key = "MG_weapon_S_light_T2"
+	
+	icon = "GFX_MG_weapon_S_light_T2"
+	icon_frame = 1	
+}
+
+
+
+#X
+component_set = {
+	key = "MG_weapon_X_T1"
+	
+	icon = "GFX_MG_weapon_X_T1"
+	icon_frame = 1	
+}
+component_set = {
+	key = "MG_weapon_X_dark_T1"
+	
+	icon = "GFX_MG_weapon_X_dark_T1"
+	icon_frame = 1	
+}
+component_set = {
+	key = "MG_weapon_X_dark_T2"
+	
+	icon = "GFX_MG_weapon_X_dark_T2"
+	icon_frame = 1	
+}
+component_set = {
+	key = "MG_weapon_X_light_T1"
+	
+	icon = "GFX_MG_weapon_X_light_T1"
+	icon_frame = 1	
+}
+component_set = {
+	key = "MG_weapon_X_light_T2"
+	
+	icon = "GFX_MG_weapon_X_light_T2"
+	icon_frame = 1	
+}
+
+
+
+#T
+component_set = {
+	key = "MG_weapon_T_T1"
+	
+	icon = "GFX_MG_weapon_T_T1"
+	icon_frame = 1	
+}
+component_set = {
+	key = "MG_weapon_T_dark_T1"
+	
+	icon = "GFX_MG_weapon_T_dark_T1"
+	icon_frame = 1	
+}
+component_set = {
+	key = "MG_weapon_T_dark_T2"
+	
+	icon = "GFX_MG_weapon_T_dark_T2"
+	icon_frame = 1	
+}
+component_set = {
+	key = "MG_weapon_T_light_T1"
+	
+	icon = "GFX_MG_weapon_T_light_T1"
+	icon_frame = 1	
+}
+component_set = {
+	key = "MG_weapon_T_light_T2"
+	
+	icon = "GFX_MG_weapon_T_light_T2"
+	icon_frame = 1	
+}
+
+
+#G
+component_set = {
+	key = "MG_weapon_G_T1"
+	
+	icon = "GFX_MG_weapon_G_T1"
+	icon_frame = 1	
+}
+component_set = {
+	key = "MG_weapon_G_dark_T1"
+	
+	icon = "GFX_MG_weapon_G_dark_T1"
+	icon_frame = 1	
+}
+component_set = {
+	key = "MG_weapon_G_light_T1"
+	
+	icon = "GFX_MG_weapon_G_light_T1"
+	icon_frame = 1	
+}
+
+
+
+#H
+component_set = {
+	key = "MG_weapon_H_T1"
+	
+	icon = "GFX_MG_weapon_H_T1"
+	icon_frame = 1	
+}
+component_set = {
+	key = "MG_weapon_H_dark_T1"
+	
+	icon = "GFX_MG_weapon_H_dark_T1"
+	icon_frame = 1	
+}
+component_set = {
+	key = "MG_weapon_H_light_T1"
+	
+	icon = "GFX_MG_weapon_H_light_T1"
+	icon_frame = 1	
+}

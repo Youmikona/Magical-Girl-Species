@@ -1,0 +1,108 @@
+﻿l_simp_chinese:
+#base
+#初阶魔法理论
+tech_mg_phy_elementary_theory:0 "初阶魔法理论"
+tech_mg_phy_elementary_theory_edicts:0 "§E解锁魔法科技§"
+tech_mg_phy_elementary_theory_desc:0 "若是把魔法知识比作广袤的海洋，目前魔法少女们现在对魔法的了解不过仅仅是一条小溪。想要了解更多的知识，就必须在基础魔法理论上多下功夫。"
+#泽洛收集理论
+tech_mg_phy_zro_collective_theory:0 "泽珞收集理论"
+tech_mg_phy_zro_collective_theory_edicts:0 "解锁§E$tech_mg_eng_zro_factory$§!科技"
+tech_mg_phy_zro_collective_theory_desc:0 "泽珞是魔法少女使用魔力必不可少的介质。曾经我们只能抠抠索索的使用那些星球上自然散发的少量泽珞。现在随着我们技术的进步，很快我们就可以尽情地挥霍魔法，不会被泽洛所束缚了！"
+#初阶合成理论
+tech_mg_phy_elementary_theory_of_magic_synthesis:0 "初阶魔法合成理论"
+tech_mg_phy_elementary_theory_of_magic_synthesis_desc:0 "随着我们对魔力强度需求的增多，现在魔法少女们需要更多的能量辅助自己完成魔法。科学家认为，也许我们利用魔法将多种物质合并为一种合成物质，让魔法少女们得以在日常生活中更方便地使用。"
+tech_mg_phy_elementary_theory_of_magic_synthesis_edicts:0 "§E解锁魔法合成工艺§"
+#初阶魔法转化理论
+tech_mg_phy_elementary_theory_of_magic_transformation:0 "初阶魔法转化理论"
+tech_mg_phy_elementary_theory_of_magic_transformation_desc:0 "先前就一直有理论认为，魔力可以充当物质之间相互转化的媒介。现在，魔法少女们可以自豪地宣布，这一理论被证明是正确的了！"
+tech_mg_phy_elementary_theory_of_magic_transformation_edicts:0 "§E解锁魔法转化工艺§"
+#魔法研究所
+tech_mg_phy_magical_research_institute:0 "魔法研究所"
+tech_mg_phy_magical_research_institute_desc:0 "这里是专业的科研型魔法少女研究创造新的魔法的场所。当然，时不时传出的爆炸声也展露了魔法研究的危险性。不过她们每次都会说：才不是自己的研究导致的爆炸呢，哼。"
+tech_mg_phy_magical_research_institute_edicts:0 "解锁建筑:§E魔法研究所§!"
+tech_mg_phy_magical_research_institute_1:0 "魔法研究机构"
+tech_mg_phy_magical_research_institute_1_desc:0 "预留！未写文案"
+tech_mg_phy_magical_research_institute_1_edicts:0 "解锁建筑升级:§E魔法研究机构§!"
+tech_mg_phy_magical_research_institute_2:0 "魔法研究中心"
+tech_mg_phy_magical_research_institute_2_desc:0 "预留！未写文案"
+tech_mg_phy_magical_research_institute_2_edicts:0 "解锁建筑升级:§E魔法研究中心§!"
+#魔法仓储
+tech_mg_phy_magical_warehouse:0 "魔法仓储"
+tech_mg_phy_magical_warehouse_desc:0 "有理论认为我们可以用魔法创造出某种异次元口袋，以此来收纳资源，放到异次元中储存"
+tech_mg_phy_magical_warehouse_1:0 "魔法仓储"
+tech_mg_phy_magical_warehouse_1_desc:0 "随着资源数量的增多，单单一个异次元口袋的大小已经很难满足我们的需求了，是时候把小小的口袋扩展为一个大大的房间了"
+tech_mg_phy_magical_warehouse_2:0 "魔法仓储"
+tech_mg_phy_magical_warehouse_2_desc:0 "也许我们可以做到更多！我们将创造一个巨大的异次元世界，从此，我们将再也不用为没有存储空间而发愁了！"
+#2
+#中阶魔法理论
+tech_mg_phy_intermediate_theory:0 "中阶魔法理论"
+tech_mg_phy_intermediate_theory_edicts:0 "§E解锁中阶魔法科技§"
+tech_mg_phy_intermediate_theory_desc:0 "经过对上一阶段魔法理论的总结与探讨。我们对魔法的理解可以说是上了一个台阶。对于大部分魔法少女来说，她们已经迫不及待地想要探索更多有关魔法的知识了，既然如此，还在等什么呢？"
+#中阶魔法合成理论
+tech_mg_phy_intermediate_theory_of_magic_synthesis:0 "中阶魔法合成理论"
+tech_mg_phy_intermediate_theory_of_magic_synthesis_desc:0 "在魔法少女的传说中一直存在一种说法，那便是随着魔法合成的增加，终有一天，魔法少女们能够达到与神并肩的强大力量。也许这一目标对现在的我们来说还尚且比较遥远，但是至少，我们已经迈出了通往神的道路上的第一步。接下来，我们将能够合成更高威力的魔法。永无止境！"
+tech_mg_phy_intermediate_theory_of_magic_synthesis_edicts:0 "§E解锁中阶魔法合成工艺§"
+#中阶魔法转化理论
+tech_mg_phy_intermediate_theory_of_magic_transformation:0 "中阶魔法转化理论"
+tech_mg_phy_intermediate_theory_of_magic_transformation_desc:0 "魔法转化是很多魔法研究者究其一生研究的目标。她们相信，魔法可以充当万物之间互相转化，演变的媒介。实际上，如果不计成本的话，我们已经有能力利用魔法实现各个物质之间的转化。但是目前转化过程中的损耗有些过大。只要我们能够解决损耗的问题，我们将真正达到群星间的无人能敌。其他可悲的劣等生物将永远不能从经济与物资上企及我们的高度！"
+tech_mg_phy_intermediate_theory_of_magic_transformation_edicts:0 "§E解锁中阶魔法转化工艺§"
+#魔法武器理论
+tech_mg_phy_magicial_weapon:0 "魔法武器理论"
+tech_mg_phy_magicial_weapon_desc:0 "魔法的破坏力可不是凡夫俗子们的武器可以比拟的。呵呵，等我们向他们展示魔法舰船武器的威力后，估计那些可悲的劣等生物会被吓得跪倒在地投降吧？"
+tech_mg_phy_magicial_weapon_edicts:0 "解锁§E魔法武器的科研选项§"
+#硬币发电技术
+tech_mg_phy_coin:0 "硬币发电技术"
+tech_mg_phy_coin_desc:0 "有次我们观察异世界的时候发现了一种抛硬币的动作，我们发现我们用魔法可以做到，能快速的切割磁感线，极大的促进我们的发电."
+#圆环箭阵 T
+tech_mg_magic_t:0 "圆环箭阵"
+tech_mg_magic_t_desc:0 "圆环箭阵"
+tech_mg_magic_t_edicts:0 "圆环箭阵"
+#终焉之曲 X
+tech_mg_magic_x:0 "终焉之曲"
+tech_mg_magic_x_desc:0 "终焉之曲"
+tech_mg_magic_x_edicts:0 "终焉之曲"
+#激情急奏 LSM
+tech_mg_magic_lsm:0 "激情急奏"
+tech_mg_magic_lsm_desc:0 "激情急奏"
+tech_mg_magic_lsm_edicts:0 "激情急奏"
+#编制结界 DLSM
+tech_mg_magic_dlsm:0 "编制结界"
+tech_mg_magic_dlsm_desc:0 "编制结界"
+tech_mg_magic_dlsm_edicts:0 "编制结界"
+#魔法反应堆
+tech_mg_magical_reactor:0 "魔法反应堆"
+tech_mg_magical_reactor_desc:0 "魔法反应堆"
+tech_mg_magical_reactor_edicts:0 "魔法反应堆"
+#魔法引擎
+tech_mg_magical_engine:0 "魔法跃迁引擎"
+tech_mg_magical_engine_desc:0 "魔法跃迁引擎"
+tech_mg_magical_engine_edicts:0 "魔法跃迁引擎"
+#魔法推进器
+tech_mg_magical_thruster:0 "魔法推进器"
+tech_mg_magical_thruster_desc:0 "魔法推进器"
+tech_mg_magical_thruster_edicts:0 "魔法推进器"
+#魔法探测器
+tech_mg_magical_detector:0 "魔法探测器"
+tech_mg_magical_detector_desc:0 "魔法探测器"
+tech_mg_magical_detector_edicts:0 "魔法探测器"
+#魔法作战计算机
+tech_mg_magical_computer:0 "魔法作战计算机"
+tech_mg_magical_computer_desc:0 "魔法作战计算机"
+tech_mg_magical_computer_edicts:0 "魔法作战计算机"
+#3
+#高级魔法理论
+tech_mg_phy_advanced_theory:0 "高阶魔法理论"
+tech_mg_phy_advanced_theory_desc:0 "每一位魔法少女能够感觉得到，我们对于魔法的了解已经提升了数个档次！我们已经研究完毕一些在以前甚至想都不敢想的魔法知识了。虽说如此，还是得谦虚地承认我们尚且了解的不够。不过也正是因为如此，我们才要更加发奋地去探索未知。毕竟，学海无涯嘛"
+tech_mg_phy_advanced_theory_edicts:0 "§E解锁高阶魔法科技§"
+#高级魔法合成理论
+tech_mg_phy_advanced_theory_of_magic_synthesis:0 "高阶魔法合成理论"
+tech_mg_phy_advanced_theory_of_magic_synthesis_desc:0 "在高阶魔法下，我们可以非常轻易的合成一些需要精细控制的精密魔法器具。现在，我们要付诸于实践。"
+tech_mg_phy_advanced_theory_of_magic_synthesis_edicts:0 "§E解锁高阶魔法合成工艺§"
+#高级魔法转化理论
+tech_mg_phy_advanced_theory_of_magic_transformation:0 "高阶魔法转化理论"
+tech_mg_phy_advanced_theory_of_magic_transformation_desc:0 "魔法可以做到的奇迹简直超乎我们的想象！经过我们对于魔法不懈的研究，我们终于能够做到，利用魔法实现任何物质之间的无损耗转换！从此之后，魔法少女们将永远不再需要为物资发愁！一个真正按需分配的世界近在眼前。"
+tech_mg_phy_advanced_theory_of_magic_transformation_edicts:0 "§E解锁高阶魔法转化工艺§"
+#高阶魔法武器理论
+tech_mg_phy_magic_advanced_weapon:0 "高阶魔法武器理论"
+tech_mg_phy_magic_advanced_weapon_desc:0 "魔法少女们的魔法武器和普通的武器一样，需要随着时代的进步而不断地改进，以求在战场上发挥出的最高效。通过对实战中魔法武器使用经验的总结，我们必将研发出更先进的武器装备。"
+tech_mg_phy_magic_advanced_weapon_edicts:0 "解锁§E高阶魔法武器的科研选项§"

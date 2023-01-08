@@ -1,0 +1,15 @@
+leader_trait_ruler_mg_1 = {
+	cost = 0
+	icon = "gfx/interface/icons/traits/leader/mg_leader_ruler.dds"
+	modifier = {
+		planet_jobs_upkeep_mult = -0.30
+		planet_jobs_produces_mult = 0.2
+		planet_decision_enact_speed_mult = 0.2
+		planet_stability_add = 20
+		country_ruler_influence_produces_add = 1
+	}
+	leader_trait = { ruler }
+	leader_class = { ruler }
+	initial = no
+	randomized = no
+}

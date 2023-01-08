@@ -1,0 +1,705 @@
+ap_magic_galactic_idol = {
+	on_enabled = {
+		custom_tooltip = "ap_magic_galactic_idol_tooltip"
+		custom_tooltip = "ap_magic_galactic_idol_1_tooltip"
+		custom_tooltip = "ap_magic_galactic_idol_2_tooltip"
+		hidden_effect = {
+			country_event = { id = mgwindows.1 }
+		}
+	}
+	modifier = {
+
+	}	
+
+	possible = {
+		if = {
+			limit = { 
+				hidden_trigger = { is_ai = yes }
+			}
+		} 
+	}
+	
+	potential = {
+		has_authority="auth_magical_girl"
+		has_trait = "trait_mgmagical_girl"
+		NOR = {
+			has_ascension_perk = ap_magic_galactic_idol
+		}
+		is_mechanical_empire = no
+	}
+	
+	ai_weight = {
+		factor = 100
+		modifier = {
+			factor = 1000
+			has_authority = auth_magical_girl
+			has_trait = "trait_mgmagical_girl"
+		}
+	}
+}
+
+ap_magic_reform = {
+	on_enabled = {
+		custom_tooltip = "ap_magic_reform_tooltip"
+		hidden_effect = {
+			country_event = { id = mgwindows.2 }
+		}
+    	add_research_option = tech_mg_phy_intermediate_theory
+	}
+	modifier = {
+		all_technology_research_speed=0.25
+		empire_size_pops_mult = -0.25
+		starbase_outpost_cost_mult = -0.50
+	}	
+
+	possible = {
+		if = {
+			limit = { 
+				hidden_trigger = { is_ai = yes }
+			}
+		} 
+		custom_tooltip = {
+				fail_text = "ap_magic_reform_no_tech_1"
+				has_technology = tech_mg_soc_council_reform
+			}		
+		custom_tooltip = {
+				fail_text = "ap_magic_reform_no_tech_2"
+				has_technology = tech_mg_soc_auto_spells 
+		}
+		custom_tooltip = {
+			fail_text = "ap_magic_reform_no_tech_3"
+			has_technology = tech_mg_soc_marriage_law
+			}
+		custom_tooltip = {
+				fail_text = "requires_ascension_perks_1"
+				num_ascension_perks > 1
+		}
+	}
+	
+	potential = {
+		has_authority="auth_magical_girl"
+		has_trait = "trait_mgmagical_girl"
+		NOR = {
+			has_ascension_perk = ap_magic_reform
+		}
+		is_mechanical_empire = no
+	}
+	
+	ai_weight = {
+		factor = 100
+		modifier = {
+			factor = 1000
+			has_authority = auth_magical_girl
+			has_trait = "trait_mgmagical_girl"
+		}
+	}
+}
+
+ap_magic_world = {
+	on_enabled = {
+		custom_tooltip = "ap_magic_world_tooltip"
+		hidden_effect = {
+			country_event = { id = mgwindows.3 }
+		}
+	}
+	modifier = {
+		planet_clear_blocker_speed_mult = 1
+		#星球改造速度
+	}	
+
+	possible = {
+		if = {
+			limit = { 
+				hidden_trigger = { is_ai = yes }
+			}
+		} 
+		custom_tooltip = {
+			fail_text = "ap_magic_world_no_tech_1"
+			has_technology = tech_mg_phy_intermediate_theory
+			}
+		custom_tooltip = {
+			fail_text = "ap_magic_arousal_no_perk_1"
+			has_ascension_perk = ap_magic_reform
+			}		
+	}
+	
+	potential = {
+		has_authority="auth_magical_girl"
+		has_trait = "trait_mgmagical_girl"
+		NOR = {
+			has_ascension_perk = ap_magic_world
+		}
+		is_mechanical_empire = no
+	}
+	
+	ai_weight = {
+		factor = 100
+		modifier = {
+			factor = 1000
+			has_authority = auth_magical_girl
+			has_trait = "trait_mgmagical_girl"
+		}
+	}
+}
+
+ap_magic_arousal = {
+	on_enabled = {
+		custom_tooltip = "ap_magic_arousal_tooltip"
+		hidden_effect = {
+			country_event = { id = mgwindows.4 }
+		}	
+		add_research_option = tech_mg_phy_advanced_theory
+	}
+	modifier = {
+		Magical_Girl_species_trait_points_add = 10
+		modify_species_cost_mult = -0.50
+	}	
+
+	possible = {
+		if = {
+			limit = { 
+				hidden_trigger = { is_ai = yes }
+			}
+		} 
+		custom_tooltip = {
+			fail_text = "ap_magic_arousal_no_tech_1"
+			has_technology = tech_mg_phy_intermediate_theory
+			}
+		custom_tooltip = {
+			fail_text = "ap_magic_arousal_no_tech_2"
+			has_technology = tech_mg_soc_psychological_spells
+			}
+		custom_tooltip = {
+			fail_text = "ap_magic_arousal_no_tech_3"
+			has_technology = tech_mg_soc_base_law
+			}
+		custom_tooltip = {
+			fail_text = "ap_magic_arousal_no_perk_1"
+			has_ascension_perk = ap_magic_reform
+			}
+		custom_tooltip = {
+			fail_text = "requires_ascension_perks_3"
+			num_ascension_perks >= 3
+		}	
+	}
+	
+	potential = {
+		has_authority="auth_magical_girl"
+		has_trait = "trait_mgmagical_girl"
+		NOR = {
+			has_ascension_perk = ap_magic_arousal
+		}
+		is_mechanical_empire = no
+	}
+	
+	ai_weight = {
+		factor = 100
+		modifier = {
+			factor = 1000
+			has_authority = auth_magical_girl
+			has_trait = "trait_mgmagical_girl"
+		}
+	}
+}
+
+ap_magic_industrial_reform = {
+	on_enabled = {
+		custom_tooltip = "ap_magic_industrial_reform_tooltip"
+		#	country_event = { id = wsg.1000 }
+		#	country_event = { id = wsg.3026 }
+		#	if = {
+		#		limit = { 
+		#			is_ai = yes 
+		#			NOT = { has_technology = tech_antimatter_power }
+		#		}
+		#		set_country_flag = ai_give_antimatter_tech
+		#		country_event = { id = wsg.11000 }
+		#	}
+		#}	
+	}
+	modifier = {
+		#帝国全产
+	}	
+
+	possible = {
+		if = {
+			limit = { 
+				hidden_trigger = { is_ai = yes }
+			}
+		} 
+		custom_tooltip = {
+			fail_text = "ap_magic_industrial_reform_no_tech_1"
+			has_technology = tech_mg_soc_production_department
+			}
+		custom_tooltip = {
+			fail_text = "ap_magic_industrial_reform_no_tech_2"
+			has_technology = tech_mg_soc_magic_center
+			}
+		custom_tooltip = {
+			fail_text = "ap_magic_arousal_no_perk_1"
+			has_ascension_perk = ap_magic_arousal
+			}
+		custom_tooltip = {
+			fail_text = "requires_ascension_perks_5"
+			num_ascension_perks >= 4
+		}	
+	}
+	
+	potential = {
+		has_authority="auth_magical_girl"
+		has_trait = "trait_mgmagical_girl"
+		NOR = {
+			has_ascension_perk = ap_magic_industrial_reform
+		}
+		is_mechanical_empire = no
+	}
+	
+	ai_weight = {
+		factor = 100
+		modifier = {
+			factor = 1000
+			has_authority = auth_magical_girl
+			has_trait = "trait_mgmagical_girl"
+		}
+	}
+}
+
+ap_magic_galactic_fleet = {
+	on_enabled = {
+		custom_tooltip = "ap_magic_galactic_fleet_tooltip"
+		hidden_effect = {
+			country_event = { id = mgwindows.5 }
+		}
+	}
+	modifier = {
+		starbase_shipyard_build_cost_mult = -0.10
+		starbase_shipyard_build_speed_mult = 0.50
+		country_naval_cap_add = 2000
+		country_command_limit_add = 2000
+	}	
+
+	possible = {
+		if = {
+			limit = { 
+				hidden_trigger = { is_ai = yes }
+			}
+		} 
+		custom_tooltip = {
+			fail_text = "ap_magic_galactic_fleet_no_tech_1"
+			has_technology = tech_mg_phy_magic_advanced_weapon
+			}
+		custom_tooltip = {
+			fail_text = "ap_magic_galactic_fleet_no_perk_1"
+			has_ascension_perk = ap_magic_arousal
+			}
+	}
+	
+	potential = {
+		has_authority="auth_magical_girl"
+		has_trait = "trait_mgmagical_girl"
+		NOR = {
+			has_ascension_perk = ap_magic_galactic_fleet
+		}
+		is_mechanical_empire = no
+	}
+	
+	ai_weight = {
+		factor = 100
+		modifier = {
+			factor = 1000
+			has_authority = auth_magical_girl
+			has_trait = "trait_mgmagical_girl"
+		}
+	}
+}
+
+
+ap_magic_miracle_engineering = {
+	on_enabled = {
+		custom_tooltip = "ap_magic_miracle_engineering_tooltip"
+		custom_tooltip = "ap_magic_miracle_engineering_tooltip_1"
+		#	country_event = { id = wsg.1000 }
+		hidden_effect = {
+			country_event = { id = mgwindows.6 }
+		}	
+	}
+	modifier = {
+		#巨构速度
+	}	
+
+	possible = {
+		if = {
+			limit = { 
+				hidden_trigger = { is_ai = yes }
+			}
+		} 
+		custom_tooltip = {
+			fail_text = "ap_magic_miracle_engineering_no_tech_1"
+			has_technology = tech_mg_soc_production_department
+			}
+		custom_tooltip = {
+			fail_text = "ap_magic_miracle_engineering_no_tech_2"
+			has_technology = tech_mg_soc_magic_center
+			}
+		custom_tooltip = {
+			fail_text = "ap_magic_miracle_engineering_no_perk_1"
+			has_ascension_perk = ap_magic_arousal
+			}
+		custom_tooltip = {
+			fail_text = "ap_magic_miracle_engineering_no_perk_2"
+			has_ascension_perk = ap_galactic_wonders_utopia_and_megacorp
+			}
+	}
+	
+	potential = {
+		has_authority="auth_magical_girl"
+		has_trait = "trait_mgmagical_girl"
+		NOR = {
+			has_ascension_perk = ap_magic_miracle_engineering
+		}
+		is_mechanical_empire = no
+	}
+	
+	ai_weight = {
+		factor = 100
+		modifier = {
+			factor = 1000
+			has_authority = auth_magical_girl
+			has_trait = "trait_mgmagical_girl"
+		}
+	}
+}
+
+ap_magic_political_reform = {
+	on_enabled = {
+		custom_tooltip = "ap_magic_political_reform_tooltip"
+		custom_tooltip = "ap_magic_political_reform_tooltip_1"
+		hidden_effect = {
+			country_event = { id = mgwindows.7 }
+		}	
+	}
+	modifier = {
+		influence_deficit = -1
+	}	
+
+	possible = {
+		if = {
+			limit = { 
+				hidden_trigger = { is_ai = yes }
+			}
+		} 
+		custom_tooltip = {
+			fail_text = "ap_magic_political_reform_no_perk_1"
+			has_ascension_perk = ap_magic_arousal
+			}
+	}
+	
+	potential = {
+		has_authority="auth_magical_girl"
+		has_trait = "trait_mgmagical_girl"
+		NOR = {
+			has_ascension_perk = ap_magic_political_reform
+		}
+		is_mechanical_empire = no
+	}
+	
+	ai_weight = {
+		factor = 100
+		modifier = {
+			factor = 1000
+			has_authority = auth_magical_girl
+			has_trait = "trait_mgmagical_girl"
+		}
+	}
+}
+
+ap_magic_empire = {
+	on_enabled = {
+		custom_tooltip = "ap_magic_empire_tooltip"
+		custom_tooltip = "ap_magic_empire_tooltip_1"
+		hidden_effect = {
+			country_event = { id = mgwindows.8 }
+		}		
+		add_research_option = tech_mg_phy_advanced_theory
+	} 
+	modifier = {
+		country_produces_mult = 0.2
+		ship_fire_rate_mult = 1
+		ship_speed_mult = 1
+		ship_accuracy_mult = 1
+		country_government_civic_points_add = 5
+	}
+
+	possible = {
+		if = {
+			limit = { 
+				hidden_trigger = { is_ai = yes }
+			}
+		} 
+		custom_tooltip = {
+			fail_text = "ap_magic_empire_no_perk_1"
+			has_ascension_perk = ap_magic_political_reform
+			}
+		custom_tooltip = {
+			fail_text = "ap_magic_empire_no_perk_2"
+			NOR = {
+				has_ascension_perk = ap_magic_republic
+			}
+		}
+		custom_tooltip = {
+			fail_text = "ap_magic_empire_no_perk_3"
+			NOR = {
+				has_ascension_perk = ap_magic_federation
+			}
+		}
+	}
+	
+	potential = {
+		has_authority="auth_magical_girl"
+		has_trait = "trait_mgmagical_girl"
+		NOR = {
+			has_ascension_perk = ap_magic_empire
+		}
+		is_mechanical_empire = no
+	}
+	
+	ai_weight = {
+		factor = 100
+		modifier = {
+			factor = 1000
+			has_authority = auth_magical_girl
+			has_trait = "trait_mgmagical_girl"
+		}
+	}
+}
+
+ap_magic_empire_deterrence = {
+	on_enabled = {
+		custom_tooltip = "ap_magic_empire_deterrence_tooltip"
+		custom_tooltip = "ap_magic_empire_deterrence_tooltip_1"
+		hidden_effect = {
+			country_event = { id = mgwindows.9 }
+		}		
+		add_research_option = tech_mg_phy_advanced_theory #错误
+	} 
+	modifier = {
+
+	}
+
+	possible = {
+		if = {
+			limit = { 
+				hidden_trigger = { is_ai = yes }
+			}
+		} 
+		custom_tooltip = {
+			fail_text = "ap_magic_empire_deterrence_no_perk_1"
+			has_ascension_perk = ap_magic_empire
+			}
+	}
+	
+	potential = {
+		has_authority="auth_magical_girl"
+		has_trait = "trait_mgmagical_girl"
+		NOR = {
+			has_ascension_perk = ap_magic_empire_deterrence
+		}
+		is_mechanical_empire = no
+	}
+	
+	ai_weight = {
+		factor = 100
+		modifier = {
+			factor = 1000
+			has_authority = auth_magical_girl
+			has_trait = "trait_mgmagical_girl"
+		}
+	}
+}
+
+ap_magic_republic = {
+	on_enabled = {
+		custom_tooltip = "ap_magic_republic_tooltip"
+		custom_tooltip = "ap_magic_republic_tooltip_1"
+		#	country_event = { id = wsg.1000 }
+		#	country_event = { id = wsg.3026 }
+		#	if = {
+		#		limit = { 
+		#			is_ai = yes 
+		#			NOT = { has_technology = tech_antimatter_power }
+		#		}
+		#		set_country_flag = ai_give_antimatter_tech
+		#		country_event = { id = wsg.11000 }
+		#	}
+		#}	
+		add_research_option = tech_mg_phy_advanced_theory #错误
+	} 
+	modifier = {
+		country_produces_mult = 0.25
+		country_government_civic_points_add = 8
+		planet_amenities_add = 50
+	}
+
+	possible = {
+		if = {
+			limit = { 
+				hidden_trigger = { is_ai = yes }
+			}
+		} 
+		custom_tooltip = {
+			fail_text = "ap_magic_republic_no_perk_1"
+			has_ascension_perk = ap_magic_political_reform
+			}
+		custom_tooltip = {
+				fail_text = "ap_magic_republic_no_perk_2"
+				NOR = {
+					has_ascension_perk = ap_magic_empire
+				}
+			}
+		custom_tooltip = {
+				fail_text = "ap_magic_republic_no_perk_3"
+				NOR = {
+					has_ascension_perk = ap_magic_federation
+				}
+			}
+	}
+	
+	potential = {
+		has_authority="auth_magical_girl"
+		has_trait = "trait_mgmagical_girl"
+		NOR = {
+			has_ascension_perk = ap_magic_republic
+		}
+		is_mechanical_empire = no
+	}
+	
+	ai_weight = {
+		factor = 100
+		modifier = {
+			factor = 1000
+			has_authority = auth_magical_girl
+			has_trait = "trait_mgmagical_girl"
+		}
+	}
+}
+
+ap_magic_union = {
+	on_enabled = {
+		custom_tooltip = "ap_magic_union_tooltip"
+		#	country_event = { id = wsg.1000 }
+		#	country_event = { id = wsg.3026 }
+		#	if = {
+		#		limit = { 
+		#			is_ai = yes 
+		#			NOT = { has_technology = tech_antimatter_power }
+		#		}
+		#		set_country_flag = ai_give_antimatter_tech
+		#		country_event = { id = wsg.11000 }
+		#	}
+		#}	
+		add_research_option = tech_mg_phy_advanced_theory #错误
+	} 
+	modifier = {
+
+	}
+
+	possible = {
+		if = {
+			limit = { 
+				hidden_trigger = { is_ai = yes }
+			}
+		} 
+		custom_tooltip = {
+			fail_text = "ap_magic_union_no_perk_1"
+			has_ascension_perk = ap_magic_political_reform
+			}
+	}
+	
+	potential = {
+		has_authority="auth_magical_girl"
+		has_trait = "trait_mgmagical_girl"
+		NOR = {
+			has_ascension_perk = ap_magic_union
+		}
+		is_mechanical_empire = no
+	}
+	
+	ai_weight = {
+		factor = 100
+		modifier = {
+			factor = 1000
+			has_authority = auth_magical_girl
+			has_trait = "trait_mgmagical_girl"
+		}
+	}
+}
+
+
+ap_magic_federation = {
+	on_enabled = {
+		custom_tooltip = "ap_magic_republic_tooltip"
+		custom_tooltip = "ap_magic_republic_tooltip_1"
+		#	country_event = { id = wsg.1000 }
+		#	country_event = { id = wsg.3026 }
+		#	if = {
+		#		limit = { 
+		#			is_ai = yes 
+		#			NOT = { has_technology = tech_antimatter_power }
+		#		}
+		#		set_country_flag = ai_give_antimatter_tech
+		#		country_event = { id = wsg.11000 }
+		#	}
+		#}	
+		add_research_option = tech_mg_phy_advanced_theory #错误
+	} 
+	modifier = {
+		country_produces_mult = 0.50
+		country_government_civic_points_add = 6
+		planet_amenities_add = 50
+		ship_fire_rate_mult = 0.25
+		ship_speed_mult = 0.25
+		ship_accuracy_mult = 0.25
+	}
+
+	possible = {
+		if = {
+			limit = { 
+				hidden_trigger = { is_ai = yes }
+			}
+		} 
+		custom_tooltip = {
+			fail_text = "ap_magic_republic_no_perk_1"
+			has_ascension_perk = ap_magic_political_reform
+			}
+		custom_tooltip = {
+				fail_text = "ap_magic_republic_no_perk_2"
+				NOR = {
+					has_ascension_perk = ap_magic_empire
+				}
+			}
+		custom_tooltip = {
+				fail_text = "ap_magic_republic_no_perk_3"
+				NOR = {
+					has_ascension_perk = ap_magic_republic
+				}
+			}
+	}
+	
+	potential = {
+		has_authority="auth_magical_girl"
+		has_trait = "trait_mgmagical_girl"
+		NOR = {
+			has_ascension_perk = ap_magic_republic
+		}
+		is_mechanical_empire = no
+	}
+	
+	ai_weight = {
+		factor = 100
+		modifier = {
+			factor = 1000
+			has_authority = auth_magical_girl
+			has_trait = "trait_mgmagical_girl"
+		}
+	}
+}

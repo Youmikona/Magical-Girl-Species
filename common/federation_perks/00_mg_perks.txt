@@ -1,0 +1,235 @@
+#Perks Example
+#<perk_name>={
+#	Modifier for federation scope
+#	federation_modifier = {}
+#	Modifier for all members (leader included)
+#	members_modifier = {}
+#	Modifier for exclusevely leader
+#	leader_modifier = {}
+#	On activate effect in federation scope
+#	on_activate = {}
+#	On deactivate effect in federation scope
+#}
+mg_lv1_1 = {
+	federation_modifier = {
+		federation_cohesion_add = 5
+	}
+	leader_modifier = {
+		envoys_add = 5
+	}
+	members_modifier = {
+		country_trust_growth = 0.2
+		envoys_add = 2
+	}
+	members_modifier = {
+		description = wsg_federation_lv2_1_effect
+	}
+}
+
+mg_lv1_2 = {
+	leader_modifier = {
+		country_produces_mult = 0.05
+	}
+	members_modifier = {
+		country_produces_mult = 0.10
+		trade_value_mult = 0.25
+		trade_routes_produces_mult = 0.25
+	}
+	members_modifier = {
+		description = mg_federation_lv1_2_effect
+	}
+	member_triggered_modifier = {
+		key = mg_lv1_2
+		potential = {
+			owner = { is_ai = yes }
+		}
+		planet_jobs_produces_mult = 0.50
+	}
+}
+
+mg_lv1_3 = {
+	members_modifier = {
+		all_technology_research_speed = 0.20
+	}
+}
+
+mg_lv2_1 = {
+	members_modifier = {
+		branch_office_value_mult = 0.50
+		envoys_add = 2
+	}
+	federation_modifier = {
+		federation_join_malus_mult = -0.75
+		federation_cohesion_ethics_penalty_mult = -0.75 #蠢驴没实装效果
+	}
+}
+
+mg_lv2_2 = {
+	members_modifier = {
+		description = mg_federation_lv2_2_effect
+		federation_naval_cap_contribution_mult = 0.25
+	}
+	members_modifier = {
+		country_naval_cap_add = 1000
+	}
+	federation_modifier = {
+		federation_fleet_cap_add = 500
+	}
+	members_modifier = {
+		description = mg_federation_lv2_2_effect
+	}
+	member_triggered_modifier = {
+		key = mg_lv2_2
+		potential = {
+			owner = { is_ai = yes }
+		}
+		country_naval_cap_add = 1000
+	}
+}
+mg_lv2_3 = {#LV2科技
+	federation_modifier = {
+		description = mg_federation_lv2_3_effect
+		federation_leader_diplo_weight_from_members_mult = 0.25
+	}
+}
+
+mg_lv3_1 = {
+	federation_modifier = {
+		description = cohesion_failed_vote_1_effect
+	}
+	on_activate = {
+		set_federation_settings = {
+			failed_vote_half_price = yes
+		}
+	}	
+	on_deactivate = {
+		set_federation_settings = {
+			failed_vote_half_price = no
+		}
+	}
+	members_modifier = {
+		description = mg_federation_lv3_1_effect
+		federation_naval_cap_contribution_mult = 0.50
+	}
+}
+
+mg_lv3_2 = {#LV3军事
+	members_modifier = {
+		ship_fire_rate_mult = 0.25
+		starbase_shipyard_build_speed_mult = 0.25
+		ship_starting_experience_add = 500
+	}
+	member_triggered_modifier = {
+		key = wsg_lv3_2
+		potential = {
+			owner = { is_ai = yes }
+		}
+		ship_weapon_damage = 0.25
+	}
+	federation_modifier = {
+		federation_fleet_cap_add = 500
+	}
+}
+
+mg_lv3_3 = {#LV3科技
+	federation_modifier = {
+		description = research_federation_passive_effect
+		federation_research_sharing_mult = 0.5
+	}
+	on_activate = {
+		et_federation_settings = {
+		research_sharing = yes
+		}
+	}
+	on_deactivate = {
+		set_federation_settings = {
+		research_sharing = no
+		}
+	}
+	members_modifier = {
+		planet_researchers_upkeep_mult = -0.2
+	}
+}
+
+mg_lv4_1 = {
+	members_modifier = {
+		planet_crime_add = -10
+		planet_stability_add = 5
+		planet_amenities_mult = 0.10
+		pop_growth_speed = 0.15
+		species_leader_exp_gain = 0.25
+	}
+}
+
+mg_lv4_2 = {
+	members_modifier = {
+		country_naval_cap_add = 1000
+		starbase_shipyard_build_speed_mult = 0.30
+	}
+	federation_modifier = {
+		federation_fleet_cap_add = 2500
+	}
+	member_triggered_modifier = {
+		key = mg_lv4_2
+		potential = {
+			owner = { is_ai = yes }
+		}
+		country_naval_cap_add = 2000
+	}
+}
+
+mg_lv4_3 = {
+	leader_modifier = {
+		country_naval_cap_add = 2000
+	}
+    members_modifier = {
+		country_command_limit_add = 2000
+		army_starting_experience_add = 1500
+		ship_starting_experience_add = 2000
+	}
+}
+
+mg_lv5_1 = {
+	members_modifier = {
+		description = hegemony_federation_passive_effect
+		}
+	on_activate = {
+		set_diplomacy_action_setting = {
+			action = action_ask_to_leave_federation
+			settings = {
+			acceptance_type = leader
+			}
+		}
+	}
+	on_deactivate = {
+		set_diplomacy_action_setting = {
+			action = action_ask_to_leave_federation
+			settings = {
+				acceptance_type = default
+			}
+		}
+	}
+}
+
+mg_lv5_2 = {
+ 	members_modifier = {
+		description = mg_federation_mg_lv5_2_effect
+		federation_naval_cap_contribution_mult = 0.50
+	}
+	members_modifier = {
+		ship_fire_rate_mult = 0.25
+		ship_weapon_damage = 0.25
+		ship_federation_territory_speed_mult = 0.25
+	}
+	federation_modifier = {
+		federation_fleet_cap_add = 2500
+	}
+}
+
+mg_lv5_3 = {
+ 	members_modifier = {
+		megastructures_produces_mult = 0.25
+		starbase_shipyard_build_speed_mult = 0.5
+	}
+#待完成天灾，待加入舰娘天灾适配
+}

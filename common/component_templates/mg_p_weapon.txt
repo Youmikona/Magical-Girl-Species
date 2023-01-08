@@ -1,0 +1,240 @@
+#P
+weapon_component_template = {
+	type = point_defence
+	
+	key = "MG_weapon_P_T1"
+	windup = { min = 1.20 max = 3 }
+	size = point_defence
+	
+	
+	damage = { min = 35 max = 60 }
+	total_fire_time = 2
+	range = 70.0
+	shield_penetration = 1.0
+	armor_penetration = 1.0
+	accuracy = 1.0
+	tracking = 1.0
+	power = -50
+	
+	icon = "GFX_UF_weapon_P"
+	icon_frame = 1
+	
+	resources = {
+		category = ship_components
+		cost = {
+			sr_magic_crystals = 20
+			alloys = 100
+		}
+		upkeep = {
+			energy = 0.5
+			alloys = 0.5
+		}
+	}
+	prerequisites = {
+		
+	}
+	component_set = "MG_weapon_P_T1"
+	projectile_gfx = "stormfire_auto_cannons_s"
+	tags = { weapon_type_point_defense weapon_type_kinetic weapon_type_energy weapon_type_magic }
+	ai_tags = { weapon_role_point_defense }
+	
+	ai_weight = {
+		weight = 100
+		modifier = {
+			factor = 0.0
+			has_monthly_income = { resource = sr_uf value <= 0 }
+		}
+	}
+}
+
+weapon_component_template = {
+	type = point_defence
+	
+	key = "MG_weapon_P_dark_T1"
+	windup = { min = 1.20 max = 3 }
+	size = point_defence
+	
+	
+	damage = { min = 45 max = 65 }
+	total_fire_time = 2
+	range = 100
+	shield_penetration = 1.5
+	armor_penetration = 1.5
+	accuracy = 5
+	tracking = 1.0
+	power = -150
+	
+	icon = "GFX_UF_weapon_P"
+	icon_frame = 1
+	
+	resources = {
+		category = ship_components
+		cost = {
+			sr_uf = 10
+			alloys = 20
+		}
+		upkeep = {
+			energy = 0.3
+			alloys = 0.05
+		}
+	}
+	prerequisites = {
+
+	}
+	component_set = "MG_weapon_P_dark_T1"
+	projectile_gfx = "stormfire_auto_cannons_s"
+	tags = { weapon_type_point_defense weapon_type_kinetic weapon_type_energy weapon_type_magic }
+	ai_tags = { weapon_role_point_defense }
+	
+	ai_weight = {
+		weight = 100
+		modifier = {
+			factor = 0.0
+			has_monthly_income = { resource = sr_uf value <= 0 }
+		}
+	}
+}
+
+weapon_component_template = {
+	type = point_defence
+	
+	key = "MG_weapon_P_dark_T2"
+	windup = { min = 1.20 max = 3 }
+	size = point_defence
+	
+	
+	damage = { min = 50 max = 75 }
+	total_fire_time = 2
+	range = 200
+	shield_penetration = 2
+	armor_penetration = 2
+	accuracy = 10
+	tracking = 2
+	power = -200
+	
+	icon = "GFX_UF_weapon_P"
+	icon_frame = 1
+	
+	resources = {
+		category = ship_components
+		cost = {
+			sr_uf = 10
+			alloys = 20
+		}
+		upkeep = {
+			energy = 0.3
+			alloys = 0.05
+		}
+	}
+	prerequisites = {
+
+	}
+	component_set = "MG_weapon_P_dark_T2"
+	projectile_gfx = "stormfire_auto_cannons_s"
+	tags = { weapon_type_point_defense weapon_type_kinetic weapon_type_energy weapon_type_magic }
+	ai_tags = { weapon_role_point_defense }
+	
+	ai_weight = {
+		weight = 100
+		modifier = {
+			factor = 0.0
+			has_monthly_income = { resource = sr_uf value <= 0 }
+		}
+	}
+}
+
+weapon_component_template = {
+	type = point_defence
+	
+	key = "MG_weapon_P_light_T1"
+	windup = { min = 1.20 max = 3 }
+	size = point_defence
+	
+	
+	damage = { min = 35 max = 60 }
+	total_fire_time = 2
+	range = 70.0
+	shield_penetration = 1.0
+	armor_penetration = 1.0
+	accuracy = 1.0
+	tracking = 1.0
+	power = -60
+	
+	icon = "GFX_UF_weapon_P"
+	icon_frame = 1
+	
+	resources = {
+		category = ship_components
+		cost = {
+			sr_uf = 10
+			alloys = 20
+		}
+		upkeep = {
+			energy = 0.3
+			alloys = 0.05
+		}
+	}
+	prerequisites = {
+
+	}
+	component_set = "MG_weapon_P_light_T1"
+	projectile_gfx = "stormfire_auto_cannons_s"
+	tags = { weapon_type_point_defense weapon_type_kinetic weapon_type_energy weapon_type_magic }
+	ai_tags = { weapon_role_point_defense }
+	
+	ai_weight = {
+		weight = 100
+		modifier = {
+			factor = 0.0
+			has_monthly_income = { resource = sr_uf value <= 0 }
+		}
+	}
+}
+
+weapon_component_template = {
+	type = point_defence
+	
+	key = "MG_weapon_P_light_T2"
+	windup = { min = 1.20 max = 3 }
+	size = point_defence
+	
+	
+	damage = { min = 35 max = 60 }
+	total_fire_time = 2
+	range = 70.0
+	shield_penetration = 1.0
+	armor_penetration = 1.0
+	accuracy = 1.0
+	tracking = 1.0
+	power = -60
+	
+	icon = "GFX_UF_weapon_P"
+	icon_frame = 1
+	
+	resources = {
+		category = ship_components
+		cost = {
+			sr_uf = 10
+			alloys = 20
+		}
+		upkeep = {
+			energy = 0.3
+			alloys = 0.05
+		}
+	}
+	prerequisites = {
+
+	}
+	component_set = "MG_weapon_P_light_T2"
+	projectile_gfx = "stormfire_auto_cannons_s"
+	tags = { weapon_type_point_defense weapon_type_kinetic weapon_type_energy weapon_type_magic }
+	ai_tags = { weapon_role_point_defense }
+	
+	ai_weight = {
+		weight = 100
+		modifier = {
+			factor = 0.0
+			has_monthly_income = { resource = sr_uf value <= 0 }
+		}
+	}
+}

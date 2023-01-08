@@ -1,0 +1,140 @@
+trait_mgmagical_girl = { #魔法少女
+	icon = "gfx/interface/icons/traits/trait_mgmagical_girl.dds"
+	initial = yes #初始界面选择
+	randomized = no #随机生成
+	improves_leaders = no #是否影响领袖特质生成
+	immortal_leaders = yes #不朽
+	#prerequisites = { } #需要的前置科技
+	allowed_archetypes = { MAGICAL_GIRL } #大类
+	species_class = { Magical_Girl } #允许的物质
+	species_potential_add = { }
+	species_possible_remove = { }
+	#custom_tooltip = trait_mgmagical_girl_effect #显示的文本
+	modifier = { #修正
+		country_war_exhaustion_mult = -10
+		pop_environment_tolerance = 0.5
+		planet_jobs_produces_mult = 0.2
+		planet_jobs_unity_produces_mult = 0.20
+	}
+	slave_cost = { #售卖奴隶获取的钱
+		energy = 200000
+	}
+}
+
+trait_mgmagical_power = { #魔法之力
+	icon = "gfx/interface/icons/traits/trait_mgmagical_power.dds"
+	initial = yes #初始界面选择
+	randomized = no #随机生成
+	improves_leaders = no #是否影响领袖特质生成
+	#prerequisites = { } #需要的前置科技
+	allowed_archetypes = { MAGICAL_GIRL } #大类
+	species_class = { Magical_Girl } #允许的物质
+	species_potential_add = { }
+	species_possible_remove = { }
+	#custom_tooltip = TRAIT_PLANTOID_RADIOTROPHIC_EFFECT #显示的文本
+	modifier = { #修正
+    	army_health = 5
+		army_morale = 5
+	}
+	slave_cost = { #售卖奴隶获取的钱
+		energy = 200000
+	}
+}
+
+trait_cute = { #可爱
+	icon = "gfx/interface/icons/traits/trait_cute.dds"
+	initial = yes #初始界面选择
+	randomized = no #随机生成
+	improves_leaders = no #是否影响领袖特质生成
+	#prerequisites = { } #需要的前置科技
+	allowed_archetypes = { MAGICAL_GIRL } #大类
+	species_class = { Magical_Girl } #允许的物质
+	species_potential_add = { }
+	species_possible_remove = { }
+	#custom_tooltip = TRAIT_PLANTOID_RADIOTROPHIC_EFFECT #显示的文本
+	modifier = { #修正
+		country_trust_growth = 0.5
+	}
+	slave_cost = { #售卖奴隶获取的钱
+		energy = 200000
+	}
+}
+
+trait_magic_technology = { #魔法科研
+	icon = "gfx/interface/icons/traits/trait_magic_technology.dds"
+	initial = yes #初始界面选择
+	randomized = no #随机生成
+	improves_leaders = no #是否影响领袖特质生成
+	#prerequisites = { } #需要的前置科技
+	allowed_archetypes = { MAGICAL_GIRL } #大类
+	species_class = { Magical_Girl } #允许的物质
+	species_potential_add = { }
+	species_possible_remove = { }
+	#custom_tooltip = TRAIT_PLANTOID_RADIOTROPHIC_EFFECT #显示的文本
+	modifier = { #修正
+		all_technology_research_speed = 0.20
+	}
+	slave_cost = { #售卖奴隶获取的钱
+		energy = 200000
+	}
+}
+
+trait_magic_industry = { #魔法产业
+	icon = "gfx/interface/icons/traits/trait_magic_industry.dds"
+	initial = yes #初始界面选择
+	randomized = no #随机生成
+	improves_leaders = no #是否影响领袖特质生成
+	#prerequisites = { } #需要的前置科技
+	allowed_archetypes = { MAGICAL_GIRL } #大类
+	species_class = { Magical_Girl } #允许的物质
+	species_potential_add = { }
+	species_possible_remove = { }
+	#custom_tooltip = TRAIT_PLANTOID_RADIOTROPHIC_EFFECT #显示的文本
+	modifier = { #修正
+		planet_jobs_produces_mult = 0.10
+	}
+	slave_cost = { #售卖奴隶获取的钱
+		energy = 200000
+	}
+}
+
+trait_magic_girl_smart = { #魔法师的聪慧
+	icon = "gfx/interface/icons/traits/trait_magic_girl_smart.dds"
+	initial = yes #初始界面选择
+	randomized = no #随机生成
+	improves_leaders = no #是否影响领袖特质生成
+	#prerequisites = { } #需要的前置科技
+	allowed_archetypes = { MAGICAL_GIRL } #大类
+	species_class = { Magical_Girl } #允许的物质
+	species_potential_add = { }
+	species_possible_remove = { }
+	#custom_tooltip = TRAIT_PLANTOID_RADIOTROPHIC_EFFECT #显示的文本
+	modifier = { #修正
+		leader_skill_levels = 5
+		species_leader_exp_gain = 0.5
+		
+	}
+	slave_cost = { #售卖奴隶获取的钱
+		energy = 200000
+	}
+}
+
+trait_magic_girl_builter = { #世界建造者
+	icon = "gfx/interface/icons/traits/trait_magic_girl_builter.dds"
+	initial = yes #初始界面选择
+	randomized = no #随机生成
+	improves_leaders = no #是否影响领袖特质生成
+	#prerequisites = { } #需要的前置科技
+	allowed_archetypes = { MAGICAL_GIRL } #大类
+	species_class = { Magical_Girl } #允许的物质
+	species_potential_add = { }
+	species_possible_remove = { }
+	#custom_tooltip = TRAIT_PLANTOID_RADIOTROPHIC_EFFECT #显示的文本
+	modifier = { #修正
+		building_time_mult = -0.1
+		megastructure_build_speed_mult = 1
+	}
+	slave_cost = { #售卖奴隶获取的钱
+		energy = 200000
+	}
+}

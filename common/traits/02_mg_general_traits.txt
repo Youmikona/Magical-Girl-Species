@@ -1,0 +1,65 @@
+leader_trait_general_mg_1_walker = { #陆军司令lv1
+	cost = 0
+	
+	icon = "gfx/interface/icons/traits/leader/leader_trait_general_mg_1_walker.dds"
+	modifier = {
+		army_health = 0.25
+		army_damage_mult = 0.25
+		army_disengage_chance_mult = 0.33
+	}
+	leader_trait = { general }
+	leader_class = { general }
+	initial = no
+	randomized = no
+}
+
+leader_trait_general_mg_2_walker = {#陆军司令lv2
+	cost = 0
+	icon = "gfx/interface/icons/traits/leader/leader_trait_general_mg_2_walker.dds"
+	modifier = {
+		army_health = 0.75
+		army_damage_mult = 0.75
+		army_disengage_chance_mult = 1
+	}
+	leader_trait = { general }
+	leader_class = { general }
+	initial = no
+	randomized = no
+}
+
+leader_trait_general_mg_2 = {
+	cost = 1
+	immortal_leaders = yes
+	icon = "gfx/interface/icons/traits/leader/leader_trait_general_mg_2.dds"
+	modifier = {
+		army_health = -0.5
+		army_damage_mult = 0.5
+		army_disengage_chance_mult = -0.2
+	}
+	leader_trait = { general }
+	leader_class = { general }
+	initial = no
+	randomized = yes
+	leader_potential_add = {
+		from = { has_trait = trait_mgmagical_girl} 
+	}
+}
+
+leader_trait_general_mg_3 = {
+	cost = 1
+	immortal_leaders = yes
+	icon = "gfx/interface/icons/traits/leader/leader_trait_general_mg_3.dds"
+	modifier = {
+		army_health = 0.35
+		army_damage_mult = 0.35
+		army_disengage_chance_mult = 0.66
+		armies_upkeep_mult = -0.25
+	}
+	leader_trait = { general }
+	leader_class = { general }
+	initial = no
+	randomized = yes
+	leader_potential_add = {
+		from = { has_trait = trait_mgmagical_girl} 
+	}
+}

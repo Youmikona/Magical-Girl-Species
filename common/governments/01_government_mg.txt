@@ -1,0 +1,76 @@
+gov_mg_country = {
+	possible = {
+		has_authority = auth_magical_girl
+	}
+	
+	weight = {
+		base = 800
+	}
+}
+
+
+gov_mg_country_militarist = {
+	possible = {
+		has_ethic = ethic_fanatic_militarist
+		has_authority = auth_magical_girl
+	}
+	
+	weight = {
+		base = 1000
+	}
+}
+
+gov_mg_country_pacifist = {
+	possible = {
+		has_ethic = ethic_fanatic_pacifist
+		has_authority = auth_magical_girl
+	}
+	
+	weight = {
+		base = 2000
+	}
+}
+
+gov_mg_country_egalitarian = {
+	possible = {
+			has_ethic = ethic_fanatic_egalitarian
+			has_authority = auth_magical_girl
+	}
+	
+	weight = {
+		base = 1000
+	}
+}
+
+gov_mg_country_authoritarian = {
+	possible = {
+		has_authority = auth_magical_girl
+		has_ethic = ethic_fanatic_authoritarian		
+	}
+	
+	weight = {
+		base = 1000
+	}
+}
+
+gov_mg_country_xenophobe = {
+	possible = {
+		has_authority = auth_magical_girl
+		has_ethic = ethic_fanatic_xenophobe
+	}
+	
+	weight = {
+		base = 1000
+	}
+}
+
+gov_mg_country_xenophile = {
+	possible = {
+		has_authority = auth_magical_girl
+		has_ethic = ethic_fanatic_xenophile
+		}
+	
+	weight = {
+		base = 1000
+	}
+}

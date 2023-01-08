@@ -1,0 +1,28 @@
+mg_ap_fleet_1_modifier = {
+	#icon = 
+    starbase_shipyard_build_speed_mult = 0.2
+	starbase_shipyard_build_cost_mult = -0.2
+}
+
+mg_ap_fleet_2_modifier = { 
+	#icon = 
+	ship_sensor_range_add = 10
+    ship_speed_mult = 0.2
+	ship_weapon_range_mult = 0.2
+	ship_fire_rate_mult = 0.2
+}
+
+mg_ap_miracle_engineering_modifier = { #魔法奇迹工程建设委员会
+	#icon = 
+	megastructures_habitat_time_cost_mult = -0.2
+	megastructure_build_speed_mult = 2
+	country_megastructure_build_cap_add = 100
+}
+
+mg_ap_magic_empire_modifier = { 
+	#icon = 
+	ship_fire_rate_mult = 0.25
+	ship_sensor_range_add = 1
+	ship_speed_mult = 0.25
+}
+

@@ -1,0 +1,129 @@
+#building
+#weapon附属版
+tech_mg_jurisdiction_subject_weapon_X_T1 = {
+    area = physics
+    icon = tech_boss_weapen_ion
+	cost = @tier4cost1
+	tier = 5
+	category = { particles }
+	weight = 0
+	is_rare = yes
+	is_reverse_engineerable = no
+	
+	gateway = energy_weapons
+	
+}
+
+tech_mg_jurisdiction_subject_weapon_LMSP_T1 = {
+    area = physics
+    icon = tech_boss_weapen_ion
+	cost = @tier4cost1
+	tier = 5
+	category = { particles }
+	weight = 0
+	is_rare = yes
+	is_reverse_engineerable = no
+	
+	gateway = energy_weapons
+	
+}
+
+tech_mg_jurisdiction_subject_weapon_D_T1 = {
+    area = physics
+    icon = tech_boss_weapen_ion
+	cost = @tier4cost1
+	tier = 5
+	category = { particles }
+	weight = 0
+	is_rare = yes
+	is_reverse_engineerable = no
+	
+	gateway = energy_weapons
+	
+}
+
+tech_mg_jurisdiction_subject_weapon_X_T2 = {
+    area = physics
+    icon = tech_boss_weapen_ion
+	cost = @tier5cost1
+	tier = 5
+	category = { particles }
+	weight = 0
+	is_rare = no
+	is_reverse_engineerable = yes
+	
+	gateway = energy_weapons
+	
+}
+
+tech_mg_jurisdiction_subject_weapon_LMSP_T2 = {
+    area = physics
+    icon = tech_boss_weapen_ion
+	cost = @tier5cost1
+	tier = 5
+	category = { particles }
+	weight = 0
+	is_rare = no
+	is_reverse_engineerable = yes
+	
+	gateway = energy_weapons
+	
+}
+
+tech_mg_jurisdiction_subject_weapon_D_T2 = {
+    area = physics
+    icon = tech_boss_weapen_ion
+	cost = @tier5cost1
+	tier = 5
+	category = { particles }
+	weight = 0
+	is_rare = no
+	is_reverse_engineerable = yes
+	
+	gateway = energy_weapons
+	
+}
+
+#高级weapon
+tech_mg_jurisdiction_subject_weapon_T = {
+    area = physics
+    icon = tech_boss_weapen_ion
+	cost = @tier5cost1
+	tier = 5
+	category = { particles }
+	weight = 0
+	is_rare = no
+	is_reverse_engineerable = yes
+	
+	gateway = energy_weapons
+	
+}
+
+#建筑
+tech_mg_jurisdiction_subject_building_1 = {
+    area = physics
+    icon = tech_boss_weapen_ion
+	cost = @tier5cost1
+	tier = 5
+	category = { particles }
+	weight = 0
+	is_rare = no
+	is_reverse_engineerable = yes
+	
+	gateway = energy_weapons
+	
+}
+
+tech_mg_jurisdiction_subject_building_2 = {
+    area = physics
+    icon = tech_boss_weapen_ion
+	cost = @tier5cost1
+	tier = 5
+	category = { particles }
+	weight = 0
+	is_rare = no
+	is_reverse_engineerable = yes
+	
+	gateway = energy_weapons
+	
+}

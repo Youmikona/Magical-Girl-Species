@@ -1,0 +1,45 @@
+auth_magical_girl = {
+	has_heir = no #继承人
+	election_type = oligarchic #选举类型
+	has_factions = yes #是否启用议程
+	can_reform = no #改革政府
+	valid_for_released_vassal = no #同政体附庸
+	has_agendas = yes #派系
+	
+	random_weight = { #随机刷出权重
+		modifier = {
+			factor = 0
+		}
+	}
+	possible = {
+		ethics={
+			NOT = {
+				value = ethic_gestalt_consciousness
+			}
+			value = ethic_spiritualist
+		}
+		civics = {
+			NOR = {
+				
+			}
+		}		
+	}
+	traits = { #必须有特质
+		trait = trait_mgmagical_girl
+	}
+	tags = { #本地化key
+		auth_magical_girl_local_1
+		auth_magical_girl_local_2
+	}		
+	country_modifier = { #帝国修正
+		#country_admin_cap_mult = 1
+		empire_size_penalty_mult = -0.5
+		country_unity_produces_mult = 0.35
+		country_base_influence_produces_add = 3
+		intel_decryption_add = 5
+		intel_encryption_add = 5
+		
+		#envoys_add = 5
+
+	}
+}

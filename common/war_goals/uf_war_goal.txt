@@ -1,0 +1,61 @@
+
+mg_casus_belli_attack_1_attack_war = {
+	casus_belli = mg_casus_belli_1_attack
+	hide_if_no_cb = no
+	total_war = no
+	set_defender_wargoal = mg_casus_belli_attack_1_defense_war
+	war_exhaustion = -1.0
+
+
+	allowed_peace_offers = {
+		demand_surrender
+		status_quo
+		surrender
+	}
+
+	surrender_acceptance = -25
+
+	potential = {
+		has_authority = auth_magical_girl
+	}
+	possible = {
+		always = yes
+	}
+
+	ai_weight = {
+		weight = 100
+	}
+}
+mg_casus_belli_attack_1_defense_war = {
+	casus_belli = mg_casus_belli_attack_1_defense
+	hide_if_no_cb = no
+	total_war = no
+	defender_default = yes
+	threat_multiplier = 5
+	cede_claims = no
+	surrender_acceptance = -1000
+	war_exhaustion = 1.0
+
+	allowed_peace_offers = {
+		status_quo
+		surrender
+	}
+
+	potential = {
+		NAND = {
+			has_authority = auth_magical_girl
+		}
+	}
+	possible = {
+		always = yes
+	}
+
+	on_status_quo = {
+		
+	}
+	ai_weight = {
+		weight = 100
+	}
+}
+
+

@@ -1,0 +1,18 @@
+# called during empire initialization when starting a new game
+# scope: country
+on_game_start_country = {
+	events = {
+		mg.0
+		mg.1
+	}
+}
+on_monthly_pulse_country = {
+    events = {
+    	
+    }
+}
+on_leader_spawned = {
+	events = {
+		mg.2
+	}
+}

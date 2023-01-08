@@ -1,0 +1,105 @@
+﻿l_simp_chinese:
+#银河偶像计划
+ap_magic_galactic_idol:0 "银河偶像计划"
+ap_magic_galactic_idol_tooltip:0 "§E解锁魔法少女分部建筑§!"
+ap_magic_galactic_idol_1_tooltip:0 "§H解锁总督§!:§E丘比§!"
+ap_magic_galactic_idol_2_tooltip:0 "§H解锁联邦类型§!:§E魔法联盟§!"
+ap_magic_galactic_idol_desc:0 "只要充满魅力的魔法少女朱唇微张，那些劣等生物就兴奋地前赴后继的送上手中的钞票了呢。"
+
+#魔法改革
+ap_magic_reform:0 "魔法改革"
+ap_magic_reform_tooltip:0 "§E解锁我们下一阶段的魔法,解锁魔法研究委员会§!"
+ap_magic_reform_desc:0 "随着内战的结束，魔法少女们处于一个分水岭前，究竟是延续仇恨，相互割裂？还是放下仇恨，联合迈向未来？不少黑魔法被视为禁咒。然而，面对复杂而危险的宇宙，也许我们不应该继续保持旧时代的惯性思维了。"
+ap_magic_reform_no_tech_1:0 "$TRIGGER_FAIL$需要§Y$tech_mg_soc_council_reform$§!科技"
+ap_magic_reform_no_tech_2:0 "$TRIGGER_FAIL$需要§Y$tech_mg_soc_auto_spells$§!科技"
+ap_magic_reform_no_tech_3:0 "$TRIGGER_FAIL$需要§Y$tech_mg_soc_marriage_law$§!科技"
+
+#创世真言
+ap_magic_world:0 "创世真言"
+ap_magic_world_tooltip:0 "§H解锁星球改造类型§!:§M魔法魔境星球§! §P魔法工业星球§!"
+ap_magic_world_desc:0 "融魔法于银河，凝魔法于一球。凝聚着无数高阶魔力的星球将使得任何有关魔法的产出获得质的飞越。除魔法少女外，无人可再能拥有此般效率。"
+ap_magic_world_no_tech_1:0 "$TRIGGER_FAIL$需要§Y$tech_mg_phy_intermediate_theory$§!科技"
+
+#魔法觉醒
+ap_magic_arousal:0 "魔法觉醒"
+ap_magic_arousal_tooltip:0 "§E我们将掌握魔法的本源§!"
+ap_magic_arousal_desc:0 "曾经不少的姐妹受到自身能力的束缚而无法使用高阶魔法。凭借着新的魔法石科技，却可以迅速弥补能力与魔法之间原本的鸿沟。"
+ap_magic_arousal_no_tech_1:0 "$TRIGGER_FAIL$需要§Y$tech_mg_phy_intermediate_theory$§!科技"
+ap_magic_arousal_no_tech_2:0 "$TRIGGER_FAIL$需要§Y$tech_mg_soc_psychological_spells$§!科技"
+ap_magic_arousal_no_tech_3:0 "$TRIGGER_FAIL$需要§Y$tech_mg_soc_base_law$§!科技"
+ap_magic_arousal_no_perk_1:0 "$TRIGGER_FAIL$需要§Y$ap_magic_reform$§!飞升"
+mod_Magical_Girl_species_trait_points_add:0 "魔法少女物种特质+10"
+
+#魔导产业改革
+ap_magic_industrial_reform:0 "魔导产业改革"
+ap_magic_industrial_reform_tooltip:0 "§E工业领域将大规模运用魔法§!"
+ap_magic_industrial_reform_desc:0 "魔法的力量能为我们带来勇无穷尽的财富。在未来与其他帝国在经济上的竞争中，效率永远是应当被摆在第一位的。"
+ap_magic_industrial_reform_no_tech_1:0 "$TRIGGER_FAIL$需要§Y$tech_mg_soc_production_department$§!科技"
+ap_magic_industrial_reform_no_tech_2:0 "$TRIGGER_FAIL$需要§Y$tech_mg_soc_magic_center$§!科技"
+ap_magic_industrial_reform_no_perk_1:0 "$TRIGGER_FAIL$需要§Y$ap_magic_arousal$§!飞升"
+
+#星河舰队
+ap_magic_galactic_fleet:0 "星河舰队"
+ap_magic_galactic_fleet_tooltip:0 "§E我们庞大的星河舰队将主宰星河§!"
+ap_magic_galactic_fleet_desc:0 "在危机四伏的群星中，军事力量是我们最为坚固的后盾。缺少了舰队，我们便无法扩展我们的势力范围，亦或者保护自身。"
+ap_magic_galactic_fleet_no_tech_1:0 "$TRIGGER_FAIL$需要§Y$tech_mg_phy_magic_advanced_weapon$§!科技"
+ap_magic_galactic_fleet_no_perk_1:0 "$TRIGGER_FAIL$需要§Y$ap_magic_arousal$§!飞升"
+
+#魔法奇迹工程
+ap_magic_miracle_engineering:0 "魔法奇迹工程"
+ap_magic_miracle_engineering_tooltip:0 "§E奇迹般的超级巨构将允许被研发§!"
+ap_magic_miracle_engineering_tooltip_1:0 "§E庞大的的超级战舰将允许被研发§!"
+ap_magic_miracle_engineering_desc:0 "魔法少女能够建造的巨构远不止现在的那些。随着我们建筑能力的提升，在以往只能停留在最疯狂的科学家脑海中的幻想巨型构造，现在已经变得触手可及。"
+ap_magic_miracle_engineering_no_tech_1:0 "$TRIGGER_FAIL$需要§Y$tech_mg_soc_production_department$§!科技"
+ap_magic_miracle_engineering_no_tech_2:0 "$TRIGGER_FAIL$需要§Y$tech_mg_soc_magic_center$§!科技"
+ap_magic_miracle_engineering_no_perk_1:0 "$TRIGGER_FAIL$需要§Y$ap_magic_arousal$§!飞升"
+ap_magic_miracle_engineering_no_perk_2:0 "$TRIGGER_FAIL$需要§Y$ap_galactic_wonders_utopia_and_megacorp$§!飞升"
+
+
+#魔法少女政治改革
+ap_magic_political_reform:0 "魔法少女政治改革"
+ap_magic_political_reform_tooltip:0 "§E我们将决定谁带领我们走向未来§!"
+ap_magic_political_reform_tooltip_1:0 "§R可能会在后续事件中发生内战!§!"
+ap_magic_political_reform_desc:0 "是时候做出抉择了。自从内战之后为了协调矛盾而实行的三元制终究只是一时之计。现在，我们必须要做出决定，究竟应当把我们的未来托付给三元中的那一个了。"
+ap_magic_political_reform_no_perk_1:0 "$TRIGGER_FAIL$需要§Y$ap_magic_arousal$§!飞升"
+
+#魔法少女联合帝国
+ap_magic_empire:0 "魔法少女联合帝国"
+ap_magic_empire_tooltip:0 "§E开启女王的执政线路§!"
+ap_magic_empire_tooltip_1:0 "§R开始黑魔法事件链§!"
+ap_magic_empire_desc:0 "理事会整日为了琐事争论不休，而理事长甚至连真正意义上的魔法少女都不是。只有女皇大人，才有资格领导我们！为至高，唯一，伟大的女皇陛下三呼万岁。万岁！万岁！万岁！"
+ap_magic_empire_no_perk_1:0 "$TRIGGER_FAIL$需要§Y$ap_magic_political$§!飞升"
+ap_magic_empire_no_perk_2:0 "$TRIGGER_FAIL$没有§Y$ap_magic_republic$§!飞升"
+ap_magic_empire_no_perk_3:0 "$TRIGGER_FAIL$没有§Y$ap_magic_federation$§!飞升"
+
+#帝国威慑主义
+ap_magic_empire_deterrence:0 "帝国威慑主义"
+ap_magic_empire_deterrence_tooltip:0 "§R解锁黑魔法中的咒怨魔法§!"
+ap_magic_empire_deterrence_tooltip_1:0 "§R解锁恐怖的黑魔法武器§!"
+ap_magic_empire_deterrence_desc:0 "确保魔法少女帝国在宇宙间的至高地位比什么都重要。对于那些其他帝国来说，他们不一定会支持我们，但只要求他们屈服于我们的权威就足矣。"
+ap_magic_empire_deterrence_no_perk_1:0 "$TRIGGER_FAIL$需要§Y$ap_magic_empire$§!飞升"
+
+
+#魔法少女共和国
+ap_magic_republic:0 "魔法少女共和国"
+ap_magic_republic_tooltip:0 "§E开启理事长的执政线路§!"
+ap_magic_republic_tooltip_1:0 "§R解锁黑白魔法融合武器§!"
+ap_magic_republic_desc:0 "如果我们想要得到真正的平等，并且协调白魔法和黑魔法的平衡，依靠我理事长是唯一的方法。"
+ap_magic_republic_no_perk_1:0 "$TRIGGER_FAIL$需要§Y$ap_magic_political_reform$§!飞升"
+ap_magic_republic_no_perk_2:0 "$TRIGGER_FAIL$没有§Y$ap_magic_empire$§!飞升"
+ap_magic_republic_no_perk_3:0 "$TRIGGER_FAIL$没有§Y$ap_magic_federation$§!飞升"
+
+#魔法联合
+ap_magic_union:0 "魔法联合"
+ap_magic_union_tooltip:0 "§R此线路未完成§!"
+ap_magic_union_desc:0 "我们应当联合白魔法和黑魔法中，各自取其所长发挥最大的实力。"
+ap_magic_union_no_perk_1:0 "$TRIGGER_FAIL$需要§Y$ap_magic_republic$§!飞升"
+
+#魔法少女合众国
+ap_magic_federation:0 "魔法少女合众国"
+ap_magic_federation_tooltip:0 "§E开启理事会单独执政的线路§!"
+ap_magic_federation_tooltip_1:0 "§R解锁强大的白魔法武器§!"
+ap_magic_federation_desc:0 "曾经的女皇在内战中给我们造成了无数的痛苦，然而她现在却依然高高在上。毫无疑问，我们应当审判她，给予她应有的惩罚才对！新生的魔法少女联邦将在理事会的带领下走向真正的繁荣。虽然理事会依然存在不少问题，但是我们相信希望。"
+ap_magic_federation_no_perk_1:0 "$TRIGGER_FAIL$需要§Y$ap_magic_political_reform$§!飞升"
+ap_magic_federation_no_perk_2:0 "$TRIGGER_FAIL$没有§Y$ap_magic_empire$§!飞升"
+ap_magic_federation_no_perk_3:0 "$TRIGGER_FAIL$没有§Y$ap_magic_republic$§!飞升"

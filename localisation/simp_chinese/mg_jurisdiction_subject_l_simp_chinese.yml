@@ -1,0 +1,38 @@
+﻿l_simp_chinese:
+###############################
+ #法律
+subject_can_be_integrated_mg:0 "允许收回封邑"
+subject_can_be_integrated_mg_desc:0 "封邑本来就是帝国的一部分,我们只不过是让他们行使一定的权力，而我们可以随时收回。"
+joins_overlord_wars_all_mg:0 "全面战争"
+joins_overlord_wars_all_mg_desc:0 "附属国有责任加入宗主国的任何战争。"
+subject_holdings_limit_feudatory:0 "封邑"
+subject_holdings_limit_feudatory_desc:0 "帝国可以在帝国的封邑的所有星球上总共可以拥有8座地产。"
+subject_holdings_limit_satellite_state:0 "卫星国"
+subject_holdings_limit_satellite_state_desc:0 "宗主国可以在卫星国所有星球上总共可以拥有6座地产。"
+
+#附属国类型
+preset_mg_feudatory_jurisdiction_subject:0 "帝国封邑"
+preset_mg_satellite_state_jurisdiction_subject:0 "卫星国"
+
+#法律
+subject_authorized_production_of_weapons:0 "附属国武器授权"
+subject_authorized_production_of_weapons_desc:0 "该条款指示宗主国是否向附属国分享的武器以及和分享的武器等级"
+subject_weapon_none:0 "无授权"
+subject_weapon_none_desc:0 "宗主国不向附属国授权武器生产许可"
+subject_weapon_T1:0 "授权T1武器"
+subject_weapon_T1_desc:0 "宗主国向附属国授权T1级别武器生产许可"
+subject_weapon_T2:0 "授权T2武器"
+subject_weapon_T2_desc:0 "宗主国向附属国授权T2级别武器生产许可"
+subject_weapon_SSR:0 "授权终极武器"
+subject_weapon_SSR_desc:0 "宗主国向附属国授权终极武器生产许可"
+
+subject_authorized_production_of_building:0 "附属国经济一体化"
+subject_authorized_production_of_building_desc:0 "该条款指示宗主国是否许可附属国协助宗主国产业链并加入生产体系"
+subject_building_none:0 "不许可"
+subject_building_none_desc:0 "宗主国不向附属国许可经济一体化"
+subject_building:0 "许可"
+subject_building_desc:0 "宗主国向附属国许可经济一体化"
+
+#资源
+resource_subsidies_unity:0 "情感"
+resource_subsidies_magic:0 "魔法"

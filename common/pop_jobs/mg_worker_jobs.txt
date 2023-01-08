@@ -1,0 +1,126 @@
+#帝国禁卫军
+mg_defend_amry = {
+	category = worker
+	condition_string = WORKER_JOB_TRIGGER
+	building_icon = building_wsg_moyu
+	clothes_texture_index = 2
+
+	possible_pre_triggers = {
+		has_owner = yes
+		is_being_purged = no
+		is_being_assimilated = no
+		is_sapient = yes
+	}
+
+	possible = {
+		species = {
+			OR = {
+				has_trait = trait_mgmagical_girl
+			}
+		}
+	}
+
+	pop_modifier = {
+		pop_defense_armies_add = 8
+	}
+	country_modifier = {
+		country_naval_cap_add = 5
+	}
+	resources = {
+		category = planet_merchants
+		produces = {
+			unity = 2
+		}
+		upkeep = {
+			consumer_goods = 5
+			food = 5
+			energy = 5
+		}
+	}
+
+	weight = {
+		weight = 15	
+	}
+}
+
+#魔法技工
+mg_energy_worker = {
+	category = worker
+	condition_string = WORKER_JOB_TRIGGER
+	building_icon = building_wsg_moyu
+	clothes_texture_index = 2
+
+	possible_pre_triggers = {
+		has_owner = yes
+		is_being_purged = no
+		is_being_assimilated = no
+		is_sapient = yes
+	}
+
+	possible = {
+		species = {
+			OR = {
+				has_trait = trait_mgmagical_girl
+			}
+		}
+	}
+
+	pop_modifier = {
+		pop_defense_armies_add = 8
+	}
+	resources = {
+		category = planet_merchants
+		produces = {
+			energy = 25
+		}
+		upkeep = {
+			consumer_goods = 1
+			food = 1
+		}
+	}
+
+	weight = {
+		weight = 15	
+	}
+}
+
+#魔法矿工
+mg_minerals_worker = {
+	category = worker
+	condition_string = WORKER_JOB_TRIGGER
+	building_icon = building_wsg_moyu
+	clothes_texture_index = 2
+
+	possible_pre_triggers = {
+		has_owner = yes
+		is_being_purged = no
+		is_being_assimilated = no
+		is_sapient = yes
+	}
+
+	possible = {
+		species = {
+			OR = {
+				has_trait = trait_mgmagical_girl
+			}
+		}
+	}
+
+	pop_modifier = {
+		pop_defense_armies_add = 8
+	}
+	resources = {
+		category = planet_merchants
+		produces = {
+			minerals = 25
+		}
+		upkeep = {
+			consumer_goods = 1
+			food = 1
+		}
+	}
+
+	weight = {
+		weight = 15	
+	}
+}

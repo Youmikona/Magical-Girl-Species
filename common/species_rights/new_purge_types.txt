@@ -1,0 +1,25 @@
+# from = country
+# this = species
+
+purge_necrophage2 = {
+	token = purge_necrophage
+	pop_escape_chance = 0
+	pop_decline_rate = 500 # 5 pop per month, overrides BASE_POP_DECLINE, will only work on purge types
+	
+	pop_modifier = {
+		pop_happiness = 1
+	}	
+	
+	potential = {
+		exists = from
+		from = {
+			OR = {
+				has_authority = auth_magical_girl
+			}
+		}
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+}

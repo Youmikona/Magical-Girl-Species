@@ -1,0 +1,28 @@
+#胖次球
+col_wg_pantsu = {
+	icon = GFX_colony_type_pantsu
+
+	potential = {
+		exists = owner
+		#owner = { is_wg_empire = yes }
+		#owner = {
+			#OR = {
+			#	has_technology = tech_wsg_pantsu
+			#	has_technology = tech_sh_assembly
+			#}		
+		#}
+		#NOR = {
+			#is_planet_class = pc_city
+			#is_planet_class = pc_ringworld_habitable
+			#is_planet_class = pc_cybrex
+			#is_planet_class = pc_ringworld_habitable_wsg
+			#is_planet_class = pc_ringworld_habitable_sh	
+		#}
+		#is_special_colony_type = no
+	}
+
+	planet_modifier = {
+		planet_jobs_sr_pantsu_produces_mult = 0.15
+		custom_tooltip = col_wg_pantsu_custom
+	}
+}

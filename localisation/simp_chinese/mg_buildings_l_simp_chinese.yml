@@ -1,0 +1,108 @@
+﻿l_simp_chinese:
+#魔法美食制作中心
+building_mg_food:0 "魔法美食制作中心"
+building_mg_food_desc:0 "一所超大的美食饭堂，数以万计的摊位上摆满了琳琅满目的珍馐"
+
+#魔法少女游戏厅
+building_mg_game:0 "魔法少女游戏厅"
+building_mg_game_desc:0 "游戏厅为魔法少女提供了娱乐空间，巨大的大厅内部坐落着数百乃至数千台大型游戏机。常常有人会在里面呆上数十个星期还不愿出来。"
+building_mg_game_1:0 "魔法少女游戏中心"
+building_mg_game_1_desc:0 "新装修的游戏厅增添了许多新的娱乐设施，比如虚拟现实机，允许能让魔法少女们自己订造游戏内容并身临其境地玩耍。不过大部分的定制内容往往都会让人脸红。"
+
+#女皇圣坛
+building_mg_holy:0 "女皇圣坛"
+building_mg_holy_desc:0 "巨大的圣坛彰显着伟大女皇的神圣。"
+building_mg_holy_1:0 "神圣女皇圣坛"
+building_mg_holy_1_desc:0 "圣坛周围被施加上了一层特殊心灵法阵将这一神圣的建筑与世俗的外界隔开，任何靠近法阵的人都会感到由衷的幸福与崇拜。"
+
+#魔法管理中心
+building_mg_gov:0 "魔法管理中心"
+building_mg_gov_desc:0 "它的职责包括了管理分布在各地的帝国舰队。"
+building_mg_gov_1:0 "魔法管理总站"
+building_mg_gov_1_desc:0 "打仗就是打后勤。后勤管理的重要性在战争中已经愈发凸显开来。对后勤保障的每一分钱投资都是值得的。"
+
+#泽洛收集厂
+building_mg_zro_factory:0 "初级泽洛收集厂"
+building_mg_zro_factory_desc:0 "能够收集泽洛的大型工厂，每天都要消耗巨量的能量。"
+building_mg_zro_factory_1:0 "中级泽洛收集厂"
+building_mg_zro_factory_1_desc:0 "升级后的泽洛收集工厂。除了原本的收集法阵之外，还额外的在法阵内添加了其他可以用于催化的法阵。大大加快了产出的速度。"
+building_mg_zro_factory_2:0 "高级泽洛收集厂"
+building_mg_zro_factory_2_desc:0 "顶级的泽洛收集工厂。除了原本的收集法阵之外，还额外的在法阵内添加了其他可以用于催化的法阵。大大加快了产出的速度。"
+
+#魔法源晶合成厂
+building_mg_magic_crystals_factory:0 "初级魔法源晶合成厂"
+building_mg_magic_crystals_factory_desc:0 "魔法源晶合成厂能够让我们大规模的生产源晶，而这在之前是难以想象的。"
+building_mg_magic_crystals_factory_1:0 "中级魔法源晶合成厂"
+building_mg_magic_crystals_factory_1_desc:0 "根本不敢想象！原来需要消耗天文数字的时间才能生产的源晶现在竟然可以在短短的十几分钟内就被生产出来。"
+building_mg_magic_crystals_factory_2:0 "高级魔法源晶合成厂"
+building_mg_magic_crystals_factory_2_desc:0 "顶级的魔法源晶合成厂。除了原本的收集法阵之外，还额外的在法阵内添加了其他可以用于催化的法阵。大大加快了产出的速度。"
+
+
+#魔法自律工程设施
+building_mg_magic_auto:0 "魔法自律工程设施"
+building_mg_magic_auto_desc:0 "自律法术应用在建筑的建设上,真的是懒人福音呢。"
+
+#魔法少女召唤
+building_mg_magic_girl_factory:0 "初级魔法异世界少女召唤中心"
+building_mg_magic_girl_factory_desc:0 "召唤中心的法阵可以永不间断的召唤异世界的姐妹们来到我们的世界。"
+building_mg_magic_girl_factory_1:0 "中级魔法异世界少女召唤中心"
+building_mg_magic_girl_factory_1_desc:0 "召唤中心的法阵可以永不间断的召唤异世界的姐妹们来到我们的世界。"
+building_mg_magic_girl_factory_2:0 "高级魔法异世界少女召唤中心"
+building_mg_magic_girl_factory_2_desc:0 "一个一个的召唤异世界少女效率实在是太慢了。新的召唤中心甚至能够允许我们一次性把异世界全部的都在瞬间召唤过来。这样一来她们在这边也就不会担心没有好闺蜜了呢。"
+
+#魔法发电中心
+building_mg_energy:0 "魔法发电中心"
+building_mg_energy_desc:0 "发电中心将科技与魔法完美的结合。在超导材料上附加绝缘魔法能够彻底杜绝传输过程中的损耗。骄傲的说，只有魔法少女们才能真正地做到不浪费一度电呢！"
+#魔法矿物开采井
+building_mg_mineral:0 "魔法矿物开采井"
+building_mg_mineral_desc:0 "矿石的开采不能简单地局限在地壳外。超级传输魔法能够打开一个连接外太空的传输矩阵！只要能够控制传输矩阵，来自外太空的高品质矿物就能源源不断地被传送回来。"
+
+#魔法研究所
+building_mg_magic_institute:0 "魔法研究所"
+building_mg_magic_institute_desc:0 "魔法研究所能让魔法少女们研究魔法的奥秘，不过时不时传出的爆炸声足以让普通人退避三舍。虽然是这样，但是每年都有无数对魔法有着狂热兴趣的少女向研究所投送出自己的简历。"
+building_mg_magic_institute_1:0 "魔法研究机构"
+building_mg_magic_institute_1_desc:0 "升级后的魔法研究所已经扩展到了足足有一座山那么高，最令人满意的是，研究所外墙经过了魔法加护，并且中央电脑已经存储着对各种突发状况的自动解决方案，终于不用担心那些研究员会搞出来什么大破坏了!"
+building_mg_magic_institute_2:0 "魔法研究总站"
+building_mg_magic_institute_2_desc:0 "一经过数次升级后的研究所的占地面积简直接近一座小城市巨大。除开研究区域外，其内部还存在拥有全产业的工业区与独立发电区，能够真正的做到自给自足，不受外界限制干扰的进行实验。"
+
+#魔法城堡
+building_mg_magic_castle:0 "魔法城堡"
+building_mg_magic_castle_desc:0 "一座巨型的悬空城堡，足以令任何其他建筑黯然失色。也是魔法少女帝国管理任务的心脏。"
+building_mg_magic_castle_1:0 "魔法城堡"
+building_mg_magic_castle_1_desc:0 "一座巨型的悬空城堡，足以令任何其他建筑黯然失色。也是魔法少女帝国管理任务的心脏。"
+
+#魔法堡垒
+building_mg_magic_fortress:0 "魔法堡垒"
+building_mg_magic_fortress_desc:0 "坚固而巨大的魔法堡垒内部能够容纳数以万计的士兵在其中驻守。每当路过时总能听到里面传来阵阵打杀声。当然，偶尔也会发出一些奇怪的声响……"
+building_mg_magic_fortress_1:0 "大型魔法堡垒"
+building_mg_magic_fortress_1_desc:0 "升级后的堡垒在远处看甚至会被认为成是一座无比巨大的大山。里面驻守着无数经过严格训练的魔法少女。虽然堡垒看起来就令人生畏，但是依然阻止不了那些花痴少女想渗透进来一睹那些漂亮帅气的禁卫军少女的想法，哎，真是恼人呢。"
+
+#暗魔法结晶合成
+building_mg_magic_dark_crystallization_factory:0 "暗魔法结晶合成厂"
+building_mg_magic_dark_crystallization_factory_desc:0 "黑魔法结晶厂能够利用法阵将黑魔法能量压缩合成为结晶，但是这一过程很是危险。因此结晶厂不允许常人进出打扰。"
+building_mg_magic_dark_crystallization_factory_1:0 "暗魔法结晶合成中心"
+building_mg_magic_dark_crystallization_factory_1_desc:0 "没人知道究竟靠着什么力量使得黑魔法结晶厂的产量能够达到如此瞠目结舌的高度。什么？你说你想知道？呵呵呵呵……相信我，你绝对，绝对不会想知道的……"
+
+#魔法学院
+building_mg_magic_school:0 "魔法学院"
+building_mg_magic_school_desc:0 "魔法学院已经很难被简单的称作是学院了,倒不如称之为学园都市。魔法学院如今成为了真正意义上的学院都市。其分成了23个负责不同教学任务的学区以精细化教学。内部有着从农业种植到高技术产品生产的全部产业链。能够做到即使与外界完全断开也能够自给自足。"
+
+#魔法研究中心
+building_mg_research_center:0 "魔法研究中心"
+building_mg_research_center_desc:0 "研究中心负责协调各个独立的实验室合作与交流。就算是没有其他实验室，研究中心本身也是一个极为高效的研究基地。"
+
+#魔法工业转化中心
+building_mg_industry:0 "魔法工业转化中心"
+building_mg_industry_desc:0 "一座高效的合金和消费品生产中心，与常规合金和消费品厂不同的是采用了魔法转化的方式进行生产，不但提高了合金和消费品的质量与生产效率，还避免了很多生产事故的发生。"
+building_mg_industry_1:0 "魔法工业转化总站"
+building_mg_industry_1_desc:0 "一座高效的合金和消费品生产中心，与常规合金和消费品厂不同的是采用了魔法转化的方式进行生产，不但提高了合金和消费品的质量与生产效率，还避免了很多生产事故的发生。"
+
+#魔法稀有资源转化中心
+building_mg_rare:0 "魔法稀有资源转化中心"
+building_mg_rare_desc:0 "建筑内的法阵能够转化出各种各样的稀有物质，其实从某种意义上来说，已经不应该叫它们稀有的物质了。"
+building_mg_rare_1:0 "魔法稀有资源转化总站"
+building_mg_rare_1_desc:0 "建筑内的法阵能够转化出各种各样的稀有物质，其实从某种意义上来说，已经不应该叫它们稀有的物质了。"
+
+#魔法考古中心
+building_mg_archaeology:0 "魔法考古中心"
+building_mg_archaeology_desc:0 "时空法阵只要加以计算辅佐，不仅仅能够实现追踪我们这条历史线的内容。我们甚至可以假定在某些转折点上发生了不同的结果，历史会走向何处。没错，现在我们可以看到任何一条 what if 的架空时间线。架空爱好者的超级福音！"
